@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi，MathGod</title>
-    <updated>2020-01-11T13:23:46.634Z</updated>
+    <updated>2020-01-11T13:33:43.154Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -26,8 +26,7 @@
         <link href="https://mathgod.github.io/post/guan-yu-wang-zhan-de-yi-xie-wen-ti">
         </link>
         <updated>2020-01-11T13:03:39.000Z</updated>
-        <content type="html"><![CDATA[<p>想买个域名解析到目前github域名显得好看些，但不知道要不要备案，很烦这些流程。</p>
-<p>域名怎么跟网站绑定，具体是什么操作。</p>
+        <content type="html"><![CDATA[<p>SEO咋办，买个郁闷CNAME解析有效吗，效果大吗？</p>
 ]]></content>
     </entry>
     <entry>
