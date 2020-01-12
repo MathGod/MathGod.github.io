@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi，MathGod</title>
-    <updated>2020-01-12T03:02:07.978Z</updated>
+    <updated>2020-01-12T03:55:48.967Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Hi，MathGod</rights>
     <entry>
         <title type="html"><![CDATA[图片]]></title>
-        <id>https://mathgod.github.io/post/tu-pian</id>
-        <link href="https://mathgod.github.io/post/tu-pian">
+        <id>https://mathgod.github.io/tu-pian</id>
+        <link href="https://mathgod.github.io/tu-pian">
         </link>
         <updated>2020-01-11T13:10:33.000Z</updated>
         <content type="html"><![CDATA[<p><img src="https://mathgod.github.io//post-images/1578748311492.jpg" alt="" loading="lazy"><br>
@@ -22,17 +22,27 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于网站的一些问题]]></title>
-        <id>https://mathgod.github.io/post/guan-yu-wang-zhan-de-yi-xie-wen-ti</id>
-        <link href="https://mathgod.github.io/post/guan-yu-wang-zhan-de-yi-xie-wen-ti">
+        <id>https://mathgod.github.io/guan-yu-wang-zhan-de-yi-xie-wen-ti</id>
+        <link href="https://mathgod.github.io/guan-yu-wang-zhan-de-yi-xie-wen-ti">
         </link>
         <updated>2020-01-11T13:03:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>SEO咋办，买个郁闷CNAME解析有效吗，效果大吗？</p>
+]]></summary>
         <content type="html"><![CDATA[<p>SEO咋办，买个郁闷CNAME解析有效吗，效果大吗？</p>
+<!-- more -->
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[过年才放七天假]]></title>
-        <id>https://mathgod.github.io/post/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han</id>
-        <link href="https://mathgod.github.io/post/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han">
+        <id>https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han</id>
+        <link href="https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han">
         </link>
         <updated>2020-01-11T12:30:35.000Z</updated>
         <content type="html"><![CDATA[<p>就法定三天加两天周末加两天调休，没有比这更少的公司了吧。</p>
@@ -40,8 +50,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[很快就过年了]]></title>
-        <id>https://mathgod.github.io/post/hen-kuai-jiu-guo-nian-liao</id>
-        <link href="https://mathgod.github.io/post/hen-kuai-jiu-guo-nian-liao">
+        <id>https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao</id>
+        <link href="https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao">
         </link>
         <updated>2020-01-11T12:29:45.000Z</updated>
         <content type="html"><![CDATA[<p>心情很平静</p>
@@ -49,8 +59,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[大家好，我是MathGod。]]></title>
-        <id>https://mathgod.github.io/post/da-jia-hao-wo-shi-mathgod</id>
-        <link href="https://mathgod.github.io/post/da-jia-hao-wo-shi-mathgod">
+        <id>https://mathgod.github.io/da-jia-hao-wo-shi-mathgod</id>
+        <link href="https://mathgod.github.io/da-jia-hao-wo-shi-mathgod">
         </link>
         <updated>2020-01-11T12:13:29.000Z</updated>
         <content type="html"><![CDATA[<p>嘻嘻</p>
@@ -58,8 +68,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://mathgod.github.io/post/hello-gridea</id>
-        <link href="https://mathgod.github.io/post/hello-gridea">
+        <id>https://mathgod.github.io/hello-gridea</id>
+        <link href="https://mathgod.github.io/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
