@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi，MathGod</title>
-    <updated>2020-01-12T06:08:50.299Z</updated>
+    <updated>2020-01-12T07:30:30.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi，MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[程序员的发展历程]]></title>
+        <id>https://mathgod.github.io/rdOl-t8bT</id>
+        <link href="https://mathgod.github.io/rdOl-t8bT">
+        </link>
+        <updated>2020-01-12T07:29:51.000Z</updated>
+        <summary type="html"><![CDATA[<p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
+<!-- more -->
+<p>颠倒 -&gt; 因长期面对屏幕而被降维打击成为二次元 -&gt; 宅 -&gt; 顿悟了编程之道 -&gt; 女装大佬</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[图片]]></title>
         <id>https://mathgod.github.io/tu-pian</id>
@@ -64,26 +77,6 @@
         </link>
         <updated>2020-01-11T12:13:29.000Z</updated>
         <content type="html"><![CDATA[<p>嘻嘻</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://mathgod.github.io/about</id>
-        <link href="https://mathgod.github.io/about">
-        </link>
-        <updated>2019-01-25T11:09:48.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>非技术型博客</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>96年理工男</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>睡觉</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>qq2144200779</p>
 ]]></content>
     </entry>
     <entry>
