@@ -1757,19 +1757,44 @@ td {
   left: 4px;
   transition: all 0.2s ease;
 }
+
+.post-nav{display: table;
+    margin-top: 1px;
+    width: 100%;
+    border-top: 1px solid #eee;}
+
+.prev-post {
+display: table-cell;
+    width: 49%;
+    vertical-align: top；
+}
+.prev-post .prev {
+  margin-bottom: 0px;
+  color: #5e5e5e;
+    font-weight:initial;
+}
+.prev-post .post-title {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
 .next-post {
-  text-align: center;
-  padding: 2px 2px;
+text-align: right;
+    display: table-cell;
+    padding: 0px;
 }
 .next-post .next {
-  margin-bottom: 4px;
+  margin-bottom: 0px;
   color: #5e5e5e;
+  font-weight:initial;
 }
 .next-post .post-title {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.02em;
 }
+
 #gitalk-container,
 #disqus_thread {
   padding: 24px 32px;
