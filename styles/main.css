@@ -1565,7 +1565,7 @@ td {
   box-shadow: 0 0 30px #eee;
   max-width: 100%;
   border-radius: 2px;
-  margin: 24px auto;
+
 }
 .post-detail .post .post-content p {
   line-height: 1.62;
@@ -1814,7 +1814,7 @@ td {
 }
 @media (max-width: 600px) {
   .post-detail .post {
-    padding: 12px;
+    padding: 10px 8px 10px 8px;
   }
   .post-detail .post .post-title {
     font-size: 24px;
