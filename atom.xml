@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi，MathGod</title>
-    <updated>2020-01-13T14:42:29.566Z</updated>
+    <updated>2020-01-13T15:25:47.510Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi，MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[世界太大，我哪都不想去看。]]></title>
+        <id>https://mathgod.github.io/LyGettpBm</id>
+        <link href="https://mathgod.github.io/LyGettpBm">
+        </link>
+        <updated>2020-01-13T15:22:09.000Z</updated>
+        <content type="html"><![CDATA[<p>世界太大，我哪都不想去看。只想呆在家附近，把钱都花在吃喝上，不理会外面的喧嚣...不去增长那些所谓的见识。<!-- more -->家里还很安全</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[程序员的发展历程]]></title>
         <id>https://mathgod.github.io/rdOl-t8bT</id>
