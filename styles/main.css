@@ -1402,7 +1402,7 @@ td {
   flex: 1;
 }
 .post-container .post {
-  padding-bottom: 60px;
+  padding: 0 12px 60px 12px;
 }
 .post-container .post .post-title {
   font-size: 26px;
@@ -1493,7 +1493,7 @@ td {
 }
 @media (max-width: 600px) {
   .post-container .post {
-    padding: 2px 16px 50px 18px;
+    padding: 2px 12px 50px 12px;
   }
   .post-container .post .post-title {
     padding: 12px 0;
