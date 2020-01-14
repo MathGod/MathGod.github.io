@@ -1875,9 +1875,9 @@ background: #fff;
   letter-spacing: 0.02em;
 }
 .archives-container .post .time {
-  font-size: 0.75rem;
-  margin-top: 8px;
-  color: #ced4da;
+font-size: 1.5rem;
+    margin-top: 3px;
+    color: #5e5e5e;
 }
 @media (max-width: 600px) {
   .archives-container {
