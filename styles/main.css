@@ -1346,7 +1346,7 @@ td {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding: 0 2px;
+  padding: 0;
 }
 .site-header {
   padding: 30px 0 2px 0;
@@ -1510,6 +1510,7 @@ td {
 }
 .post-detail {
   flex: 1;
+background: #fff;
 }
 .post-detail .post {
   padding: 4px 10px;
@@ -1761,9 +1762,11 @@ td {
 }
 
 .post-nav{display: table;
-    margin-top: 1px;
     width: 100%;
-    border-top: 1px solid #eee;}
+    border-top: 1px solid #eee;
+background: #fff;
+padding-bottom: 6px;
+}
 
 .prev-post {
 display: table-cell;
@@ -1835,6 +1838,7 @@ text-align: right;
 @media (max-width: 600px) {
   .post-detail .post {
     padding: 10px 8px 10px 8px;
+background: #fff;
   }
   .post-detail .post .post-title {
     font-size: 24px;
@@ -1995,7 +1999,7 @@ text-align: right;
 }
 
       .main {
-        max-width: 600px;
+        max-width: 660px;
       }
     
       .post-container .post .post-title {
