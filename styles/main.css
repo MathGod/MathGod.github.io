@@ -1766,17 +1766,13 @@ td {
 .prev-post {
 display: table-cell;
     width: 49%;
-    vertical-align: top；
 }
-.prev-post .prev {
-  margin-bottom: 0px;
-  color: #5e5e5e;
-    font-weight:initial;
-}
+
 .prev-post .post-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.02em;
+  color: #006cffe0;
 }
 
 .next-post {
@@ -1784,15 +1780,12 @@ text-align: right;
     display: table-cell;
     padding: 0px;
 }
-.next-post .next {
-  margin-bottom: 0px;
-  color: #5e5e5e;
-  font-weight:initial;
-}
+
 .next-post .post-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.02em;
+  color: #006cffe0;
 }
 
 #gitalk-container,
