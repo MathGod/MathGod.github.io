@@ -1402,7 +1402,9 @@ td {
   flex: 1;
 }
 .post-container .post {
-  padding: 0 12px 60px 12px;
+  padding: 0 12px 50px 12px;
+    background: #ffffff;
+    margin-bottom: 40px;
 }
 .post-container .post .post-title {
   font-size: 26px;
@@ -2016,6 +2018,7 @@ text-align: right;
     top: 0;
     left: 0;
     z-index: -1;
+background: #ebedef;
 }
     
       body {
