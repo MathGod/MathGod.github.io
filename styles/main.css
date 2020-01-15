@@ -1391,7 +1391,7 @@ td {
 }
 @media (max-width: 600px) {
   .site-header {
-    padding: 2px 0 0 0;
+    padding: 10px 0 0 0;
   }
   .site-header .avatar {
     width: 80px;
