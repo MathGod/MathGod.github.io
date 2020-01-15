@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://mathgod.github.io/</id>
     <title>Hi，MathGod</title>
-    <updated>2020-01-15T14:44:57.128Z</updated>
+    <updated>2020-01-15T14:45:30.444Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://mathgod.github.io/"/>
+    <link rel="self" href="https://mathgod.github.io/atom.xml"/>
     <subtitle>分享一些自认为有趣的内容</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://mathgod.github.io/images/avatar.png</logo>
+    <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi，MathGod</rights>
     <entry>
         <title type="html"><![CDATA[关于网站设计存在的一些问题]]></title>
-        <id>http://localhost:4000/J4y9LyL6L</id>
-        <link href="http://localhost:4000/J4y9LyL6L">
+        <id>https://mathgod.github.io/J4y9LyL6L</id>
+        <link href="https://mathgod.github.io/J4y9LyL6L">
         </link>
         <updated>2020-01-14T12:46:44.000Z</updated>
         <content type="html"><![CDATA[<p>背景彩带在手机端按一下会变化两次用户体验不好，在电脑端则正常变化一次。</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[女人真是太麻烦了]]></title>
-        <id>http://localhost:4000/4AfPe_3Ca</id>
-        <link href="http://localhost:4000/4AfPe_3Ca">
+        <id>https://mathgod.github.io/4AfPe_3Ca</id>
+        <link href="https://mathgod.github.io/4AfPe_3Ca">
         </link>
         <updated>2020-01-14T12:33:44.000Z</updated>
         <content type="html"><![CDATA[<p>做个头发的时间能抵得上10个男人的理发时间，今晚剪发等了一个半小时，有些女人还仗着自点 姿色撒娇插队，真是不可理喻！</p>
@@ -30,8 +30,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[世界太大，我哪都不想去看]]></title>
-        <id>http://localhost:4000/LyGettpBm</id>
-        <link href="http://localhost:4000/LyGettpBm">
+        <id>https://mathgod.github.io/LyGettpBm</id>
+        <link href="https://mathgod.github.io/LyGettpBm">
         </link>
         <updated>2020-01-13T15:22:09.000Z</updated>
         <summary type="html"><![CDATA[<p>世界太大，我哪都不想去看。只想呆在家附近，把钱都花在吃喝上，不理会外面的喧嚣...</p>
@@ -43,8 +43,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[程序员的发展历程]]></title>
-        <id>http://localhost:4000/rdOl-t8bT</id>
-        <link href="http://localhost:4000/rdOl-t8bT">
+        <id>https://mathgod.github.io/rdOl-t8bT</id>
+        <link href="https://mathgod.github.io/rdOl-t8bT">
         </link>
         <updated>2020-01-12T07:29:51.000Z</updated>
         <summary type="html"><![CDATA[<p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
@@ -56,22 +56,22 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[一些好看的图片]]></title>
-        <id>http://localhost:4000/tu-pian</id>
-        <link href="http://localhost:4000/tu-pian">
+        <id>https://mathgod.github.io/tu-pian</id>
+        <link href="https://mathgod.github.io/tu-pian">
         </link>
         <updated>2020-01-11T13:10:33.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1578748311492.jpg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1578748553794.jpg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1578819610612.jpg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1578819620072.jpeg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1578819624356.jpeg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1578819627837.jpg" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p><img src="https://mathgod.github.io//post-images/1578748311492.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578748553794.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819610612.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819620072.jpeg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819624356.jpeg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819627837.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于网站的一些问题]]></title>
-        <id>http://localhost:4000/webwenti</id>
-        <link href="http://localhost:4000/webwenti">
+        <id>https://mathgod.github.io/webwenti</id>
+        <link href="https://mathgod.github.io/webwenti">
         </link>
         <updated>2020-01-11T13:03:39.000Z</updated>
         <summary type="html"><![CDATA[<p>买个域名CNAME解析SEO效果好吗，怎么给网站加js，怎样修改模板。</p>
@@ -82,8 +82,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[过年才放七天假]]></title>
-        <id>http://localhost:4000/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han</id>
-        <link href="http://localhost:4000/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han">
+        <id>https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han</id>
+        <link href="https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han">
         </link>
         <updated>2020-01-11T12:30:35.000Z</updated>
         <content type="html"><![CDATA[<p>就法定三天加两天周末加两天调休，没有比这更少的公司了吧。</p>
@@ -91,8 +91,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[很快就过年了]]></title>
-        <id>http://localhost:4000/hen-kuai-jiu-guo-nian-liao</id>
-        <link href="http://localhost:4000/hen-kuai-jiu-guo-nian-liao">
+        <id>https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao</id>
+        <link href="https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao">
         </link>
         <updated>2020-01-11T12:29:45.000Z</updated>
         <content type="html"><![CDATA[<p>心情很平静</p>
@@ -100,8 +100,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[大家好，我是MathGod。]]></title>
-        <id>http://localhost:4000/da-jia-hao-wo-shi-mathgod</id>
-        <link href="http://localhost:4000/da-jia-hao-wo-shi-mathgod">
+        <id>https://mathgod.github.io/da-jia-hao-wo-shi-mathgod</id>
+        <link href="https://mathgod.github.io/da-jia-hao-wo-shi-mathgod">
         </link>
         <updated>2020-01-11T12:13:29.000Z</updated>
         <content type="html"><![CDATA[<p>嘻嘻</p>
@@ -109,8 +109,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://localhost:4000/hello-gridea</id>
-        <link href="http://localhost:4000/hello-gridea">
+        <id>https://mathgod.github.io/hello-gridea</id>
+        <link href="https://mathgod.github.io/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
