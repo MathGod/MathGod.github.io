@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi，MathGod</title>
-    <updated>2020-01-15T15:08:28.157Z</updated>
+    <updated>2020-01-19T13:45:13.573Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi，MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[想在我的博客加入所有最新、最流行的前端技术]]></title>
+        <id>https://mathgod.github.io/x48tnBh2D</id>
+        <link href="https://mathgod.github.io/x48tnBh2D">
+        </link>
+        <updated>2020-01-19T13:25:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>1.PWA技术<br>
+手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。</p>
+<p>2.看板娘技术，live2d技术，增加博客生气。</p>
+<p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
+<p>4.网站粒子吸附背景，增加博客科技感。</p>
+<p>5.logo光束扫描技术，增加标题的生动性。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>1.PWA技术<br>
+手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。</p>
+<p>2.看板娘技术，live2d技术，增加博客生气。</p>
+<p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
+<p>4.网站粒子吸附背景，增加博客科技感。</p>
+<p>5.logo光束扫描技术，增加标题的生动性。</p>
+<!-- more -->
+<p>后续要添加...</p>
+<p>点击爆炸特效，音乐播放（感觉没必要加），</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发现北方的孩子比广东读书早了一年左右]]></title>
         <id>https://mathgod.github.io/bWPHc6SA0</id>
@@ -108,15 +132,6 @@
         </link>
         <updated>2020-01-11T12:29:45.000Z</updated>
         <content type="html"><![CDATA[<p>心情很平静</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大家好，我是MathGod。]]></title>
-        <id>https://mathgod.github.io/da-jia-hao-wo-shi-mathgod</id>
-        <link href="https://mathgod.github.io/da-jia-hao-wo-shi-mathgod">
-        </link>
-        <updated>2020-01-11T12:13:29.000Z</updated>
-        <content type="html"><![CDATA[<p>嘻嘻</p>
 ]]></content>
     </entry>
 </feed>
