@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
-    <title>Hi，MathGod</title>
-    <updated>2020-01-19T14:33:21.652Z</updated>
+    <title>Hi,MathGod</title>
+    <updated>2020-01-20T15:40:24.460Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
     <subtitle>分享一些自认为有趣的内容</subtitle>
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Hi，MathGod</rights>
+    <rights>All rights reserved 2020, Hi,MathGod</rights>
     <entry>
-        <title type="html"><![CDATA[想在我的博客加入所有最新、最流行的前端技术]]></title>
+        <title type="html"><![CDATA[想在我的博客加入所有最新、最流行的前端技术(特效)]]></title>
         <id>https://mathgod.github.io/x48tnBh2D</id>
         <link href="https://mathgod.github.io/x48tnBh2D">
         </link>
@@ -22,6 +22,7 @@
 <p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
 <p>4.网站粒子吸附背景，增加博客科技感。</p>
 <p>5.logo光束扫描技术，增加标题的生动性。</p>
+<p>6.头像旋转</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>1.PWA技术<br>
 手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。</p>
@@ -29,9 +30,10 @@
 <p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
 <p>4.网站粒子吸附背景，增加博客科技感。</p>
 <p>5.logo光束扫描技术，增加标题的生动性。</p>
+<p>6.头像旋转</p>
 <!-- more -->
 <p>后续要添加...</p>
-<p>点击爆炸特效，音乐播放（感觉没必要加），标题文字变化效果（哎呀崩溃了。。。又好了..），头像选择技术。</p>
+<p>点击爆炸特效，音乐播放（感觉没必要加），标题文字变化效果（哎呀崩溃了。。。又好了..），置顶，看板娘无刷新，换衣服，适应移动端等技术</p>
 ]]></content>
     </entry>
     <entry>
