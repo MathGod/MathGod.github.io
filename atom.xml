@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi,MathGod</title>
-    <updated>2020-01-20T15:40:24.460Z</updated>
+    <updated>2020-01-20T16:17:25.506Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi,MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[随想]]></title>
+        <id>https://mathgod.github.io/Pyt6U26KQ</id>
+        <link href="https://mathgod.github.io/Pyt6U26KQ">
+        </link>
+        <updated>2020-01-20T15:46:55.000Z</updated>
+        <content type="html"><![CDATA[<p>发现公司很多人过年回家都要遇到抢票补票之类的麻烦事，而自己从来没有这个烦恼（工作地离家近，家里靠近珠三角，上学工作都是做大巴汽车之类的），并且不出意外这辈子都不用抢票（不会找离家远的工作），感觉自己还是有一点小辛运的。</p>
+<p>在q群里搜索github竟然出现很多互star的群，哈哈，机制，估计应该只是为了容易起步吧。（一些本想star人看到0star都不想破零，恶性循环...）</p>
+<p>同事舍友是武汉人，今晚把票退了，大家都叫他过年别回家。太危险了。</p>
+<p>后天就可以回家了，小激动。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[想在我的博客加入所有最新、最流行的前端技术(特效)]]></title>
         <id>https://mathgod.github.io/x48tnBh2D</id>
@@ -125,15 +137,6 @@
         </link>
         <updated>2020-01-11T12:30:35.000Z</updated>
         <content type="html"><![CDATA[<p>就法定三天加两天周末加两天调休，没有比这更少的公司了吧。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[很快就过年了]]></title>
-        <id>https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao</id>
-        <link href="https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao">
-        </link>
-        <updated>2020-01-11T12:29:45.000Z</updated>
-        <content type="html"><![CDATA[<p>心情很平静</p>
 ]]></content>
     </entry>
 </feed>
