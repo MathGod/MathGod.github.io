@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>程序员的发展历程 | Hi,MathGod</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1579537042710">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1579601768441">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="程序员的发展历程 | Hi,MathGod - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -123,55 +123,13 @@
   </a>
 </div>
 
+
 <canvas id="evanyou" style="width:100%"></canvas>
-<script>
-if (document.getElementById('evanyou')) {
-  var c = document.getElementById('evanyou'),
-    x = c.getContext('2d'),
-    pr = window.devicePixelRatio || 1,
-    w = window.innerWidth,
-    h = window.innerHeight,
-    f = 80,
-    q,
-    m = Math,
-    r = 0,
-    u = m.PI * 2,
-    v = m.cos,
-    z = m.random
-  c.width = w * pr
-  c.height = h * pr
-  x.scale(pr, pr)
-  x.globalAlpha = 0.6
-  function evanyou () {
-    x.clearRect(0, 0, w, h)
-    q = [{ x: 0, y: h * .7 + f }, { x: 0, y: h * .7 - f }]
-    while (q[1].x < w + f) d(q[0], q[1])
-  }
-  function d (i, j) {
-    x.beginPath()
-    x.moveTo(i.x, i.y)
-    x.lineTo(j.x, j.y)
-    var k = j.x + (z() * 2 - 0.25) * f,
-      n = y(j.y)
-    x.lineTo(k, n)
-    x.closePath()
-    r -= u / -50
-    x.fillStyle = '#' + (v(r) * 127 + 128 << 16 | v(r + u / 3) * 127 + 128 << 8 | v(r + u / 3 * 2) * 127 + 128).toString(16)
-    x.fill()
-    q[0] = q[1]
-    q[1] = { x: k, y: n }
-  }
-  function y (p) {
-    var t = p + (z() * 2 - 1.1) * f
-    return (t > h || t < 0) ? y(p) : t
-  }
-  document.onclick = evanyou
-  document.ontouchstart = evanyou
-  evanyou()
-}
-    </script>
+<script type="text/javascript" src="https://mathgod.github.io/caitiao.js"></script>
+
 
 <script type="text/javascript" color="255,0,255" pointColor="255,0,255" opacity='0.9' zIndex="-1" count="150" src="https://mathgod.github.io/lizi.js"></script>
+
 
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 	    <div id="landlord">
@@ -190,6 +148,10 @@ if (document.getElementById('evanyou')) {
     loadlive2d("live2d", "https://mathgod.github.io/live2d/model/tia/model.json");
 </script
 
+
+<canvas class="bang" style="position: fixed; left: 0; top: 0; z-index: 99999999; pointer-events: none;"></canvas>
+<script type="text/javascript" src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="https://mathgod.github.io/bang.js"></script>
 
       </div>
     </div>
