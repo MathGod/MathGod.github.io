@@ -3406,8 +3406,8 @@ transform: rotate(360deg);
 }
 .post-container .post {
   padding: 0 12px 50px 12px;
-    background: #ffffff;
-    margin-bottom: 35px;
+    background: ##ffffffb8;
+    margin:0 12px 40px 12px;
 border-radius: 5px;
 }
 .post-container .post .post-title {
