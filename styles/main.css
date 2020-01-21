@@ -4031,7 +4031,7 @@ height:100%;
     top: 0;
     left: 0;
     z-index: -3;
-background: #f7f4ef;
+background: #f7f4ef10;
 }
     
       body {
@@ -4039,7 +4039,6 @@ background: #f7f4ef;
       }
 
 .bg{
-weight:100%;
   background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
