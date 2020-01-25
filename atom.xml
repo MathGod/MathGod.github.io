@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi,MathGod</title>
-    <updated>2020-01-25T03:08:06.572Z</updated>
+    <updated>2020-01-25T04:51:16.214Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi,MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[新年快乐，武汉加油！]]></title>
+        <id>https://mathgod.github.io/srYjVsGnt</id>
+        <link href="https://mathgod.github.io/srYjVsGnt">
+        </link>
+        <updated>2020-01-25T03:14:24.000Z</updated>
+        <content type="html"><![CDATA[<p>已确诊上千例了，情况很不妙。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[随想]]></title>
         <id>https://mathgod.github.io/Pyt6U26KQ</id>
@@ -135,15 +144,6 @@
 3.卡，免费的通病，github托管无数个网站，速度肯定快不了。</p>
 <!-- more -->
 <p>...</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过年才放七天假]]></title>
-        <id>https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han</id>
-        <link href="https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han">
-        </link>
-        <updated>2020-01-11T12:30:35.000Z</updated>
-        <content type="html"><![CDATA[<p>就法定三天加两天周末加两天调休，没有比这更少的公司了吧。</p>
 ]]></content>
     </entry>
 </feed>
