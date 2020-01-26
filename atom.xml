@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi,MathGod</title>
-    <updated>2020-01-26T13:06:05.949Z</updated>
+    <updated>2020-01-26T13:07:43.980Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi,MathGod</rights>
     <entry>
-        <title type="html"><![CDATA[小镇的大街上没几个人]]></title>
+        <title type="html"><![CDATA[大年初二，小镇的大街上没几个人]]></title>
         <id>https://mathgod.github.io/VJIZazifl</id>
         <link href="https://mathgod.github.io/VJIZazifl">
         </link>
