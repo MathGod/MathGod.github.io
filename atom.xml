@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mathgod.github.io/</id>
+    <title>Hi,MathGod</title>
+    <updated>2020-01-26T12:52:04.565Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mathgod.github.io/"/>
+    <link rel="self" href="https://mathgod.github.io/atom.xml"/>
+    <subtitle>分享一些自认为有趣的内容</subtitle>
+    <logo>https://mathgod.github.io/images/avatar.png</logo>
+    <icon>https://mathgod.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Hi,MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[小镇的大街上没几个人]]></title>
+        <id>https://mathgod.github.io/VJIZazifl</id>
+        <link href="https://mathgod.github.io/VJIZazifl">
+        </link>
+        <updated>2020-01-26T12:46:58.000Z</updated>
+        <content type="html"><![CDATA[<p>没年味呀</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年快乐，武汉加油！]]></title>
+        <id>https://mathgod.github.io/srYjVsGnt</id>
+        <link href="https://mathgod.github.io/srYjVsGnt">
+        </link>
+        <updated>2020-01-25T03:14:24.000Z</updated>
+        <content type="html"><![CDATA[<p>已确诊上千例了，情况很不妙。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随想]]></title>
+        <id>https://mathgod.github.io/Pyt6U26KQ</id>
+        <link href="https://mathgod.github.io/Pyt6U26KQ">
+        </link>
+        <updated>2020-01-20T15:46:55.000Z</updated>
+        <content type="html"><![CDATA[<p>发现公司很多人过年回家都要遇到抢票补票之类的麻烦事，而自己从来没有这个烦恼（工作地离家近，家里靠近珠三角，上学工作都是做大巴汽车之类的），并且不出意外这辈子都不用抢票（不会找离家远的工作），感觉自己还是有一点小辛运的。</p>
+<p>在q群里搜索github竟然出现很多互star的群，哈哈，机制，估计应该只是为了容易起步吧。（一些本想star人看到0star都不想破零，恶性循环...）</p>
+<p>同事舍友是武汉人，今晚把票退了，大家都叫他过年别回家。太危险了。</p>
+<p>后天就可以回家了，小激动。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[想把所有最新、最流行的前端技术/特效加进博客]]></title>
+        <id>https://mathgod.github.io/x48tnBh2D</id>
+        <link href="https://mathgod.github.io/x48tnBh2D">
+        </link>
+        <updated>2020-01-19T13:25:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>1.PWA技术<br>
+手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。</p>
+<p>2.看板娘技术，live2d技术，增加博客生气。</p>
+<p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
+<p>4.网站粒子吸附背景，增加博客科技感。</p>
+<p>5.logo光束扫描技术，增加标题的生动性。</p>
+<p>6.头像旋转</p>
+<p>7点击爆炸效果</p>
+<p>8.背景图片</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>1.PWA技术<br>
+手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。</p>
+<p>2.看板娘技术，live2d技术，增加博客生气。</p>
+<p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
+<p>4.网站粒子吸附背景，增加博客科技感。</p>
+<p>5.logo光束扫描技术，增加标题的生动性。</p>
+<p>6.头像旋转</p>
+<p>7点击爆炸效果</p>
+<p>8.背景图片</p>
+<!-- more -->
+<p>后续要添加...</p>
+<p>音乐播放（感觉没必要加），标题文字变化效果（哎呀崩溃了。。。又好了..），置顶，看板娘无刷新，换衣服。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发现北方的孩子比广东读书早了一年左右]]></title>
+        <id>https://mathgod.github.io/bWPHc6SA0</id>
+        <link href="https://mathgod.github.io/bWPHc6SA0">
+        </link>
+        <updated>2020-01-15T14:51:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>我看到的大多数北方孩子是21,22岁大学毕业，而广东地区则是22,23岁大学毕业。否意味着早读书的孩子的人生轨迹也早了一年，早这一年会有什么不同吗？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我看到的大多数北方孩子是21,22岁大学毕业，而广东地区则是22,23岁大学毕业。否意味着早读书的孩子的人生轨迹也早了一年，早这一年会有什么不同吗？</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于网站设计存在的一些问题]]></title>
+        <id>https://mathgod.github.io/J4y9LyL6L</id>
+        <link href="https://mathgod.github.io/J4y9LyL6L">
+        </link>
+        <updated>2020-01-14T12:46:44.000Z</updated>
+        <content type="html"><![CDATA[<p>背景彩带在手机端按一下会变化两次用户体验不好，在电脑端则正常变化一次。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女人真是太麻烦了]]></title>
+        <id>https://mathgod.github.io/4AfPe_3Ca</id>
+        <link href="https://mathgod.github.io/4AfPe_3Ca">
+        </link>
+        <updated>2020-01-14T12:33:44.000Z</updated>
+        <content type="html"><![CDATA[<p>做个头发的时间能抵得上10个男人的理发时间，今晚剪发等了一个半小时，有些女人还仗着自点 姿色撒娇插队，真是不可理喻！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世界太大，我哪都不想去看]]></title>
+        <id>https://mathgod.github.io/LyGettpBm</id>
+        <link href="https://mathgod.github.io/LyGettpBm">
+        </link>
+        <updated>2020-01-13T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>世界太大，我哪都不想去看。只想呆在家附近，把钱都花在吃喝上，不理会外面的喧嚣...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>世界太大，我哪都不想去看。只想呆在家附近，把钱都花在吃喝上，不理会外面的喧嚣...</p>
+<!-- more -->
+<p>不去增长那些所谓的见识。家里还很安全</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[程序员的发展历程]]></title>
+        <id>https://mathgod.github.io/rdOl-t8bT</id>
+        <link href="https://mathgod.github.io/rdOl-t8bT">
+        </link>
+        <updated>2020-01-12T07:29:51.000Z</updated>
+        <summary type="html"><![CDATA[<p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
+<!-- more -->
+<p>颠倒 -&gt; 因长期面对屏幕而被降维打击成为二次元 -&gt; 宅 -&gt; 顿悟了编程之道 -&gt; 女装大佬</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些好看的图片]]></title>
+        <id>https://mathgod.github.io/tu-pian</id>
+        <link href="https://mathgod.github.io/tu-pian">
+        </link>
+        <updated>2020-01-11T13:10:33.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://mathgod.github.io//post-images/1578748311492.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578748553794.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819610612.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819620072.jpeg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819624356.jpeg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1578819627837.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
