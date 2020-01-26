@@ -4365,7 +4365,7 @@ td {
 .site-header .menu-container a.menu {
   font-size: 22px;
   color: #4f8ccd;
-  padding: 8px 34px;
+  padding: 8px 22px;
   flex-shrink: 0;
   font-weight: 600;
 }
@@ -4916,7 +4916,7 @@ font-size: 1.5rem;
 .site-footer {
   font-size: 12px;
   text-align: center;
-  padding: 100px 24px 60px 24px;
+  padding: 140px 24px 50px 24px;
   color: #868e96;
   display: flex;
   justify-content: center;
@@ -5049,7 +5049,24 @@ background: #f7f4ef00;
     z-index: -10;
 }
 
-<style type="text/css">
+.caidan{
+background: #fff;
+
+}
+
+.caidan .menu-container
+{    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caidan .menu-container a.menu{
+font-size: 22px;
+    color: #4f8ccd;
+    padding: 8px 22px;
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
 *, *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 .site-title{ position: relative; margin: 0 auto; transition-duration: .5s; }
 .site-title{ width: 255px; overflow: hidden; }
@@ -5086,12 +5103,4 @@ to { left: 120px; top: 100px; }
 0% { left: -100px; top: 0; }
 to { left: 120px; top: 100px; }
 }
-</style>
-    
-    
-
-    
-
-    
-
     
