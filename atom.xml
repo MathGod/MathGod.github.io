@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>Hi,MathGod</title>
-    <updated>2020-01-26T15:00:21.608Z</updated>
+    <updated>2020-01-27T15:52:15.173Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Hi,MathGod</rights>
+    <entry>
+        <title type="html"><![CDATA[大年初三，科比去世，阿富汗航班坠机87，公司通知假期延长。]]></title>
+        <id>https://mathgod.github.io/8izS_1bFg</id>
+        <link href="https://mathgod.github.io/8izS_1bFg">
+        </link>
+        <updated>2020-01-27T15:36:50.000Z</updated>
+        <content type="html"><![CDATA[<p>肺炎患者确诊人数持续增加</p>
+<p>看来以后真的不能坐飞机，一出事就是团灭，真的是太惨。之前被伊朗打下的乌克兰飞机也是。<br>
+科比竟然死了，还有他的二女儿，记得大学时期还看过他的退役赛，一起黑过他踢足球打羽毛球乒乓球，才41岁，正直中年，说不上伤心，有些惋惜罢了。</p>
+<p>公司假期延长，小开心。</p>
+<p>晚安，地球。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[大年初二，小镇的大街上没几个人]]></title>
         <id>https://mathgod.github.io/VJIZazifl</id>
@@ -124,20 +137,6 @@
         <content type="html"><![CDATA[<p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
 <!-- more -->
 <p>颠倒 -&gt; 因长期面对屏幕而被降维打击成为二次元 -&gt; 宅 -&gt; 顿悟了编程之道 -&gt; 女装大佬</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一些好看的图片]]></title>
-        <id>https://mathgod.github.io/tu-pian</id>
-        <link href="https://mathgod.github.io/tu-pian">
-        </link>
-        <updated>2020-01-11T13:10:33.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://mathgod.github.io//post-images/1578748311492.jpg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1578748553794.jpg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1578819610612.jpg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1578819620072.jpeg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1578819624356.jpeg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1578819627837.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
