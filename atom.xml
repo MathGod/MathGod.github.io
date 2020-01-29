@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-01-29T08:41:25.215Z</updated>
+    <updated>2020-01-29T09:01:24.764Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[原来热搜全是明星的日子才是真正的国泰民安]]></title>
+        <id>https://mathgod.github.io/KFSyCoevr</id>
+        <link href="https://mathgod.github.io/KFSyCoevr">
+        </link>
+        <updated>2020-01-29T08:56:48.000Z</updated>
+        <content type="html"><![CDATA[<p>原来热搜全是明星的日子才是真正的国泰民安</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[今天公司通知上班时间又延迟了，10号上班。。。]]></title>
         <id>https://mathgod.github.io/EBzrCfQKJ</id>
@@ -120,15 +129,6 @@
         </link>
         <updated>2020-01-14T12:46:44.000Z</updated>
         <content type="html"><![CDATA[<p>背景彩带在手机端按一下会变化两次用户体验不好，在电脑端则正常变化一次。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[女人真是太麻烦了]]></title>
-        <id>https://mathgod.github.io/4AfPe_3Ca</id>
-        <link href="https://mathgod.github.io/4AfPe_3Ca">
-        </link>
-        <updated>2020-01-14T12:33:44.000Z</updated>
-        <content type="html"><![CDATA[<p>做个头发的时间能抵得上10个男人的理发时间，今晚剪发等了一个半小时，有些女人还仗着自点 姿色撒娇插队，真是不可理喻！</p>
 ]]></content>
     </entry>
 </feed>
