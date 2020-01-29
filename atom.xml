@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
-    <title>Hi,MathGod</title>
-    <updated>2020-01-28T01:54:11.956Z</updated>
+    <title>老王博客</title>
+    <updated>2020-01-29T08:41:25.215Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
-    <subtitle>分享一些自认为有趣的内容</subtitle>
+    <subtitle>记录生活点滴、分享前端技术。</subtitle>
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Hi,MathGod</rights>
+    <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[今天公司通知上班时间又延迟了，10号上班。。。]]></title>
+        <id>https://mathgod.github.io/EBzrCfQKJ</id>
+        <link href="https://mathgod.github.io/EBzrCfQKJ">
+        </link>
+        <updated>2020-01-29T08:39:36.000Z</updated>
+        <content type="html"><![CDATA[<p>本来最开始是明天也就是年初六上班的，推迟到3号，现在又推迟到10号。看来辞职找工作都会受到影响。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[4481例了...死亡106...可怕]]></title>
         <id>https://mathgod.github.io/aN-m9Ev6h</id>
@@ -20,7 +29,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[大年初三，科比去世，阿富汗航班坠机87，公司通知假期延长。]]></title>
+        <title type="html"><![CDATA[大年初三，科比去世，阿富汗航班坠机死83人，公司通知假期延长。]]></title>
         <id>https://mathgod.github.io/8izS_1bFg</id>
         <link href="https://mathgod.github.io/8izS_1bFg">
         </link>
@@ -120,19 +129,6 @@
         </link>
         <updated>2020-01-14T12:33:44.000Z</updated>
         <content type="html"><![CDATA[<p>做个头发的时间能抵得上10个男人的理发时间，今晚剪发等了一个半小时，有些女人还仗着自点 姿色撒娇插队，真是不可理喻！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[世界太大，我哪都不想去看]]></title>
-        <id>https://mathgod.github.io/LyGettpBm</id>
-        <link href="https://mathgod.github.io/LyGettpBm">
-        </link>
-        <updated>2020-01-13T15:22:09.000Z</updated>
-        <summary type="html"><![CDATA[<p>世界太大，我哪都不想去看。只想呆在家附近，把钱都花在吃喝上，不理会外面的喧嚣...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>世界太大，我哪都不想去看。只想呆在家附近，把钱都花在吃喝上，不理会外面的喧嚣...</p>
-<!-- more -->
-<p>不去增长那些所谓的见识。家里还很安全</p>
 ]]></content>
     </entry>
 </feed>
