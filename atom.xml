@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-01T14:52:32.186Z</updated>
+    <updated>2020-02-01T14:55:27.986Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -17,7 +17,7 @@
         </link>
         <updated>2020-02-01T14:42:43.000Z</updated>
         <content type="html"><![CDATA[<p>早上中午之前网络都很好，晚上点以后网络不给力，由此可推断出上网主力军大多晚睡晚起。</p>
-<p>所以我觉得早睡早起，错峰上网。</p>
+<p>所以我决定早睡早起，错峰上网。</p>
 ]]></content>
     </entry>
     <entry>
