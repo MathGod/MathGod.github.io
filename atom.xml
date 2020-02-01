@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-01-31T00:18:20.404Z</updated>
+    <updated>2020-02-01T14:45:04.118Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[发现个有趣规律，晚上网络比早上慢得多]]></title>
+        <id>https://mathgod.github.io/Jo40s-Ks6</id>
+        <link href="https://mathgod.github.io/Jo40s-Ks6">
+        </link>
+        <updated>2020-02-01T14:42:43.000Z</updated>
+        <content type="html"><![CDATA[<p>早上中午之前网络都很好，晚上点以后网络不给力，由此可推断出上网主力军大多晚睡晚起。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[教初三妹妹学习真的好累，她又懒又蠢反应慢还不听话。]]></title>
         <id>https://mathgod.github.io/S3pLvWBb_</id>
@@ -117,18 +126,6 @@
 <!-- more -->
 <p>后续要添加...</p>
 <p>音乐播放（感觉没必要加），标题文字变化效果（哎呀崩溃了。。。又好了..），置顶，看板娘无刷新，换衣服。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发现北方的孩子比广东读书早了一年左右]]></title>
-        <id>https://mathgod.github.io/bWPHc6SA0</id>
-        <link href="https://mathgod.github.io/bWPHc6SA0">
-        </link>
-        <updated>2020-01-15T14:51:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>我看到的大多数北方孩子是21,22岁大学毕业，而广东地区则是22,23岁大学毕业。否意味着早读书的孩子的人生轨迹也早了一年，早这一年会有什么不同吗？</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我看到的大多数北方孩子是21,22岁大学毕业，而广东地区则是22,23岁大学毕业。否意味着早读书的孩子的人生轨迹也早了一年，早这一年会有什么不同吗？</p>
-<!-- more -->
 ]]></content>
     </entry>
 </feed>
