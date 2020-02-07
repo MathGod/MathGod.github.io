@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-07T13:42:35.754Z</updated>
+    <updated>2020-02-07T13:47:35.070Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,14 +16,22 @@
         <link href="https://mathgod.github.io/bQ0Q2_4_0">
         </link>
         <updated>2020-02-06T13:30:18.000Z</updated>
-        <content type="html"><![CDATA[<p>#眼过千遍，不如手敲一遍。<br>
-文章参考：https://segmentfault.com/a/1190000006879700</p>
-<p>1.DNS解析<br>
+        <summary type="html"><![CDATA[<p>##总体来说分为以下几个过程:<br>
+1.DNS解析<br>
 2.TCP连接<br>
 3.发送HTTP请求<br>
 4.服务器处理HTTP请求<br>
 5.页面渲染<br>
 6.断开TCP连接</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>##总体来说分为以下几个过程:<br>
+1.DNS解析<br>
+2.TCP连接<br>
+3.发送HTTP请求<br>
+4.服务器处理HTTP请求<br>
+5.页面渲染<br>
+6.断开TCP连接</p>
+<!-- more -->
 <p>仔细思考这个问题，发现确实很深，这个过程涉及到的东西很多。这个问题的回答真的能够很好的考验一个web工程师的水平<br>
 注：这题胜在区分度高，知识点覆盖广，再不懂的人，也能答出几句，<br>
 而高手可以根据自己擅长的领域自由发挥，从URL规范、HTTP协议、DNS、CDN、数据库查询、<br>
@@ -88,6 +96,7 @@ HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文
 第四次分手：主机1收到主机2发送的FIN报文段，向主机2发送ACK报文段，然后主机1进入TIME_WAIT状态；主机2收到主机1的ACK报文段以后，就关闭连接；此时，主机1等待2MSL后依然没有收到回复，则证明Server端已正常关闭，那好，主机1也可以关闭连接了。</p>
 <p>为什么要四次分手<br>
 那四次分手又是为何呢？TCP协议是一种面向连接的、可靠的、基于字节流的运输层通信协议。TCP是全双工模式，这就意味着，当主机1发出FIN报文段时，只是表示主机1已经没有数据要发送了，主机1告诉主机2，它的数据已经全部发送完毕了；但是，这个时候主机1还是可以接受来自主机2的数据；当主机2返回ACK报文段时，表示它已经知道主机1没有数据发送了，但是主机2还是可以发送数据到主机1的；当主机2也发送了FIN报文段时，这个时候就表示主机2也没有数据要发送了，就会告诉主机1，我也没有数据要发送了，之后彼此就会愉快的中断这次TCP连接。</p>
+<p>文章参考： https://ru23.com/note/e277deca.html</p>
 ]]></content>
     </entry>
     <entry>
