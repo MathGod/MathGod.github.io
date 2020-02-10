@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="https://mathgod.github.io/aplayer/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="https://mathgod.github.io/aplayer/APlayer.min.js"></script>
+<script>
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,
+    audio: [{
+        name: '零的执行人bgm',
+        artist: '大野克夫',
+        url: 'https://mathgod.github.io/aplayer/url.mp3',
+        cover: 'https://mathgod.github.io/aplayer/cover.jpg'
+    }]
+});
+</script>
+
+
+//加到footer最上面
