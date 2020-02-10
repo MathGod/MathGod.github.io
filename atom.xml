@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-10T11:23:06.913Z</updated>
+    <updated>2020-02-10T12:56:41.364Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -100,7 +100,7 @@ HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[网站点缀功能都添加的差不多了，就差个全站PJAX无刷新技术了。]]></title>
+        <title type="html"><![CDATA[网站点缀特效都添加的差不多了，还差个全站PJAX无刷新技术。]]></title>
         <id>https://mathgod.github.io/0VYM6O3u4</id>
         <link href="https://mathgod.github.io/0VYM6O3u4">
         </link>
