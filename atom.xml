@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-10T11:14:52.922Z</updated>
+    <updated>2020-02-10T11:21:25.416Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -100,26 +100,24 @@ HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[网站装X功能都添加的差不多了，就差个全站PJAX无刷新技术了。]]></title>
+        <title type="html"><![CDATA[网站点缀功能都添加的差不多了，就差个全站PJAX无刷新技术了。]]></title>
         <id>https://mathgod.github.io/0VYM6O3u4</id>
         <link href="https://mathgod.github.io/0VYM6O3u4">
         </link>
         <updated>2020-02-04T14:00:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>网上教程试了下都感觉不行，有大佬解答下吗。<br>
- <br>
-已添加功能:<br>
+        <summary type="html"><![CDATA[<p>已添加功能:<br>
 1.PWA技术<br>
 手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。<br>
  <br>
-2.live2d技术，给博客增加看板娘，增加博客生动性。</p>
+2.live2d技术，给博客增加看板娘，增加博客生动性。<br>
+ </p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>网上教程试了下都感觉不行，有大佬解答下吗。<br>
- <br>
-已添加功能:<br>
+        <content type="html"><![CDATA[<p>已添加功能:<br>
 1.PWA技术<br>
 手机端打开网站可以自动弹出提示框询问是否添加桌面图标。与传统APP相比优势是可以免更新，免下载。<br>
  <br>
-2.live2d技术，给博客增加看板娘，增加博客生动性。</p>
+2.live2d技术，给博客增加看板娘，增加博客生动性。<br>
+ </p>
 <!-- more -->
 <p>3.尤雨溪EvanYou随机不规则三角彩条，给博客营造一种优美的氛围。</p>
 <p>4.网站粒子吸附背景，增加博客科技感。</p>
@@ -127,7 +125,7 @@ HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文
 <p>6.头像旋转</p>
 <p>7点击爆炸效果</p>
 <p>8.背景图片</p>
-<p>9.音乐播放器</p>
+<p><s>9.音乐播放器</s>（太卡，先删除了）</p>
 <p>后续要添加...</p>
 <p>标题文字变化效果（哎呀崩溃了。。。又好了..），看板娘自动刷新换衣服。</p>
 ]]></content>
