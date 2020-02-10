@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-07T13:47:35.070Z</updated>
+    <updated>2020-02-10T11:14:52.922Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -143,12 +143,12 @@ HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[教初三妹妹学习真的好累，她又懒又蠢反应慢还不听话。]]></title>
+        <title type="html"><![CDATA[教初三妹妹学习真的好累。]]></title>
         <id>https://mathgod.github.io/S3pLvWBb_</id>
         <link href="https://mathgod.github.io/S3pLvWBb_">
         </link>
         <updated>2020-01-30T14:27:04.000Z</updated>
-        <content type="html"><![CDATA[<p>不知道个月后能否考上高中，哪怕是县里最差的高中也好。</p>
+        <content type="html"><![CDATA[<p>她真的很差，又懒又蠢作息异常还不肯改。不知道几个月后能否考上高中，哪怕是县里最差的高中也好。</p>
 ]]></content>
     </entry>
     <entry>
