@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-11T14:41:30.119Z</updated>
+    <updated>2020-02-11T14:42:05.692Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -29,7 +29,7 @@
         <link href="https://mathgod.github.io/bQ0Q2_4_0">
         </link>
         <updated>2020-02-06T13:30:18.000Z</updated>
-        <summary type="html"><![CDATA[<h2 id="总体来说分为以下几个过程">总体来说分为以下几个过程:</h2>
+        <summary type="html"><![CDATA[<h4 id="总体来说分为以下几个过程">总体来说分为以下几个过程:</h4>
 <p>1.DNS解析<br>
 2.TCP连接<br>
 3.发送HTTP请求<br>
@@ -37,7 +37,7 @@
 5.页面渲染<br>
 6.断开TCP连接</p>
 ]]></summary>
-        <content type="html"><![CDATA[<h2 id="总体来说分为以下几个过程">总体来说分为以下几个过程:</h2>
+        <content type="html"><![CDATA[<h4 id="总体来说分为以下几个过程">总体来说分为以下几个过程:</h4>
 <p>1.DNS解析<br>
 2.TCP连接<br>
 3.发送HTTP请求<br>
