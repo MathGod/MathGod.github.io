@@ -4514,6 +4514,7 @@ border-radius: 5px;
   flex: 1;
 background: #fff;
 border-radius: 5px;
+margin-top: 47px;
 }
 .post-detail .post {
   padding: 4px 10px;
@@ -5049,6 +5050,13 @@ background: #f5fff6;
     z-index: -10;
 }
 
+.caidan
+｛
+width:660px;
+position: fixed;
+background-color: #96edd1d4;
+｝
+
 .caidan .menu-container
 {    display: flex;
     justify-content: center;
@@ -5056,7 +5064,7 @@ background: #f5fff6;
 }
 .caidan .menu-container a.menu{
 font-size: 22px;
-    color: #4f8ccd;
+    color: #fff;
     padding: 8px 22px;
     flex-shrink: 0;
     font-weight: 600;
