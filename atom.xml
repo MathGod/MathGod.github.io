@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-12T08:44:32.244Z</updated>
+    <updated>2020-02-12T08:45:55.665Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,11 +16,9 @@
         <link href="https://mathgod.github.io/r0p4CTNqT">
         </link>
         <updated>2020-02-11T14:08:15.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>  今天是年后上班的第二天。下午，厂里有个员工测出高温，于是公司突然宣布又多放五天假。打电话给120处理了。
-
-  晚上的时候，听保安说，那个员工体温又正常了，说他过年没回家一直留在厂里，应该是泡面吃多了上火...然而放假通知已经发出去收不回来了。
-
-  考虑到员工安全，公司决定不给住宿的人离开公司。所以我又要在宿舍呆多5天，要是一个人住还好，然而还有爱外放吵闹的舍友（集体间）。这种宿舍住得一点都不爽，影响作息，也是我想辞职的原因。（别问我为什么不外面租房，那点工资经不起折腾）</code></pre>
+        <content type="html"><![CDATA[<p>今天是年后上班的第二天。下午，厂里有个员工测出高温，于是公司突然宣布又多放五天假。打电话给120处理了。</p>
+<p>晚上的时候，听保安说，那个员工体温又正常了，说他过年没回家一直留在厂里，应该是泡面吃多了上火...然而放假通知已经发出去收不回来了。</p>
+<p>考虑到员工安全，公司决定不给住宿的人离开公司。所以我又要在宿舍呆多5天，要是一个人住还好，然而还有爱外放吵闹的舍友（集体间）。这种宿舍住得一点都不爽，影响作息，也是我想辞职的原因。（别问我为什么不外面租房，那点工资经不起折腾）</p>
 ]]></content>
     </entry>
     <entry>
