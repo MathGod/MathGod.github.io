@@ -5051,11 +5051,10 @@ background: #f5fff6;
 }
 
 .caidan
-｛
-width:660px;
+{width: 660px;
 position: fixed;
 background-color: #96edd1d4;
-｝
+}
 
 .caidan .menu-container
 {    display: flex;
