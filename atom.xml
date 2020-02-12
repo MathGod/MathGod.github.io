@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-12T10:26:50.734Z</updated>
+    <updated>2020-02-12T10:30:27.615Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -133,7 +133,7 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 <p>5.logo光束扫描技术，增加标题的动态感....</p>
 <p>6.头像旋转</p>
 <p>7点击爆炸效果</p>
-<p>8.背景图片</p>
+<p><s>8.背景图片</s>(影响彩带，粒子，点击爆炸等效果，于是删除了，把背景改为浅绿色，护眼，嗯)</p>
 <p><s>9.音乐播放器</s>（太卡，先删除了）</p>
 <p>后续要添加...</p>
 <p>标题文字变化效果（哎呀崩溃了。。。又好了..），看板娘自动刷新换衣服。</p>
