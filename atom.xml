@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-12T08:42:23.891Z</updated>
+    <updated>2020-02-12T08:44:32.244Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -92,7 +92,7 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 浏览器环境中执行方法时，先将执行栈中的任务清空，再将微任务推到执行栈中并清空，之后检查是否存在宏任务，若存在则取出一个宏任务，执行完成检查是否有微任务，以此循环…</p>
 <h1 id="4-服务器处理http请求并返回http报文">4. 服务器处理HTTP请求并返回HTTP报文</h1>
 <p>HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文。</p>
-<h4 id="http缓存">HTTP缓存</h4>
+<h2 id="http缓存">HTTP缓存</h2>
 <p>强缓存和协商缓存</p>
 <h1 id="5浏览器解析渲染页面">5.浏览器解析渲染页面</h1>
 <p>使用HTML创建文件对象类型（DOM）<br>
