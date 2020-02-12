@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-12T03:19:57.662Z</updated>
+    <updated>2020-02-12T08:41:53.073Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -49,13 +49,13 @@
 注：这题胜在区分度高，知识点覆盖广，再不懂的人，也能答出几句，<br>
 而高手可以根据自己擅长的领域自由发挥，从URL规范、HTTP协议、DNS、CDN、数据库查询、<br>
 到浏览器流式解析、CSS规则构建、layout、paint、onload/domready、JS执行、JS API绑定等等；</p>
-<h1 id="dns解析">DNS解析</h1>
+<h1 id="1dns解析">1.DNS解析</h1>
 <p>DNS查询顺序如下，若其中一步成功则直接跳到建立链接部分：</p>
 <p>浏览器自身DNS<br>
 操作系统DNS<br>
 本地hosts文件<br>
 向域名服务器发送请求</p>
-<h1 id="tcp连接">TCP连接</h1>
+<h1 id="2tcp连接">2.TCP连接</h1>
 <p>TCP三次握手(three-way handshaking)</p>
 <p>发送方:SYN(synchronize)<br>
 接收方:SYN/ACK(acknowledgement),确认信息传达<br>
@@ -75,7 +75,7 @@ Accept<br>
 <p>HTTPS在传输数据之前需要客户端与服务器进行一个握手(TLS/SSL握手)，在握手过程中将确立双方加密传输数据的密码信息。TLS/SSL使用了非对称加密，对称加密以及hash等。具体过程请参考经典的阮一峰先生的博客TLS/SSL握手过程。<br>
 HTTPS相比于HTTP，虽然提供了安全保证，但是势必会带来一些时间上的损耗，如握手和加密等过程，<br>
 是否使用HTTPS需要根据具体情况在安全和性能方面做出权衡。</p>
-<h2 id="发送http请求">发送HTTP请求</h2>
+<h1 id="3发送http请求">3.发送HTTP请求</h1>
 <p>构建HTTP请求报文并通过TCP协议中发送到服务器指定端口(HTTP协议80/8080, HTTPS协议443)。<br>
 HTTP请求报文是由三部分组成: 请求行, 请求报头和请求正文。</p>
 <p>请求行：<br>
@@ -92,7 +92,7 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 浏览器环境中执行方法时，先将执行栈中的任务清空，再将微任务推到执行栈中并清空，之后检查是否存在宏任务，若存在则取出一个宏任务，执行完成检查是否有微任务，以此循环…</p>
 <h1 id="4-服务器处理http请求并返回http报文">4. 服务器处理HTTP请求并返回HTTP报文</h1>
 <p>HTTP响应报文也是由三部分组成: 状态码, 响应报头和响应报文。</p>
-<h3 id="http缓存">HTTP缓存</h3>
+<h4 id="http缓存">HTTP缓存</h4>
 <p>强缓存和协商缓存</p>
 <h1 id="5浏览器解析渲染页面">5.浏览器解析渲染页面</h1>
 <p>使用HTML创建文件对象类型（DOM）<br>
