@@ -3,10 +3,10 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>从输入URL到页面加载发生了什么？ | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1581432625321">
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1581477497771">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="从输入URL到页面加载发生了什么？ | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="从输入URL到页面加载发生了什么？ | 老王博客 - Atom Feed" href="http://localhost:4000/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
@@ -44,7 +44,7 @@
       
     
       
-        <a href="https://mathgod.github.io/TDN0kNkN4" class="menu">
+        <a href="http://localhost:4000TDN0kNkN4" class="menu">
           友链
         </a>
       
@@ -113,7 +113,7 @@
 接收方:SYN/ACK(acknowledgement),确认信息传达<br>
 发送方:ACK - 确认接收方在线可收消息，握手结束<br>
 Accept<br>
-<img src="https://mathgod.github.io//post-images/1581082610268.jpg" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1581082610268.jpg" alt="" loading="lazy"><br>
 （1）第一次握手：建立连接时，客户端A发送SYN包（SYN=j）到服务器B，并进入SYN_SEND状态，等待服务器B确认。</p>
 <p>（2）第二次握手：服务器B收到SYN包，必须确认客户A的SYN（ACK=j+1），同时自己也发送一个SYN包（SYN=k），即SYN+ACK包，此时服务器B进入SYN_RECV状态。</p>
 <p>（3）第三次握手：客户端A收到服务器B的SYN＋ACK包，向服务器B发送确认包ACK（ACK=k+1），此包发送完毕，客户端A和服务器B进入ESTABLISHED状态，完成三次握手。</p>
@@ -122,7 +122,7 @@ Accept<br>
 <p>为什么要把HTTPS协议放在这里讲呢？</p>
 <p>因为HTTP报文是包裹在TCP报文中发送的，服务端收到TCP报文时候会解包提取出HTTP报文。<br>
 但是这个过程中存在一定的风险。HTTP报文是明文，如果中间被截取的话会存在一些信息泄露的危险。那么在进入TCP报文之前对HTTP做一次加密就可以解决这个问题了。HTTPS协议的本质就是HTTP + SSL(or TLS)<br>
-<img src="https://mathgod.github.io//post-images/1581082668788.jpg" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1581082668788.jpg" alt="" loading="lazy"></p>
 <h2 id="https过程">HTTPS过程</h2>
 <p>HTTPS在传输数据之前需要客户端与服务器进行一个握手(TLS/SSL握手)，在握手过程中将确立双方加密传输数据的密码信息。TLS/SSL使用了非对称加密，对称加密以及hash等。具体过程请参考经典的阮一峰先生的博客TLS/SSL握手过程。<br>
 HTTPS相比于HTTP，虽然提供了安全保证，但是势必会带来一些时间上的损耗，如握手和加密等过程，<br>
@@ -205,7 +205,7 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
       <div class="post-nav">
         
           <div class="prev-post">
-            <a href="https://mathgod.github.io/r0p4CTNqT">
+            <a href="http://localhost:4000/r0p4CTNqT">
               <h3 class="post-title">
                 <本打算年后回到公司就提辞职的，结果一拖再拖。
               </h3>
@@ -217,7 +217,7 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/0VYM6O3u4">
+            <a href="http://localhost:4000/0VYM6O3u4">
               <h3 class="post-title">
                 网站点缀特效都添加的差不多了，还差个全站PJAX无刷新技术。>
               </h3>
@@ -232,7 +232,7 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 
 <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://mathgod.github.io//atom.xml" target="_blank">
+  <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">
     <i class="ri-rss-line"></i> RSS
   </a>
 </div>
