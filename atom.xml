@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mathgod.github.io/</id>
+    <id>http://localhost:4000</id>
     <title>老王博客</title>
-    <updated>2020-02-12T08:55:50.064Z</updated>
+    <updated>2020-02-12T09:58:40.538Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mathgod.github.io/"/>
-    <link rel="self" href="https://mathgod.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>记录生活点滴、分享前端技术。</subtitle>
-    <logo>https://mathgod.github.io/images/avatar.png</logo>
-    <icon>https://mathgod.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
         <title type="html"><![CDATA[本打算年后回到公司就提辞职的，由于假期延长一拖再拖。]]></title>
-        <id>https://mathgod.github.io/r0p4CTNqT</id>
-        <link href="https://mathgod.github.io/r0p4CTNqT">
+        <id>http://localhost:4000/r0p4CTNqT</id>
+        <link href="http://localhost:4000/r0p4CTNqT">
         </link>
         <updated>2020-02-11T14:08:15.000Z</updated>
         <content type="html"><![CDATA[<p>今天是年后上班的第二天。下午，厂里有个员工测出高温，于是公司突然宣布又多放五天假。打电话给120处理了。</p>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[从输入URL到页面加载发生了什么？]]></title>
-        <id>https://mathgod.github.io/bQ0Q2_4_0</id>
-        <link href="https://mathgod.github.io/bQ0Q2_4_0">
+        <id>http://localhost:4000/bQ0Q2_4_0</id>
+        <link href="http://localhost:4000/bQ0Q2_4_0">
         </link>
         <updated>2020-02-06T13:30:18.000Z</updated>
         <summary type="html"><![CDATA[<h4 id="总体来说分为以下几个过程">总体来说分为以下几个过程:</h4>
@@ -59,7 +59,7 @@
 接收方:SYN/ACK(acknowledgement),确认信息传达<br>
 发送方:ACK - 确认接收方在线可收消息，握手结束<br>
 Accept<br>
-<img src="https://mathgod.github.io//post-images/1581082610268.jpg" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1581082610268.jpg" alt="" loading="lazy"><br>
 （1）第一次握手：建立连接时，客户端A发送SYN包（SYN=j）到服务器B，并进入SYN_SEND状态，等待服务器B确认。</p>
 <p>（2）第二次握手：服务器B收到SYN包，必须确认客户A的SYN（ACK=j+1），同时自己也发送一个SYN包（SYN=k），即SYN+ACK包，此时服务器B进入SYN_RECV状态。</p>
 <p>（3）第三次握手：客户端A收到服务器B的SYN＋ACK包，向服务器B发送确认包ACK（ACK=k+1），此包发送完毕，客户端A和服务器B进入ESTABLISHED状态，完成三次握手。</p>
@@ -68,7 +68,7 @@ Accept<br>
 <p>为什么要把HTTPS协议放在这里讲呢？</p>
 <p>因为HTTP报文是包裹在TCP报文中发送的，服务端收到TCP报文时候会解包提取出HTTP报文。<br>
 但是这个过程中存在一定的风险。HTTP报文是明文，如果中间被截取的话会存在一些信息泄露的危险。那么在进入TCP报文之前对HTTP做一次加密就可以解决这个问题了。HTTPS协议的本质就是HTTP + SSL(or TLS)<br>
-<img src="https://mathgod.github.io//post-images/1581082668788.jpg" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1581082668788.jpg" alt="" loading="lazy"></p>
 <h2 id="https过程">HTTPS过程</h2>
 <p>HTTPS在传输数据之前需要客户端与服务器进行一个握手(TLS/SSL握手)，在握手过程中将确立双方加密传输数据的密码信息。TLS/SSL使用了非对称加密，对称加密以及hash等。具体过程请参考经典的阮一峰先生的博客TLS/SSL握手过程。<br>
 HTTPS相比于HTTP，虽然提供了安全保证，但是势必会带来一些时间上的损耗，如握手和加密等过程，<br>
@@ -110,8 +110,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[网站点缀特效都添加的差不多了，还差个全站PJAX无刷新技术。]]></title>
-        <id>https://mathgod.github.io/0VYM6O3u4</id>
-        <link href="https://mathgod.github.io/0VYM6O3u4">
+        <id>http://localhost:4000/0VYM6O3u4</id>
+        <link href="http://localhost:4000/0VYM6O3u4">
         </link>
         <updated>2020-02-04T14:00:24.000Z</updated>
         <summary type="html"><![CDATA[<h4 id="已添加功能">已添加功能:</h4>
@@ -141,8 +141,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[发现个有趣规律，晚上网络比早上慢得多]]></title>
-        <id>https://mathgod.github.io/Jo40s-Ks6</id>
-        <link href="https://mathgod.github.io/Jo40s-Ks6">
+        <id>http://localhost:4000/Jo40s-Ks6</id>
+        <link href="http://localhost:4000/Jo40s-Ks6">
         </link>
         <updated>2020-02-01T14:42:43.000Z</updated>
         <content type="html"><![CDATA[<p>早上中午之前网络都很好，晚上点以后网络不给力，由此可推断出上网主力军大多晚睡晚起。</p>
@@ -151,8 +151,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[教初三妹妹学习真的好累。]]></title>
-        <id>https://mathgod.github.io/S3pLvWBb_</id>
-        <link href="https://mathgod.github.io/S3pLvWBb_">
+        <id>http://localhost:4000/S3pLvWBb_</id>
+        <link href="http://localhost:4000/S3pLvWBb_">
         </link>
         <updated>2020-01-30T14:27:04.000Z</updated>
         <content type="html"><![CDATA[<p>她真的很差，又懒又蠢作息异常还不肯改。不知道几个月后能否考上高中，哪怕是县里最差的高中也好。</p>
@@ -160,8 +160,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[原来热搜全是明星的日子才是真正的国泰民安]]></title>
-        <id>https://mathgod.github.io/KFSyCoevr</id>
-        <link href="https://mathgod.github.io/KFSyCoevr">
+        <id>http://localhost:4000/KFSyCoevr</id>
+        <link href="http://localhost:4000/KFSyCoevr">
         </link>
         <updated>2020-01-29T08:56:48.000Z</updated>
         <content type="html"><![CDATA[<p>原来热搜全是明星的日子才是真正的国泰民安</p>
@@ -169,8 +169,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[今天公司通知上班时间又延迟了，10号上班。。。]]></title>
-        <id>https://mathgod.github.io/EBzrCfQKJ</id>
-        <link href="https://mathgod.github.io/EBzrCfQKJ">
+        <id>http://localhost:4000/EBzrCfQKJ</id>
+        <link href="http://localhost:4000/EBzrCfQKJ">
         </link>
         <updated>2020-01-29T08:39:36.000Z</updated>
         <content type="html"><![CDATA[<p>本来最开始是明天也就是年初六上班的，推迟到3号，现在又推迟到10号。看来辞职找工作都会受到影响。</p>
@@ -178,8 +178,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[4481例了...死亡106...可怕]]></title>
-        <id>https://mathgod.github.io/aN-m9Ev6h</id>
-        <link href="https://mathgod.github.io/aN-m9Ev6h">
+        <id>http://localhost:4000/aN-m9Ev6h</id>
+        <link href="http://localhost:4000/aN-m9Ev6h">
         </link>
         <updated>2020-01-28T01:50:59.000Z</updated>
         <content type="html"><![CDATA[<p>截至目前</p>
@@ -187,8 +187,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[大年初三，科比去世，阿富汗航班坠机死83人，公司通知假期延长。]]></title>
-        <id>https://mathgod.github.io/8izS_1bFg</id>
-        <link href="https://mathgod.github.io/8izS_1bFg">
+        <id>http://localhost:4000/8izS_1bFg</id>
+        <link href="http://localhost:4000/8izS_1bFg">
         </link>
         <updated>2020-01-27T15:36:50.000Z</updated>
         <content type="html"><![CDATA[<p>肺炎患者确诊人数持续增加</p>
@@ -200,8 +200,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
     </entry>
     <entry>
         <title type="html"><![CDATA[大年初二，小镇的大街上没几个人]]></title>
-        <id>https://mathgod.github.io/VJIZazifl</id>
-        <link href="https://mathgod.github.io/VJIZazifl">
+        <id>http://localhost:4000/VJIZazifl</id>
+        <link href="http://localhost:4000/VJIZazifl">
         </link>
         <updated>2020-01-26T12:46:58.000Z</updated>
         <content type="html"><![CDATA[<p>今天转冷了，明天会更冷，街上很荒凉，没年味。</p>

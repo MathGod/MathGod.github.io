@@ -5029,7 +5029,7 @@ font-size: 1.5rem;
     top: 0;
     left: 0;
     z-index: -3;
-background: #f7f4ef00;
+background: #51cf6600;
 }
     
       body {
@@ -5047,11 +5047,6 @@ background: #f7f4ef00;
     background-attachment: fixed;
     background-size: cover;
     z-index: -10;
-}
-
-.caidan{
-background: #fff;
-
 }
 
 .caidan .menu-container
