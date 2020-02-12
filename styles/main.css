@@ -4372,6 +4372,7 @@ td {
 .site-header .avatar {
   border: #ffff00 solid 4px;
   margin-bottom: 0px;
+margin-top: 60px;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -4383,7 +4384,7 @@ transform: rotate(360deg);
 }
 
 .site-header .social-container {
-  padding: 3px;
+  padding: 10px;
   font-size: 18px;
 }
 .site-header .social-container a {
