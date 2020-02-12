@@ -4343,7 +4343,7 @@ td {
   padding: 0;
 }
 .site-header {
-  padding: 30px 0 2px 0;
+  padding: 60px 0 2px 0;
   text-align: center;
 }
 .site-header .site-title {
@@ -5051,7 +5051,7 @@ background: #f5fff6;
 }
 
 .caidan
-{width: 660px;
+{width: 100%;
 position: fixed;
 background-color: #96edd1d4;
 }
@@ -5064,7 +5064,7 @@ background-color: #96edd1d4;
 .caidan .menu-container a.menu{
 font-size: 22px;
     color: #fff;
-    padding: 8px 22px;
+    padding: 8px 45px;
     flex-shrink: 0;
     font-weight: 600;
 }
