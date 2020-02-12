@@ -4343,7 +4343,7 @@ td {
   padding: 0;
 }
 .site-header {
-  padding: 60px 0 2px 0;
+  padding: 90px 0 2px 0;
   text-align: center;
 }
 .site-header .site-title {
@@ -4373,8 +4373,8 @@ td {
   border: #ffff00 solid 4px;
   margin-bottom: 0px;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 transition: all 1.5s;
 }
 
@@ -4404,7 +4404,7 @@ transform: rotate(360deg);
 }
 .post-container .post {
   padding: 0 12px 40px 12px;
-    background: #ffffffb8;
+    background: #ffffffd1;
     margin:0 12px 40px 12px;
 border-radius: 5px;
 }
