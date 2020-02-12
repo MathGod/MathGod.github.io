@@ -5069,6 +5069,19 @@ font-size: 22px;
     font-weight: 600;
 }
 
+@media screen and ( max-width: 600px ) {
+.caidan .menu-container a.menu{
+font-size: 22px;
+    color: #fff;
+    flex-shrink: 0;
+    font-weight: 600;
+    padding: 8px 14px;
+    flex: 1;
+    -webkit-box-flex: 1;
+    margin: 0;
+text-align: center;
+}}
+
 *, *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 .site-title{ position: relative; margin: 0 auto; transition-duration: .5s; }
 .site-title{ width: 255px; overflow: hidden; }
