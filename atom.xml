@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-13T05:21:54.352Z</updated>
+    <updated>2020-02-13T05:24:24.768Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://mathgod.github.io/cpWjmHxi9">
         </link>
         <updated>2020-02-13T01:36:58.000Z</updated>
-        <summary type="html"><![CDATA[<p><em>浏览别人的技术博客时经常看到代码块，于是今天花了一个早上研究了markdown代码块，并顺便写个教程。</em><br>
+        <summary type="html"><![CDATA[<p><em>浏览别技术博客时经常能看到代码块，预想写教程时免不了要插入代码，于是今天花了一个早上研究了markdown代码块语法，并顺便写个教程。</em><br>
  </p>
 <h2 id="防止转译">防止转译</h2>
 <h3 id="方法">方法：</h3>
@@ -54,7 +54,7 @@ print(&quot;Hello, World!&quot;);
 fun();
 </code></pre>
 ]]></summary>
-        <content type="html"><![CDATA[<p><em>浏览别人的技术博客时经常看到代码块，于是今天花了一个早上研究了markdown代码块，并顺便写个教程。</em><br>
+        <content type="html"><![CDATA[<p><em>浏览别技术博客时经常能看到代码块，预想写教程时免不了要插入代码，于是今天花了一个早上研究了markdown代码块语法，并顺便写个教程。</em><br>
  </p>
 <h2 id="防止转译">防止转译</h2>
 <h3 id="方法">方法：</h3>
