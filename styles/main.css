@@ -5062,7 +5062,7 @@ background-color: #96edd1d4;
     flex-wrap: wrap;
 }
 .caidan .menu-container a.menu{
-font-size: 22px;
+font-size: 21px;
     color: #fff;
     padding: 6px 45px;
     flex-shrink: 0;
@@ -5071,11 +5071,11 @@ font-size: 22px;
 
 @media screen and ( max-width: 600px ) {
 .caidan .menu-container a.menu{
-font-size: 16px;
+font-size: 18px;
     color: #fff;
     flex-shrink: 0;
     font-weight: bolder;
-    padding: 5px 14px;
+    padding: 8px 12px;
     flex: 1;
     -webkit-box-flex: 1;
     margin: 0;
