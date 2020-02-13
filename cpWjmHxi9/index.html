@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>markdown插入代码块和代码高亮语法 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1581569786995">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1581570698291">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="markdown插入代码块和代码高亮语法 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -12,19 +12,16 @@
 
 
 
-    <meta name="description" content="单行代码
+    <meta name="description" content="防止转译
 方法：
-代码之间分别用一个反引号包起来
-'Hello World'
-
-效果：
-Hello World
+每行缩进 4 个空格，缩进式插入前方必须有空行。
+作用 ：
+此方法可防止转译，主要用来写教程，因为教程的示例代码不长，每行单独空四格也不会浪费太多时间，而展示太长代码则此方法不适用。
  
  
-多行代码
-方法:
-方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。
-方法2.缩进 4 个空格（..." />
+单行代码
+方法：
+代码之间分别..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -86,15 +83,22 @@ Hello World
                 2020-02-13
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h2 id="单行代码">单行代码</h2>
+                <h2 id="防止转译">防止转译</h2>
 <h3 id="方法">方法：</h3>
+<p>每行缩进 4 个空格，缩进式插入前方必须有空行。</p>
+<h3 id="作用">作用 ：</h3>
+<p>此方法可防止转译，主要用来写教程，因为教程的示例代码不长，每行单独空四格也不会浪费太多时间，而展示太长代码则此方法不适用。<br>
+ <br>
+ </p>
+<h2 id="单行代码">单行代码</h2>
+<h3 id="方法-2">方法：</h3>
 <p>代码之间分别用一个反引号包起来</p>
 <pre><code class="language-markdown">'Hello World'
 </code></pre>
@@ -103,9 +107,8 @@ Hello World
 <p> <br>
  </p>
 <h2 id="多行代码">多行代码</h2>
-<h3 id="方法-2">方法:</h3>
-<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。<br>
-方法2.缩进 4 个空格（缩进式插入前方必须有空行），此方法可防止转译。</p>
+<h3 id="方法-3">方法:</h3>
+<p>代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。</p>
 <pre><code>```
 function fun(){
 echo $a;
@@ -126,8 +129,26 @@ fun();
 <p> <br>
  </p>
 <h2 id="代码高亮">代码高亮</h2>
-<h3 id="方法-3">方法：</h3>
+<h3 id="方法-4">方法：</h3>
 <p>在第一行的三个反引号```后面加php或python等词可代码高亮。</p>
+<pre><code>```php
+function fun(){
+ $a=123;
+ echo &quot;这是一句非常牛逼的代码&quot;;
+ print(&quot;Hello, World!&quot;);
+}
+fun();
+```
+
+```python
+function fun(){
+ $a=123;
+ echo &quot;这是一句非常牛逼的代码&quot;;
+ print(&quot;Hello, World!&quot;);
+}
+fun();
+```
+</code></pre>
 <h3 id="加php的效果">加php的效果：</h3>
 <pre><code class="language-php">function fun(){
   $a=123;
@@ -150,21 +171,27 @@ fun();
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81">单行代码</a>
+<li><a href="#%E9%98%B2%E6%AD%A2%E8%BD%AC%E8%AF%91">防止转译</a>
 <ul>
 <li><a href="#%E6%96%B9%E6%B3%95">方法：</a></li>
+<li><a href="#%E4%BD%9C%E7%94%A8">作用 ：</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81">单行代码</a>
+<ul>
+<li><a href="#%E6%96%B9%E6%B3%95-2">方法：</a></li>
 <li><a href="#%E6%95%88%E6%9E%9C">效果：</a></li>
 </ul>
 </li>
 <li><a href="#%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81">多行代码</a>
 <ul>
-<li><a href="#%E6%96%B9%E6%B3%95-2">方法:</a></li>
+<li><a href="#%E6%96%B9%E6%B3%95-3">方法:</a></li>
 <li><a href="#%E6%95%88%E6%9E%9C-2">效果：</a></li>
 </ul>
 </li>
 <li><a href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE">代码高亮</a>
 <ul>
-<li><a href="#%E6%96%B9%E6%B3%95-3">方法：</a></li>
+<li><a href="#%E6%96%B9%E6%B3%95-4">方法：</a></li>
 <li><a href="#%E5%8A%A0php%E7%9A%84%E6%95%88%E6%9E%9C">加php的效果：</a></li>
 <li><a href="#%E5%8A%A0python%E7%9A%84%E6%95%88%E6%9E%9C">加python的效果：</a></li>
 </ul>
