@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-13T05:11:43.392Z</updated>
+    <updated>2020-02-13T05:21:33.439Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,7 +16,9 @@
         <link href="https://mathgod.github.io/cpWjmHxi9">
         </link>
         <updated>2020-02-13T01:36:58.000Z</updated>
-        <summary type="html"><![CDATA[<h2 id="防止转译">防止转译</h2>
+        <summary type="html"><![CDATA[<p><em>浏览别人的技术博客时经常看到代码块，于是今天花了一个早上研究了markdown代码块，并顺便写个教程。</em><br>
+ </p>
+<h2 id="防止转译">防止转译</h2>
 <h3 id="方法">方法：</h3>
 <p>每行缩进 4 个空格，缩进式插入前方必须有空行。</p>
 <h3 id="作用">作用 ：</h3>
@@ -52,7 +54,9 @@ print(&quot;Hello, World!&quot;);
 fun();
 </code></pre>
 ]]></summary>
-        <content type="html"><![CDATA[<h2 id="防止转译">防止转译</h2>
+        <content type="html"><![CDATA[<p><em>浏览别人的技术博客时经常看到代码块，于是今天花了一个早上研究了markdown代码块，并顺便写个教程。</em><br>
+ </p>
+<h2 id="防止转译">防止转译</h2>
 <h3 id="方法">方法：</h3>
 <p>每行缩进 4 个空格，缩进式插入前方必须有空行。</p>
 <h3 id="作用">作用 ：</h3>
