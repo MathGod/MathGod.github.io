@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-13T01:36:17.427Z</updated>
+    <updated>2020-02-13T03:17:01.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,97 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[markdown插入代码块和代码高亮语法]]></title>
+        <id>https://mathgod.github.io/cpWjmHxi9</id>
+        <link href="https://mathgod.github.io/cpWjmHxi9">
+        </link>
+        <updated>2020-02-13T01:36:58.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="单行代码">单行代码</h1>
+<h2 id="方法">方法：</h2>
+<p>代码之间分别用一个反引号包起来</p>
+<pre><code class="language-markdown">'Hello World'
+</code></pre>
+<h2 id="效果">效果：</h2>
+<p><code>Hello World</code></p>
+<p> <br>
+ </p>
+<h1 id="多行代码">多行代码：</h1>
+<h2 id="方法-2">方法:</h2>
+<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防转译，要去掉。）<br>
+方法2.缩进 4 个空格（缩进式插入前方必须有空行）</p>
+<pre><code class="language-markdown">```）
+function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+```）
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="单行代码">单行代码</h1>
+<h2 id="方法">方法：</h2>
+<p>代码之间分别用一个反引号包起来</p>
+<pre><code class="language-markdown">'Hello World'
+</code></pre>
+<h2 id="效果">效果：</h2>
+<p><code>Hello World</code></p>
+<p> <br>
+ </p>
+<h1 id="多行代码">多行代码：</h1>
+<h2 id="方法-2">方法:</h2>
+<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防转译，要去掉。）<br>
+方法2.缩进 4 个空格（缩进式插入前方必须有空行）</p>
+<pre><code class="language-markdown">```）
+function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+```）
+</code></pre>
+<!-- more -->
+<h2 id="效果-2">效果：</h2>
+<pre><code class="language-markdown">function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+fun();
+</code></pre>
+<p> <br>
+ </p>
+<h1 id="代码高亮和防转译">代码高亮和防转译</h1>
+<h2 id="方法-3">方法：</h2>
+<p>在第一行的三个反引号```后面加php或python等词。加markdown可防止转译，且无高亮效果。</p>
+<h2 id="加php的效果">加php的效果：</h2>
+<pre><code class="language-php">function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+fun();
+</code></pre>
+<h2 id="加python的效果">加python的效果：</h2>
+<pre><code class="language-python">function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+fun();
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[本打算年后回到公司就提辞职的，由于假期延长一拖再拖。]]></title>
         <id>https://mathgod.github.io/r0p4CTNqT</id>
@@ -197,15 +288,6 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 科比竟然死了，还有他的二女儿，记得大学时期还看过他的退役赛，一起黑过他踢足球打羽毛球乒乓球，才41岁，正直中年，说不上伤心，有些惋惜罢了。</p>
 <p>公司假期延长，小开心。</p>
 <p>晚安，地球。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大年初二，小镇的大街上没几个人]]></title>
-        <id>https://mathgod.github.io/VJIZazifl</id>
-        <link href="https://mathgod.github.io/VJIZazifl">
-        </link>
-        <updated>2020-01-26T12:46:58.000Z</updated>
-        <content type="html"><![CDATA[<p>今天转冷了，明天会更冷，街上很荒凉，没年味。</p>
 ]]></content>
     </entry>
 </feed>

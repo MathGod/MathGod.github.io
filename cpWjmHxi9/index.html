@@ -2,18 +2,28 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>很快就过年了 | 老王博客</title>
+<title>markdown插入代码块和代码高亮语法 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1581563811353">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="很快就过年了 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="markdown插入代码块和代码高亮语法 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="心情很平静
-" />
+    <meta name="description" content="单行代码
+方法：
+代码之间分别用一个反引号包起来
+'Hello World'
+
+效果：
+Hello World
+ 
+ 
+多行代码：
+方法:
+方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -68,25 +78,104 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              很快就过年了
+              markdown插入代码块和代码高亮语法
             </h2>
             <div class="post-info">
               <span>
-                2020-01-11
+                2020-02-13
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>心情很平静</p>
+                <h1 id="单行代码">单行代码</h1>
+<h2 id="方法">方法：</h2>
+<p>代码之间分别用一个反引号包起来</p>
+<pre><code class="language-markdown">'Hello World'
+</code></pre>
+<h2 id="效果">效果：</h2>
+<p><code>Hello World</code></p>
+<p> <br>
+ </p>
+<h1 id="多行代码">多行代码：</h1>
+<h2 id="方法-2">方法:</h2>
+<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防转译，要去掉。）<br>
+方法2.缩进 4 个空格（缩进式插入前方必须有空行）</p>
+<pre><code class="language-markdown">```）
+function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+```）
+</code></pre>
+<!-- more -->
+<h2 id="效果-2">效果：</h2>
+<pre><code class="language-markdown">function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+fun();
+</code></pre>
+<p> <br>
+ </p>
+<h1 id="代码高亮和防转译">代码高亮和防转译</h1>
+<h2 id="方法-3">方法：</h2>
+<p>在第一行的三个反引号```后面加php或python等词。加markdown可防止转译，且无高亮效果。</p>
+<h2 id="加php的效果">加php的效果：</h2>
+<pre><code class="language-php">function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+fun();
+</code></pre>
+<h2 id="加python的效果">加python的效果：</h2>
+<pre><code class="language-python">function fun(){
+  $a=123;
+  echo $a;
+  echo &quot;这是一句非常牛逼的代码&quot;;
+  print $a;
+  printf(&quot;这是一句非常牛逼的代码&quot;);
+}
+fun();
+</code></pre>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li><a href="#%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81">单行代码</a>
+<ul>
+<li><a href="#%E6%96%B9%E6%B3%95">方法：</a></li>
+<li><a href="#%E6%95%88%E6%9E%9C">效果：</a></li>
+</ul>
+</li>
+<li><a href="#%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81">多行代码：</a>
+<ul>
+<li><a href="#%E6%96%B9%E6%B3%95-2">方法:</a></li>
+<li><a href="#%E6%95%88%E6%9E%9C-2">效果：</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E5%92%8C%E9%98%B2%E8%BD%AC%E8%AF%91">代码高亮和防转译</a>
+<ul>
+<li><a href="#%E6%96%B9%E6%B3%95-3">方法：</a></li>
+<li><a href="#%E5%8A%A0php%E7%9A%84%E6%95%88%E6%9E%9C">加php的效果：</a></li>
+<li><a href="#%E5%8A%A0python%E7%9A%84%E6%95%88%E6%9E%9C">加python的效果：</a></li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -94,22 +183,14 @@
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/guo-nian-cai-fang-qi-tian-jia-la-ji-gong-han">
-              <h3 class="post-title">
-                <过年才放七天假
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/hello-gridea">
+            <a href="https://mathgod.github.io/r0p4CTNqT">
               <h3 class="post-title">
-                Hello Gridea>
+                本打算年后回到公司就提辞职的，由于假期延长一拖再拖。>
               </h3>
             </a>
           </div>
