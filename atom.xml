@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-13T09:53:05.009Z</updated>
+    <updated>2020-02-13T13:43:17.388Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -90,17 +90,10 @@ function fun(){
  print(&quot;Hello, World!&quot;);
 }
 fun();
-```
-
-```python
-function fun(){
- $a=123;
- echo &quot;这是一句非常牛逼的代码&quot;;
- print(&quot;Hello, World!&quot;);
-}
-fun();
-```
+```  
 </code></pre>
+<p> <br>
+<code>python function fun(){ $a=123; echo &quot;这是一句非常牛逼的代码&quot;; print(&quot;Hello, World!&quot;); } fun();</code></p>
 <h3 id="加php的效果">加php的效果：</h3>
 <pre><code class="language-php">function fun(){
   $a=123;
