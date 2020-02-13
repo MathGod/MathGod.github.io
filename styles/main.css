@@ -4372,7 +4372,6 @@ td {
 .site-header .avatar {
   border: #ffff00 solid 4px;
   margin-bottom: 0px;
-margin-top: 60px;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -4393,7 +4392,7 @@ transform: rotate(360deg);
 }
 @media (max-width: 600px) {
   .site-header {
-    padding: 6px 0 0 0;
+    padding: 80px 0 0 0;
   }
   .site-header .avatar {
     width: 80px;
@@ -5031,7 +5030,7 @@ font-size: 1.5rem;
     top: 0;
     left: 0;
     z-index: -3;
-background: #f5fff6;
+background: #eefaef;
 }
     
       body {
@@ -5065,18 +5064,18 @@ background-color: #96edd1d4;
 .caidan .menu-container a.menu{
 font-size: 22px;
     color: #fff;
-    padding: 8px 45px;
+    padding: 6px 45px;
     flex-shrink: 0;
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 @media screen and ( max-width: 600px ) {
 .caidan .menu-container a.menu{
-font-size: 22px;
+font-size: 16px;
     color: #fff;
     flex-shrink: 0;
-    font-weight: 600;
-    padding: 8px 14px;
+    font-weight: bolder;
+    padding: 5px 14px;
     flex: 1;
     -webkit-box-flex: 1;
     margin: 0;
