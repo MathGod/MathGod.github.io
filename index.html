@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1581568303282">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1581569786995">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -64,7 +64,7 @@
     <div class="main">
         <div class="site-header">
   <a href="https://mathgod.github.io/">
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1581568303282" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1581569786995" alt="">
   </a>
   <h1 class="site-title">
     老王博客
@@ -133,42 +133,38 @@
           2020-02-13
         </span>
         <span>
-          2 min read
+          1 min read
         </span>
         
       </div>
       
       <div class="post-abstract">
-        <h3 id="单行代码">单行代码</h3>
-<h4 id="方法">方法：</h4>
+        <h2 id="单行代码">单行代码</h2>
+<h3 id="方法">方法：</h3>
 <p>代码之间分别用一个反引号包起来</p>
 <pre><code class="language-markdown">'Hello World'
 </code></pre>
-<h4 id="效果">效果：</h4>
+<h3 id="效果">效果：</h3>
 <p><code>Hello World</code></p>
 <p> <br>
  </p>
-<h3 id="多行代码">多行代码</h3>
-<h4 id="方法-2">方法:</h4>
-<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防转译，要去掉。）<br>
-方法2.缩进 4 个空格（缩进式插入前方必须有空行）</p>
-<pre><code class="language-markdown">```）
+<h2 id="多行代码">多行代码</h2>
+<h3 id="方法-2">方法:</h3>
+<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。<br>
+方法2.缩进 4 个空格（缩进式插入前方必须有空行），此方法可防止转译。</p>
+<pre><code>```
 function fun(){
-  $a=123;
-  echo $a;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+echo $a;
+echo &quot;这是一句非常牛逼的代码&quot;;
+print(&quot;Hello, World!&quot;);
 }
-```）
+```
 </code></pre>
-<h4 id="效果-2">效果：</h4>
-<pre><code class="language-markdown">function fun(){
-  $a=123;
+<h3 id="效果-2">效果：</h3>
+<pre><code>function fun(){
   echo $a;
   echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+  print(&quot;Hello, World!&quot;);
 }
 fun();
 </code></pre>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-13T04:32:25.959Z</updated>
+    <updated>2020-02-13T04:56:34.520Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,96 +16,84 @@
         <link href="https://mathgod.github.io/cpWjmHxi9">
         </link>
         <updated>2020-02-13T01:36:58.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="单行代码">单行代码</h3>
-<h4 id="方法">方法：</h4>
+        <summary type="html"><![CDATA[<h2 id="单行代码">单行代码</h2>
+<h3 id="方法">方法：</h3>
 <p>代码之间分别用一个反引号包起来</p>
 <pre><code class="language-markdown">'Hello World'
 </code></pre>
-<h4 id="效果">效果：</h4>
+<h3 id="效果">效果：</h3>
 <p><code>Hello World</code></p>
 <p> <br>
  </p>
-<h3 id="多行代码">多行代码</h3>
-<h4 id="方法-2">方法:</h4>
-<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防转译，要去掉。）<br>
-方法2.缩进 4 个空格（缩进式插入前方必须有空行）</p>
-<pre><code class="language-markdown">```）
+<h2 id="多行代码">多行代码</h2>
+<h3 id="方法-2">方法:</h3>
+<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。<br>
+方法2.缩进 4 个空格（缩进式插入前方必须有空行），此方法可防止转译。</p>
+<pre><code>```
 function fun(){
-  $a=123;
-  echo $a;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+echo $a;
+echo &quot;这是一句非常牛逼的代码&quot;;
+print(&quot;Hello, World!&quot;);
 }
-```）
+```
 </code></pre>
-<h4 id="效果-2">效果：</h4>
-<pre><code class="language-markdown">function fun(){
-  $a=123;
+<h3 id="效果-2">效果：</h3>
+<pre><code>function fun(){
   echo $a;
   echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+  print(&quot;Hello, World!&quot;);
 }
 fun();
 </code></pre>
 ]]></summary>
-        <content type="html"><![CDATA[<h3 id="单行代码">单行代码</h3>
-<h4 id="方法">方法：</h4>
+        <content type="html"><![CDATA[<h2 id="单行代码">单行代码</h2>
+<h3 id="方法">方法：</h3>
 <p>代码之间分别用一个反引号包起来</p>
 <pre><code class="language-markdown">'Hello World'
 </code></pre>
-<h4 id="效果">效果：</h4>
+<h3 id="效果">效果：</h3>
 <p><code>Hello World</code></p>
 <p> <br>
  </p>
-<h3 id="多行代码">多行代码</h3>
-<h4 id="方法-2">方法:</h4>
-<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。（下文的前后两个右括号是防转译，要去掉。）<br>
-方法2.缩进 4 个空格（缩进式插入前方必须有空行）</p>
-<pre><code class="language-markdown">```）
+<h2 id="多行代码">多行代码</h2>
+<h3 id="方法-2">方法:</h3>
+<p>方法1.代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。<br>
+方法2.缩进 4 个空格（缩进式插入前方必须有空行），此方法可防止转译。</p>
+<pre><code>```
 function fun(){
-  $a=123;
-  echo $a;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+echo $a;
+echo &quot;这是一句非常牛逼的代码&quot;;
+print(&quot;Hello, World!&quot;);
 }
-```）
+```
 </code></pre>
-<h4 id="效果-2">效果：</h4>
-<pre><code class="language-markdown">function fun(){
-  $a=123;
+<h3 id="效果-2">效果：</h3>
+<pre><code>function fun(){
   echo $a;
   echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+  print(&quot;Hello, World!&quot;);
 }
 fun();
 </code></pre>
 <!-- more -->
 <p> <br>
  </p>
-<h3 id="代码高亮和防转译">代码高亮和防转译</h3>
-<h4 id="方法-3">方法：</h4>
-<p>在第一行的三个反引号```后面加php或python等词。加markdown可防止转译，且无高亮效果。</p>
-<h4 id="加php的效果">加php的效果：</h4>
+<h2 id="代码高亮">代码高亮</h2>
+<h3 id="方法-3">方法：</h3>
+<p>在第一行的三个反引号```后面加php或python等词可代码高亮。</p>
+<h3 id="加php的效果">加php的效果：</h3>
 <pre><code class="language-php">function fun(){
   $a=123;
-  echo $a;
   echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+  print(&quot;Hello, World!&quot;);
 }
 fun();
 </code></pre>
-<h4 id="加python的效果">加python的效果：</h4>
+<h3 id="加python的效果">加python的效果：</h3>
 <pre><code class="language-python">function fun(){
   $a=123;
-  echo $a;
   echo &quot;这是一句非常牛逼的代码&quot;;
-  print $a;
-  printf(&quot;这是一句非常牛逼的代码&quot;);
+  print(&quot;Hello, World!&quot;);
 }
 fun();
 </code></pre>
