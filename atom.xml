@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-14T00:31:31.145Z</updated>
+    <updated>2020-02-14T00:38:57.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,22 +10,6 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
-    <entry>
-        <title type="html"><![CDATA[6毛成本卖1块钱违法，那卖7毛钱也违法喽？]]></title>
-        <id>https://mathgod.github.io/IwlSMQGZk</id>
-        <link href="https://mathgod.github.io/IwlSMQGZk">
-        </link>
-        <updated>2020-02-14T00:24:50.000Z</updated>
-        <summary type="html"><![CDATA[<p>按7毛钱卖的话购销差价额也超过15%了，<br>
- <br>
-可笑。鄂地真的官僚形式主义一塌糊涂，所以一环出了问题，全部1掉链子，见都捡不起。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>按7毛钱卖的话购销差价额也超过15%了，<br>
- <br>
-可笑。鄂地真的官僚形式主义一塌糊涂，所以一环出了问题，全部1掉链子，见都捡不起。</p>
-<!-- more -->
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[markdown插入代码块和代码高亮语法]]></title>
         <id>https://mathgod.github.io/cpWjmHxi9</id>
@@ -141,6 +125,22 @@ fun();
 <p>每行缩进 4 个空格，缩进式插入前方必须有空行。</p>
 <h3 id="作用">作用 ：</h3>
 <p>此方法可防止转译，主要用来写教程，因为教程的示例代码不长，每行单独空四格也不会浪费太多时间，而展示太长代码则此方法不适用。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6毛成本卖1块钱违法，那卖7毛钱也违法喽？]]></title>
+        <id>https://mathgod.github.io/IwlSMQGZk</id>
+        <link href="https://mathgod.github.io/IwlSMQGZk">
+        </link>
+        <updated>2020-02-13T00:24:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>按7毛钱卖的话购销差价额也超过15%了。（0.7-0.6）/0.6=16.7%<br>
+ <br>
+湖北的新闻一次又一次刷新我的认知下限</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>按7毛钱卖的话购销差价额也超过15%了。（0.7-0.6）/0.6=16.7%<br>
+ <br>
+湖北的新闻一次又一次刷新我的认知下限</p>
+<!-- more -->
 ]]></content>
     </entry>
     <entry>
