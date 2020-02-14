@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-13T13:44:26.452Z</updated>
+    <updated>2020-02-14T00:28:39.806Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[6毛成本卖1块钱违法，那卖7毛钱也违法喽？]]></title>
+        <id>https://mathgod.github.io/IwlSMQGZk</id>
+        <link href="https://mathgod.github.io/IwlSMQGZk">
+        </link>
+        <updated>2020-02-14T00:24:50.000Z</updated>
+        <content type="html"><![CDATA[<p>按7毛钱卖的话购销差价额也超过15%了，可笑。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[markdown插入代码块和代码高亮语法]]></title>
         <id>https://mathgod.github.io/cpWjmHxi9</id>
@@ -301,19 +310,6 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
         </link>
         <updated>2020-01-28T01:50:59.000Z</updated>
         <content type="html"><![CDATA[<p>截至目前</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大年初三，科比去世，阿富汗航班坠机死83人，公司通知假期延长。]]></title>
-        <id>https://mathgod.github.io/8izS_1bFg</id>
-        <link href="https://mathgod.github.io/8izS_1bFg">
-        </link>
-        <updated>2020-01-27T15:36:50.000Z</updated>
-        <content type="html"><![CDATA[<p>肺炎患者确诊人数持续增加</p>
-<p>看来以后真的不能坐飞机，一出事就是团灭，真的是太惨。之前被伊朗打下的乌克兰飞机也是。<br>
-科比竟然死了，还有他的二女儿，记得大学时期还看过他的退役赛，一起黑过他踢足球打羽毛球乒乓球，才41岁，正直中年，说不上伤心，有些惋惜罢了。</p>
-<p>公司假期延长，小开心。</p>
-<p>晚安，地球。</p>
 ]]></content>
     </entry>
 </feed>
