@@ -18,13 +18,7 @@
   <!--<body class="bg" style="background-image:url(https://i.loli.net/2020/01/25/sO8VpFH6GwUmi4l.jpg)">-->
   <body>
   
-  <script>
-  if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js');
-  });
-}
- </script>
+
 
         <div class="caidan">
   <div class="menu-container">
@@ -299,7 +293,13 @@ document.getElementById('days').innerHTML = number_of_days;
       </div>
     </div>
 
-
+  <script>
+  if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
+ </script>
 
   </body>
 </html>
