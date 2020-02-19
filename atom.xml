@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-19T09:33:49.576Z</updated>
+    <updated>2020-02-19T09:35:23.760Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,20 +10,6 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
-    <entry>
-        <title type="html"><![CDATA[个人项目/作品（持续更新中）]]></title>
-        <id>https://mathgod.github.io/MDsNUIMhh</id>
-        <link href="https://mathgod.github.io/MDsNUIMhh">
-        </link>
-        <updated>2020-02-19T09:19:49.000Z</updated>
-        <content type="html"><![CDATA[<p>四轴飞行器</p>
-<p>自平衡小车</p>
-<p>电子十字路口交通灯</p>
-<p>大学论坛</p>
-<p>对象搜索系统</p>
-<p>app</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[nodejs是用来做什么的]]></title>
         <id>https://mathgod.github.io/ZgezxDefR</id>
@@ -355,6 +341,15 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
         </link>
         <updated>2020-01-29T08:56:48.000Z</updated>
         <content type="html"><![CDATA[<p>原来热搜全是明星的日子才是真正的国泰民安</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今天公司通知上班时间又延迟了，10号上班。。。]]></title>
+        <id>https://mathgod.github.io/EBzrCfQKJ</id>
+        <link href="https://mathgod.github.io/EBzrCfQKJ">
+        </link>
+        <updated>2020-01-29T08:39:36.000Z</updated>
+        <content type="html"><![CDATA[<p>本来最开始是明天也就是年初六上班的，推迟到3号，现在又推迟到10号。看来辞职找工作都会受到影响。</p>
 ]]></content>
     </entry>
 </feed>
