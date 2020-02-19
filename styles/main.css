@@ -5065,7 +5065,7 @@ background-color: #96edd1d4;
 .caidan .menu-container a.menu{
 font-size: 21px;
     color: #fff;
-    padding: 6px 45px;
+    padding: 6px 35px;
     flex-shrink: 0;
     font-weight: bolder;
 }
@@ -5076,7 +5076,7 @@ font-size: 18px;
     color: #fff;
     flex-shrink: 0;
     font-weight: bolder;
-    padding: 8px 12px;
+    padding: 8px 10px;
     flex: 1;
     -webkit-box-flex: 1;
     margin: 0;
