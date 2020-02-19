@@ -1,6 +1,6 @@
 {
 	"name": "老王博客",
-	"short_name": "老王",
+	"short_name": "老王博客",
 	"start_url": "/",
 	"display": "standalone",
 	    "theme_color": "#fff",
