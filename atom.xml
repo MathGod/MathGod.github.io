@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-20T09:47:54.138Z</updated>
+    <updated>2020-02-20T09:56:56.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -283,6 +283,35 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[m3u8格式视频探索]]></title>
+        <id>https://mathgod.github.io/m3u8</id>
+        <link href="https://mathgod.github.io/m3u8">
+        </link>
+        <updated>2020-02-03T09:51:29.000Z</updated>
+        <content type="html"><![CDATA[<p>过年整舔在家没事做，到处浏览各种视频电影。</p>
+<p>有一天不小心点开一个有趣视频的网站，于是想下载到本地深入学习。</p>
+<p>第一步我肯定是找下载按钮的，不出意外当然找不到。</p>
+<p>然后对着视频单击右键，毫无疑问再次找不到另存视频按键。</p>
+<p>是时候展现真正的技术了！</p>
+<p>接下来肯定是按F12打开开发者选项的networok了，然后找了半天还是没找到视频文件。</p>
+<p>一直找一直找还是没找到，我开始懵逼了。？？？不应该呀</p>
+<p>找了半天看到两个以.m3u8为后缀的文件，但是文件很小，所以不可能包含整个视频文件。</p>
+<p>但我印象中m3u8肯定跟视频有关联，是一种视频格式。</p>
+<p>接下来我就看到上百个.ts文件，每个ts文件1M左右，内容是10秒左右的视频。</p>
+<p>所以我就理解为m3u8视频是由多个文件拼接的一种视频格式。百度了下也差不多这个意思。</p>
+<p>只能百度继续找m3u8视频下载方法。</p>
+<p>百度大多数的方法是先用插件把每个ts视频下载出来，然后再合并。我按百度方法下载了某个插件，<br>
+然后开始下载了一部视频，在浏览器加载完200多个ts视频时已经很卡了，点下载也没什么反应。<br>
+思索许久，发现下载几百个文件再合成视频不太现实，万一漏下载某个文件就无法保证合成成功。<br>
+所以这个方法被放弃了。</p>
+<p>继续百度搜寻其他方法，最终在[52破解]下载到一个神奇的插件，<br>
+直接能抓取m3u8视频并下载。</p>
+<p>这个插件还是挺好用的，大多数情况可同时下载多个视频，少数情况多部视频下载会出问题（下载的视频都看不了），<br>
+研究了下可能是网络不好就会出问题。而且该插件无法在360浏览器使用，谷歌浏览器用着挺正常，火狐的还没测试过。</p>
+<p>插件下载链接晚点放上来，也可直接联系我拿。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[发现个有趣规律，晚上网络比早上慢得多]]></title>
         <id>https://mathgod.github.io/Jo40s-Ks6</id>
         <link href="https://mathgod.github.io/Jo40s-Ks6">
@@ -317,19 +346,6 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
         </link>
         <updated>2020-01-28T01:50:59.000Z</updated>
         <content type="html"><![CDATA[<p>截至目前</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大年初三，科比去世，阿富汗航班坠机死83人，公司通知假期延长。]]></title>
-        <id>https://mathgod.github.io/8izS_1bFg</id>
-        <link href="https://mathgod.github.io/8izS_1bFg">
-        </link>
-        <updated>2020-01-27T15:36:50.000Z</updated>
-        <content type="html"><![CDATA[<p>肺炎患者确诊人数持续增加</p>
-<p>看来以后真的不能坐飞机，一出事就是团灭，真的是太惨。之前被伊朗打下的乌克兰飞机也是。<br>
-科比竟然死了，还有他的二女儿，记得大学时期还看过他的退役赛，一起黑过他踢足球打羽毛球乒乓球，才41岁，正直中年，说不上伤心，有些惋惜罢了。</p>
-<p>公司假期延长，小开心。</p>
-<p>晚安，地球。</p>
 ]]></content>
     </entry>
 </feed>
