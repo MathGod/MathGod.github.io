@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-20T10:16:25.639Z</updated>
+    <updated>2020-02-20T10:23:12.028Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -288,8 +288,8 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
         <link href="https://mathgod.github.io/m3u8">
         </link>
         <updated>2020-02-03T09:51:29.000Z</updated>
-        <content type="html"><![CDATA[<p>过年整舔在家没事做，到处浏览各种视频电影。</p>
-<p>有一天不小心点开一个有趣视频的网站，于是想下载到本地深入学习。</p>
+        <content type="html"><![CDATA[<p>过年整天在家没事做，到处看各种视频电影。</p>
+<p>今天不小心点开一个有趣视频的网站，于是想下载其中一些到本地。</p>
 <p>第一步我肯定是找下载按钮的，不出意外当然找不到。</p>
 <p>然后对着视频单击右键，毫无疑问再次找不到另存视频按键。</p>
 <p>是时候展现真正的技术了！</p>
