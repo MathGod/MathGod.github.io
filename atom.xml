@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-20T13:38:42.730Z</updated>
+    <updated>2020-02-21T09:36:44.132Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,60 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[PWA技术使用方式探索]]></title>
+        <id>https://mathgod.github.io/CZYN-poCW</id>
+        <link href="https://mathgod.github.io/CZYN-poCW">
+        </link>
+        <updated>2020-02-21T09:26:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>先看效果</p>
+<p><img src="https://mathgod.github.io//post-images/1582277705732.jpg" alt="" loading="lazy"><br>
+谷歌浏览器<br>
+<img src="https://mathgod.github.io//post-images/1582277728601.PNG" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1582277746026.PNG" alt="" loading="lazy"></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>先看效果</p>
+<p><img src="https://mathgod.github.io//post-images/1582277705732.jpg" alt="" loading="lazy"><br>
+谷歌浏览器<br>
+<img src="https://mathgod.github.io//post-images/1582277728601.PNG" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1582277746026.PNG" alt="" loading="lazy"></p>
+<!-- more -->
+<p><img src="https://mathgod.github.io//post-images/1582277790760.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1582277759999.PNG" alt="" loading="lazy"></p>
+<pre><code>&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
+</code></pre>
+<p>manifest.json文件内容</p>
+<pre><code>{
+&quot;name&quot;: &quot;Hi,MathGod&quot;,
+&quot;short_name&quot;: &quot;MathGod&quot;,
+&quot;start_url&quot;: &quot;/&quot;,
+&quot;display&quot;: &quot;standalone&quot;,
+            &quot;theme_color&quot;: &quot;#fff&quot;,
+&quot;background_color&quot;: &quot;#fff&quot;,
+&quot;icons&quot;: [
+	{
+		&quot;src&quot;: &quot;192.png&quot;,
+		&quot;sizes&quot;: &quot;192x192&quot;,
+		&quot;type&quot;: &quot;image/png&quot;
+	}	
+]   
+}
+</code></pre>
+<p>引入sw.js</p>
+<pre><code>&lt;script&gt;
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+navigator.serviceWorker.register('/sw.js');
+});
+}
+&lt;/script&gt;
+</code></pre>
+<p>sw.js文件内容</p>
+<pre><code>self.addEventListener('fetch', function (evt) {
+console.log('sw fetch() 发送的请求', evt.request.url)
+})</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[nodejs是用来做什么的]]></title>
         <id>https://mathgod.github.io/ZgezxDefR</id>
@@ -337,15 +391,6 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
         </link>
         <updated>2020-01-29T08:39:36.000Z</updated>
         <content type="html"><![CDATA[<p>本来最开始是明天也就是年初六上班的，推迟到3号，现在又推迟到10号。看来辞职找工作都会受到影响。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4481例了...死亡106...可怕]]></title>
-        <id>https://mathgod.github.io/aN-m9Ev6h</id>
-        <link href="https://mathgod.github.io/aN-m9Ev6h">
-        </link>
-        <updated>2020-01-28T01:50:59.000Z</updated>
-        <content type="html"><![CDATA[<p>截至目前</p>
 ]]></content>
     </entry>
 </feed>
