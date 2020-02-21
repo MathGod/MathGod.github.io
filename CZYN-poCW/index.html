@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>PWA技术使用方式探索 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1582277795116">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1582278681898">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="PWA技术使用方式探索 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -14,17 +14,17 @@
 
     <meta name="description" content="先看效果
 
+
 谷歌浏览器
 
 
 
-
-
-&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
-
+网站首页载入manifest.json文件
+''
 manifest.json文件内容
 {
-&quot;name&qu..." />
+&quot;name&quot;: &quot;Hi,MathGod&quot;,
+&quot;short_name&..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -99,16 +99,15 @@ manifest.json文件内容
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>先看效果</p>
-<p><img src="https://mathgod.github.io//post-images/1582277705732.jpg" alt="" loading="lazy"><br>
+                <p>先看效果<br>
+<img src="https://mathgod.github.io//post-images/1582277705732.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1582277790760.jpg" alt="" loading="lazy"><br>
 谷歌浏览器<br>
-<img src="https://mathgod.github.io//post-images/1582277728601.PNG" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1582277746026.PNG" alt="" loading="lazy"></p>
-<!-- more -->
-<p><img src="https://mathgod.github.io//post-images/1582277790760.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1582278494813.PNG" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1582278509853.PNG" alt="" loading="lazy"><br>
 <img src="https://mathgod.github.io//post-images/1582277759999.PNG" alt="" loading="lazy"></p>
-<pre><code>&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
-</code></pre>
+<p>网站首页载入manifest.json文件<br>
+'<link rel="manifest" href="manifest.json">'</p>
 <p>manifest.json文件内容</p>
 <pre><code>{
 &quot;name&quot;: &quot;Hi,MathGod&quot;,
@@ -138,7 +137,9 @@ navigator.serviceWorker.register('/sw.js');
 <p>sw.js文件内容</p>
 <pre><code>self.addEventListener('fetch', function (evt) {
 console.log('sw fetch() 发送的请求', evt.request.url)
-})</code></pre>
+})
+</code></pre>
+<p>最后加个图标文件192.png</p>
 
               </div>
               <div class="toc-container">
