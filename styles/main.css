@@ -5031,7 +5031,7 @@ font-size: 1.5rem;
     top: 0;
     left: 0;
     z-index: -3;
-background: #f1fffb40;
+background: #f1fffb;
 }
     
       body {
@@ -5065,7 +5065,7 @@ background-color: #96edd1d4;
 .caidan .menu-container a.menu{
 font-size: 21px;
     color: #fff;
-    padding: 6px 35px;
+    padding: 6px 40px;
     flex-shrink: 0;
     font-weight: bolder;
 }
