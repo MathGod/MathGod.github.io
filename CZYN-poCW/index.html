@@ -2,11 +2,11 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>PWA技术使用方式学习笔记 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1582280551783">
+<title>PWA技术使用规律学习笔记 | 老王博客</title>
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1582281526453">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="PWA技术使用方式学习笔记 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="PWA技术使用规律学习笔记 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
@@ -75,14 +75,14 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              PWA技术使用方式学习笔记
+              PWA技术使用规律学习笔记
             </h2>
             <div class="post-info">
               <span>
                 2020-02-21
               </span>
               <span>
-                2 min read
+                3 min read
               </span>
               
             </div>
@@ -103,6 +103,15 @@
 <img src="https://mathgod.github.io//post-images/1582279080801.PNG" alt="" loading="lazy"><br>
 <img src="https://mathgod.github.io//post-images/1582279099136.PNG" alt="" loading="lazy"><br>
 <img src="https://mathgod.github.io//post-images/1582279108196.PNG" alt="" loading="lazy"></p>
+<p>PWA并不是单指某一项技术，你更可以把它理解成是一种思想和概念，目的就是对标原生app，将Web网站通过一系列的Web技术去优化它，提升其安全性，性能，流畅性，用户体验等各方面指标，最后达到用户就像在用app一样的感觉。</p>
+<p>PWA中包含的核心功能及特性如下：<br>
+Web App Manifest<br>
+Service Worker<br>
+Cache API 缓存<br>
+Push&amp;Notification 推送与通知<br>
+Background Sync 后台同步<br>
+响应式设计</p>
+<h3 id="使用方法">使用方法</h3>
 <p>网站首页载入manifest.json文件</p>
 <pre><code>&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
 </code></pre>
@@ -138,11 +147,27 @@ console.log('sw fetch() 发送的请求', evt.request.url)
 })
 </code></pre>
 <p>最后加个图标文件192.png</p>
-<p>经过不断测试，发现sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只需要有引用程序。</p>
+<h3 id="使用注意">使用注意</h3>
+<p>上述代码和文件都必须放在网站首页面，不然无法实现功能。<br>
+sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只需要有引用sw.js的代码。<br>
+甚至只需要第一次含有引用sw.js代码，网站打开过，然后把引用sw.js的程序删掉，只剩下载入manifest.json文件的代码和manifest.json文件本身，也可实现功能。</p>
+<p>定时推送功能还在探索中...</p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">使用方法</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F">使用注意</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
