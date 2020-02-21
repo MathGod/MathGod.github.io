@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-21T10:07:34.722Z</updated>
+    <updated>2020-02-21T10:09:01.755Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,11 +16,13 @@
         <link href="https://mathgod.github.io/CZYN-poCW">
         </link>
         <updated>2020-02-21T09:26:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>PWA技术最近比较流行，安卓阵营浏览器几乎都支持，只差苹果了。经过测试，支持PWA常用的网站有百度，哔哩哔哩，微博，推特。</p>
-<p>看了上十篇PWA相关文章再反复测试，发现了一些使用规律。</p>
+        <summary type="html"><![CDATA[<p>PWA技术最近比较流行，安卓阵营浏览器几乎都支持，只差苹果了。经过测试，支持PWA常用的网站有百度，哔哩哔哩，微博，推特。<br>
+ <br>
+看了上十篇PWA相关文章再反复测试，发现了一些使用规律。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>PWA技术最近比较流行，安卓阵营浏览器几乎都支持，只差苹果了。经过测试，支持PWA常用的网站有百度，哔哩哔哩，微博，推特。</p>
-<p>看了上十篇PWA相关文章再反复测试，发现了一些使用规律。</p>
+        <content type="html"><![CDATA[<p>PWA技术最近比较流行，安卓阵营浏览器几乎都支持，只差苹果了。经过测试，支持PWA常用的网站有百度，哔哩哔哩，微博，推特。<br>
+ <br>
+看了上十篇PWA相关文章再反复测试，发现了一些使用规律。</p>
 <!-- more -->
 <p>先看效果<br>
 移动端<br>
