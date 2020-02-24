@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-24T13:05:52.497Z</updated>
+    <updated>2020-02-24T13:09:28.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -22,6 +22,7 @@
   new Darkmode({left: '32px',label: '🌓'}).showWidget();
 &lt;/script&gt;
 </code></pre>
+<p>演示：此博客任意内容页左下角点击按键</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>直接在博客任意位置如footer.html文件插入</p>
 <pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js&quot;&gt;&lt;/script&gt;
@@ -29,6 +30,7 @@
   new Darkmode({left: '32px',label: '🌓'}).showWidget();
 &lt;/script&gt;
 </code></pre>
+<p>演示：此博客任意内容页左下角点击按键</p>
 <!-- more -->
 <p>具体配置可到官网https://darkmodejs.learn.uno/</p>
 <h2 id="注意">注意</h2>
