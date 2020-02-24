@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-24T12:56:54.969Z</updated>
+    <updated>2020-02-24T12:59:32.739Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -32,7 +32,9 @@
 <!-- more -->
 <p>具体配置可到官网https://darkmodejs.learn.uno/</p>
 <h2 id="注意">注意</h2>
-<p>360浏览器兼容性不好。会出现严重闪屏、内容缺失的奇怪问题，谷歌和火狐浏览器则正常，<s>360浏览器垃圾</s>但背景图片会被自动隐藏，所以该模式不适合放在有背景图片的博客首页，放在内容页比较好。</p>
+<p>不要使用360浏览器！<br>
+不要使用360浏览器！<br>
+360浏览器兼容性不好。会出现严重闪屏、内容缺失的奇怪问题，谷歌和火狐浏览器则正常，但背景图片会被自动隐藏，所以该模式不适合放在有背景图片的博客首页，放在内容页比较好。</p>
 ]]></content>
     </entry>
     <entry>
