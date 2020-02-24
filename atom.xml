@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-24T13:22:58.241Z</updated>
+    <updated>2020-02-24T13:25:26.646Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -37,6 +37,8 @@
 <p>不要使用360浏览器！<br>
 不要使用360浏览器！<br>
 360浏览器兼容性不好。会出现严重闪屏、内容缺失的奇怪问题，谷歌和火狐浏览器则正常，但背景图片会被自动隐藏，所以该模式不适合放在有背景图片的博客首页，放在内容页比较好。</p>
+<h2 id="问题点">问题点</h2>
+<p>代码框与代码无变化</p>
 ]]></content>
     </entry>
     <entry>
