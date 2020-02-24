@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-24T12:40:42.637Z</updated>
+    <updated>2020-02-24T12:56:54.969Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[一键为网站添加夜间模式]]></title>
+        <id>https://mathgod.github.io/YDsxJyHzj</id>
+        <link href="https://mathgod.github.io/YDsxJyHzj">
+        </link>
+        <updated>2020-02-24T12:41:13.000Z</updated>
+        <summary type="html"><![CDATA[<p>直接在博客任意位置如footer.html文件插入</p>
+<pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  new Darkmode({left: '32px',label: '🌓'}).showWidget();
+&lt;/script&gt;
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<p>直接在博客任意位置如footer.html文件插入</p>
+<pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  new Darkmode({left: '32px',label: '🌓'}).showWidget();
+&lt;/script&gt;
+</code></pre>
+<!-- more -->
+<p>具体配置可到官网https://darkmodejs.learn.uno/</p>
+<h2 id="注意">注意</h2>
+<p>360浏览器兼容性不好。会出现严重闪屏、内容缺失的奇怪问题，谷歌和火狐浏览器则正常，<s>360浏览器垃圾</s>但背景图片会被自动隐藏，所以该模式不适合放在有背景图片的博客首页，放在内容页比较好。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PWA技术使用规律学习笔记]]></title>
         <id>https://mathgod.github.io/CZYN-poCW</id>
@@ -407,15 +432,6 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
         </link>
         <updated>2020-01-30T14:27:04.000Z</updated>
         <content type="html"><![CDATA[<p>她真的很差，又懒又蠢作息异常还不肯改。不知道几个月后能否考上高中，哪怕是县里最差的高中也好。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今天公司通知上班时间又延迟了，10号上班。。。]]></title>
-        <id>https://mathgod.github.io/EBzrCfQKJ</id>
-        <link href="https://mathgod.github.io/EBzrCfQKJ">
-        </link>
-        <updated>2020-01-29T08:39:36.000Z</updated>
-        <content type="html"><![CDATA[<p>本来最开始是明天也就是年初六上班的，推迟到3号，现在又推迟到10号。看来辞职找工作都会受到影响。</p>
 ]]></content>
     </entry>
 </feed>
