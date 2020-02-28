@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-02-27T10:56:25.121Z</updated>
+    <updated>2020-02-28T14:23:02.345Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -46,6 +46,9 @@
 <script>
   new Darkmode({left: '32px',label: '🌓'}).showWidget();
 </script>
+<script>
+    	alert("为保证浏览效果，请勿使用360，Safari等浏览器，建议使用谷歌火狐");
+    </script>
 ]]></content>
     </entry>
     <entry>
