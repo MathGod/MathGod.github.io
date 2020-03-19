@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-03-19T14:31:15.091Z</updated>
+    <updated>2020-03-19T14:36:03.918Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -20,15 +20,6 @@
 <p>本想找到下家再走，父母也说这样保险点。但住工厂的集体间连基本正常休息都无法保证，实在是对找工作有严重影响，所以还是回家休息好，以最好的状态寻找下一份工作。</p>
 <p>我对这公司的定义是非走不可的，没进公司前我就估计到，当初也是经历<strong>无数</strong>意外才不得已进了这公司，隐忍了8个多月也是不容易。</p>
 <p>既然有广东择业期政策，作为19届往届生我还是想拼搏一次，以应届生待遇进个安稳点的国企。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[全力备战笔试面试]]></title>
-        <id>https://mathgod.github.io/g_FSDzP0I</id>
-        <link href="https://mathgod.github.io/g_FSDzP0I">
-        </link>
-        <updated>2020-03-10T10:08:39.000Z</updated>
-        <content type="html"><![CDATA[<p>作为19届往届生，这一次不能再输了。</p>
 ]]></content>
     </entry>
     <entry>
@@ -450,6 +441,16 @@ js是单线程，js解析方法时，将同步任务排队到执行栈中，异�
 <p>这个插件还是挺好用的，大多数情况可同时下载多个视频，少数情况多部视频下载会出问题（下载的视频都看不了），<br>
 研究了下可能是网络不好就会出问题。而且该插件无法在360浏览器使用，谷歌浏览器用着挺正常，火狐的还没测试过。</p>
 <p>插件下载链接晚点放上来，也可直接联系我拿。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发现个有趣规律，晚上网络比早上慢得多]]></title>
+        <id>https://mathgod.github.io/Jo40s-Ks6</id>
+        <link href="https://mathgod.github.io/Jo40s-Ks6">
+        </link>
+        <updated>2020-02-01T14:42:43.000Z</updated>
+        <content type="html"><![CDATA[<p>早上中午之前网络都很好，晚上点以后网络不给力，由此可推断出上网主力军大多晚睡晚起。</p>
+<p>所以我决定早睡早起，错峰上网。</p>
 ]]></content>
     </entry>
 </feed>
