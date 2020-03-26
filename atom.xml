@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-03-26T13:04:09.805Z</updated>
+    <updated>2020-03-26T13:05:51.379Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://mathgod.github.io/2T4yDLUvz">
         </link>
         <updated>2020-03-26T13:02:34.000Z</updated>
-        <content type="html"><![CDATA[<p>听说是给某初学者的中间人攻击搞挂了</p>
+        <content type="html"><![CDATA[<p>证书出问题了</p>
+<p>听说是给某初学者的中间人攻击搞挂了</p>
 <p>全国都有影响</p>
 <p>博客只能fq才能打开了</p>
 ]]></content>
