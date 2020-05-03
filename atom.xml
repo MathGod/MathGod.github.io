@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-03T13:26:50.119Z</updated>
+    <updated>2020-05-03T13:30:42.248Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,12 +16,12 @@
         <link href="https://mathgod.github.io/fmyYtoKOO">
         </link>
         <updated>2020-05-03T13:19:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>前几天，有大佬在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
+        <summary type="html"><![CDATA[<p>前两天，诗人白言在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
 https://zhuanlan.zhihu.com/p/137766539</p>
 <p><strong>什么是冰雹猜想？</strong><br>
 30多年前，日本数学家角谷静发现了一个奇怪的现象：一个自然数，如果它是偶数，那么用2除它；如果商是奇数，将它乘以3之后再加上1，这样反复运算，最终必然得1。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>前几天，有大佬在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
+        <content type="html"><![CDATA[<p>前两天，诗人白言在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
 https://zhuanlan.zhihu.com/p/137766539</p>
 <p><strong>什么是冰雹猜想？</strong><br>
 30多年前，日本数学家角谷静发现了一个奇怪的现象：一个自然数，如果它是偶数，那么用2除它；如果商是奇数，将它乘以3之后再加上1，这样反复运算，最终必然得1。</p>
