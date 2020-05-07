@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-07T07:18:58.000Z</updated>
+    <updated>2020-05-07T23:30:31.663Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
         <title type="html"><![CDATA[我眼中的韭菜]]></title>
-        <id>https://mathgod.github.io/_l8etjVgW</id>
-        <link href="https://mathgod.github.io/_l8etjVgW">
+        <id>https://mathgod.github.io/jiucai</id>
+        <link href="https://mathgod.github.io/jiucai">
         </link>
         <updated>2020-05-07T03:36:10.000Z</updated>
         <content type="html"><![CDATA[<p>炒股散户</p>
@@ -23,6 +23,7 @@
 <p>阿里云9.9注册公司的(没实力就去创业的)</p>
 <p>医美整形</p>
 <p>技校里被安排去工厂流水线实习的学生</p>
+<p>办理信用卡</p>
 <p><strong>除了楼市接盘是迫不得已，其他还是能依靠清醒的头脑避免的</strong></p>
 ]]></content>
     </entry>
