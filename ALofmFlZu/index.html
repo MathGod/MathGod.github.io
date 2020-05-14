@@ -2,22 +2,23 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>m3u8格式视频探索 | 老王博客</title>
+<title>行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589421896487">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="m3u8格式视频探索 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="过年整天在家没事做，到处看各种视频电影。
-今天不小心点开一个有趣视频的网站，于是想下载其中一些到本地。
-第一步我肯定是找下载按钮的，不出意外当然找不到。
-然后对着视频单击右键，毫无疑问再次找不到另存视频按键。
-是时候展现真正的技术了！
-接下..." />
+    <meta name="description" content="1.行测侠-一个快捷高效的在线行测刷题网站
+https://www.xingcexia.top/ 
+样式保存
+html5 localStorage
+隐藏滚动条并可滚动
+
+::-webkit-scrollbar{display: none;}..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -79,11 +80,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              m3u8格式视频探索
+              行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示
             </h2>
             <div class="post-info">
               <span>
-                2020-02-03
+                2020-05-14
               </span>
               <span>
                 2 min read
@@ -93,31 +94,73 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>过年整天在家没事做，到处看各种视频电影。</p>
-<p>今天不小心点开一个有趣视频的网站，于是想下载其中一些到本地。</p>
-<p>第一步我肯定是找下载按钮的，不出意外当然找不到。</p>
-<p>然后对着视频单击右键，毫无疑问再次找不到另存视频按键。</p>
-<p>是时候展现真正的技术了！</p>
-<p>接下来肯定是按F12打开开发者选项的networok了，然后找了半天还是没找到视频文件。</p>
-<p>一直找一直找还是没找到，我开始懵逼了。？？？不应该呀</p>
-<p>找了半天看到两个以.m3u8为后缀的文件，但是文件很小，所以不可能包含整个视频文件。</p>
-<p>但我印象中m3u8肯定跟视频有关联，是一种视频格式。</p>
-<p>接下来我就看到上百个.ts文件，每个ts文件1M左右，内容是10秒左右的视频。</p>
-<p>所以我就理解为m3u8视频是由多个文件拼接的一种视频格式。百度了下也差不多这个意思。</p>
-<p>只能百度继续找m3u8视频下载方法。</p>
-<p>百度大多数的方法是先用插件把每个ts视频下载出来，然后再合并。我按百度方法下载了某个插件，<br>
-然后开始下载了一部视频，在浏览器加载完200多个ts视频时已经很卡了，点下载也没什么反应。<br>
-思索许久，发现下载几百个文件再合成视频不太现实，万一漏下载某个文件就无法保证合成成功。<br>
-所以这个方法被放弃了。</p>
-<p>继续百度搜寻其他方法，最终在[52破解]下载到一个神奇的插件，<br>
-直接能抓取m3u8视频并下载。</p>
-<p>这个插件还是挺好用的，大多数情况可同时下载多个视频，少数情况多部视频下载会出问题（下载的视频都看不了），<br>
-研究了下可能是网络不好就会出问题。而且该插件无法在360浏览器使用，谷歌浏览器用着挺正常，火狐的还没测试过。</p>
-<p>插件下载链接晚点放上来，也可直接联系我拿。</p>
+                <h3 id="1行测侠-一个快捷高效的在线行测刷题网站">1.行测侠-一个快捷高效的在线行测刷题网站</h3>
+<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
+<p>样式保存<br>
+html5 localStorage</p>
+<p>隐藏滚动条并可滚动<br>
+<style><br>
+::-webkit-scrollbar{display: none;}<br>
+</style></p>
+<!-- more -->
+<p>全屏显示</p>
+<pre><code>&lt;button onclick=&quot;return ExecuteFun(this)&quot; &gt;全屏&lt;/button&gt; 
+ &lt;script type=&quot;text/javascript&quot;&gt;
+     function ExecuteFun(a) {
+        var full = a.innerHTML == '全屏';
+        full ? fullscreen() : exitfullscreen();
+        a.innerHTML = full ? '返回' : '全屏';
+        return false;
+    }
+
+function fullscreen() {
+  var el = document.documentElement,
+    rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,
+    wscript;
+  if(typeof rfs != &quot;undefined&quot; &amp;&amp; rfs) {
+    rfs.call(el);
+    return;
+  }
+  if(typeof window.ActiveXObject != &quot;undefined&quot;) {
+    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
+    if(wscript) {
+      wscript.SendKeys(&quot;{F11}&quot;);
+    }
+  }
+}
+
+function exitfullscreen() {
+  var el = document,
+    cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen,
+    wscript;
+  if (typeof cfs != &quot;undefined&quot; &amp;&amp; cfs) {
+   cfs.call(el);
+   return;
+  }
+  if (typeof window.ActiveXObject != &quot;undefined&quot;) {
+    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
+    if (wscript != null) {
+      wscript.SendKeys(&quot;{F11}&quot;);
+    }
+ }
+}
+ &lt;/script&gt;
+</code></pre>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1%E8%A1%8C%E6%B5%8B%E4%BE%A0-%E4%B8%80%E4%B8%AA%E5%BF%AB%E6%8D%B7%E9%AB%98%E6%95%88%E7%9A%84%E5%9C%A8%E7%BA%BF%E8%A1%8C%E6%B5%8B%E5%88%B7%E9%A2%98%E7%BD%91%E7%AB%99">1.行测侠-一个快捷高效的在线行测刷题网站</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -125,22 +168,14 @@
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/bQ0Q2_4_0">
-              <h3 class="post-title">
-                <从输入URL到页面加载发生了什么？
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/Jo40s-Ks6">
+            <a href="https://mathgod.github.io/jiucai">
               <h3 class="post-title">
-                发现个有趣规律，晚上网络比早上慢得多>
+                我眼中的韭菜>
               </h3>
             </a>
           </div>

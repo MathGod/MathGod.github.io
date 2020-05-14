@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-12T01:36:41.065Z</updated>
+    <updated>2020-05-14T02:05:01.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,75 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示]]></title>
+        <id>https://mathgod.github.io/ALofmFlZu</id>
+        <link href="https://mathgod.github.io/ALofmFlZu">
+        </link>
+        <updated>2020-05-14T01:57:59.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="1行测侠-一个快捷高效的在线行测刷题网站">1.行测侠-一个快捷高效的在线行测刷题网站</h3>
+<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
+<p>样式保存<br>
+html5 localStorage</p>
+<p>隐藏滚动条并可滚动<br>
+<style><br>
+::-webkit-scrollbar{display: none;}<br>
+</style></p>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="1行测侠-一个快捷高效的在线行测刷题网站">1.行测侠-一个快捷高效的在线行测刷题网站</h3>
+<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
+<p>样式保存<br>
+html5 localStorage</p>
+<p>隐藏滚动条并可滚动<br>
+<style><br>
+::-webkit-scrollbar{display: none;}<br>
+</style></p>
+<!-- more -->
+<p>全屏显示</p>
+<pre><code>&lt;button onclick=&quot;return ExecuteFun(this)&quot; &gt;全屏&lt;/button&gt; 
+ &lt;script type=&quot;text/javascript&quot;&gt;
+     function ExecuteFun(a) {
+        var full = a.innerHTML == '全屏';
+        full ? fullscreen() : exitfullscreen();
+        a.innerHTML = full ? '返回' : '全屏';
+        return false;
+    }
+
+function fullscreen() {
+  var el = document.documentElement,
+    rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,
+    wscript;
+  if(typeof rfs != &quot;undefined&quot; &amp;&amp; rfs) {
+    rfs.call(el);
+    return;
+  }
+  if(typeof window.ActiveXObject != &quot;undefined&quot;) {
+    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
+    if(wscript) {
+      wscript.SendKeys(&quot;{F11}&quot;);
+    }
+  }
+}
+
+function exitfullscreen() {
+  var el = document,
+    cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen,
+    wscript;
+  if (typeof cfs != &quot;undefined&quot; &amp;&amp; cfs) {
+   cfs.call(el);
+   return;
+  }
+  if (typeof window.ActiveXObject != &quot;undefined&quot;) {
+    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
+    if (wscript != null) {
+      wscript.SendKeys(&quot;{F11}&quot;);
+    }
+ }
+}
+ &lt;/script&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我眼中的韭菜]]></title>
         <id>https://mathgod.github.io/jiucai</id>
@@ -281,123 +350,6 @@ FriendFeed是用基于Python的<strong>非阻塞</strong>框架Tornado (知乎�
 33578075/answer/56951771<br>
 来源：知乎<br>
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[markdown插入代码块和代码高亮语法]]></title>
-        <id>https://mathgod.github.io/cpWjmHxi9</id>
-        <link href="https://mathgod.github.io/cpWjmHxi9">
-        </link>
-        <updated>2020-02-13T01:36:58.000Z</updated>
-        <summary type="html"><![CDATA[<p><em>浏览别技术博客时经常能看到代码块，预想写教程时免不了要插入代码，于是今天花了一个早上研究了markdown代码块语法，并顺便写个教程。</em><br>
- </p>
-<h2 id="单行代码">单行代码</h2>
-<h3 id="方法">方法：</h3>
-<p>代码之间分别用一个反引号包起来</p>
-<pre><code class="language-markdown">'Hello World'
-</code></pre>
-<h3 id="效果">效果：</h3>
-<p><code>Hello World</code></p>
-<p> <br>
- </p>
-<h2 id="多行代码">多行代码</h2>
-<h3 id="方法-2">方法:</h3>
-<p>代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。</p>
-<pre><code>```
-function fun(){
-echo $a;
-echo &quot;这是一句非常牛逼的代码&quot;;
-print(&quot;Hello, World!&quot;);
-}
-```
-</code></pre>
-<h3 id="效果-2">效果：</h3>
-<pre><code>function fun(){
-  echo $a;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print(&quot;Hello, World!&quot;);
-}
-fun();
-</code></pre>
-]]></summary>
-        <content type="html"><![CDATA[<p><em>浏览别技术博客时经常能看到代码块，预想写教程时免不了要插入代码，于是今天花了一个早上研究了markdown代码块语法，并顺便写个教程。</em><br>
- </p>
-<h2 id="单行代码">单行代码</h2>
-<h3 id="方法">方法：</h3>
-<p>代码之间分别用一个反引号包起来</p>
-<pre><code class="language-markdown">'Hello World'
-</code></pre>
-<h3 id="效果">效果：</h3>
-<p><code>Hello World</code></p>
-<p> <br>
- </p>
-<h2 id="多行代码">多行代码</h2>
-<h3 id="方法-2">方法:</h3>
-<p>代码之间分别用三个反引号```包起来，且两边的反引号各单独占一行。</p>
-<pre><code>```
-function fun(){
-echo $a;
-echo &quot;这是一句非常牛逼的代码&quot;;
-print(&quot;Hello, World!&quot;);
-}
-```
-</code></pre>
-<h3 id="效果-2">效果：</h3>
-<pre><code>function fun(){
-  echo $a;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print(&quot;Hello, World!&quot;);
-}
-fun();
-</code></pre>
-<!-- more -->
-<p> <br>
- </p>
-<h2 id="代码高亮">代码高亮</h2>
-<h3 id="方法-3">方法：</h3>
-<p>在第一行的三个反引号```后面加php或python等词可代码高亮。</p>
-<pre><code>```php
-function fun(){
- $a=123;
- echo &quot;这是一句非常牛逼的代码&quot;;
- print(&quot;Hello, World!&quot;);
-}
-fun();
-```  
-</code></pre>
-<p> </p>
-<pre><code>```python
-function fun(){
- $a=123;
- echo &quot;这是一句非常牛逼的代码&quot;;
- print(&quot;Hello, World!&quot;);
-}
-fun();
-```
-</code></pre>
-<h3 id="加php的效果">加php的效果：</h3>
-<pre><code class="language-php">function fun(){
-  $a=123;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print(&quot;Hello, World!&quot;);
-}
-fun();
-</code></pre>
-<h3 id="加python的效果">加python的效果：</h3>
-<pre><code class="language-python">function fun(){
-  $a=123;
-  echo &quot;这是一句非常牛逼的代码&quot;;
-  print(&quot;Hello, World!&quot;);
-}
-fun();
-</code></pre>
-<p> <br>
- </p>
-<h2 id="防转译">防转译</h2>
-<h3 id="方法-4">方法：</h3>
-<p>每行缩进 4 个空格，缩进式插入前方必须有空行。</p>
-<h3 id="作用">作用 ：</h3>
-<p>此方法可防止转译，主要用来写教程，因为教程的示例代码不长，每行单独空四格也不会浪费太多时间，而展示太长代码则此方法不适用。</p>
 ]]></content>
     </entry>
 </feed>
