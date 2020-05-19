@@ -2,18 +2,23 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>过年才放七天假 | 老王博客</title>
+<title>js判断网站在微信,QQ内置浏览器打开 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589864923354">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="过年才放七天假 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="js判断网站在微信,QQ内置浏览器打开 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="就法定三天加两天周末加两天调休，没有比这更少的公司了吧。
-" />
+    <meta name="description" content="
+        if (is_weixn()) {
+            alert("请点击右上角按钮, 点击使用浏览器打开");
+        }
+
+        if(is_qq()){
+          alert("请点..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -75,11 +80,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              过年才放七天假
+              js判断网站在微信,QQ内置浏览器打开
             </h2>
             <div class="post-info">
               <span>
-                2020-01-11
+                2020-05-19
               </span>
               <span>
                 1 min read
@@ -89,8 +94,32 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>就法定三天加两天周末加两天调休，没有比这更少的公司了吧。</p>
+                <script>
+        if (is_weixn()) {
+            alert("请点击右上角按钮, 点击使用浏览器打开");
+        }
 
+        if(is_qq()){
+          alert("请点击右上角按钮, 点击使用浏览器打开");
+        }
+        // 是微信浏览器
+        function is_weixn() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        function is_qq(){
+          var sUserAgent =navigator.userAgent.toLowerCase();
+          if( sUserAgent.match(/QQ/i) == 'qq'){
+            return true
+          }else{
+            return false
+          }
+        }
+</script>
               </div>
               <div class="toc-container">
                 
@@ -101,22 +130,14 @@
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/webwenti">
-              <h3 class="post-title">
-                <github pages代码托管生成静态网站存在的一些问题
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/hen-kuai-jiu-guo-nian-liao">
+            <a href="https://mathgod.github.io/fFjHupJ_2">
               <h3 class="post-title">
-                很快就过年了>
+                http强制跳转https>
               </h3>
             </a>
           </div>

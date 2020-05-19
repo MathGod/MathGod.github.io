@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-19T04:30:57.925Z</updated>
+    <updated>2020-05-19T05:08:48.712Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[js判断网站在微信,QQ内置浏览器打开]]></title>
+        <id>https://mathgod.github.io/UidQrGFQO</id>
+        <link href="https://mathgod.github.io/UidQrGFQO">
+        </link>
+        <updated>2020-05-19T05:08:02.000Z</updated>
+        <content type="html"><![CDATA[<script>
+        if (is_weixn()) {
+            alert("请点击右上角按钮, 点击使用浏览器打开");
+        }
+
+        if(is_qq()){
+          alert("请点击右上角按钮, 点击使用浏览器打开");
+        }
+        // 是微信浏览器
+        function is_weixn() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        function is_qq(){
+          var sUserAgent =navigator.userAgent.toLowerCase();
+          if( sUserAgent.match(/QQ/i) == 'qq'){
+            return true
+          }else{
+            return false
+          }
+        }
+</script>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[http强制跳转https]]></title>
         <id>https://mathgod.github.io/fFjHupJ_2</id>
@@ -273,90 +306,6 @@ https://zhuanlan.zhihu.com/p/137766539<br>
 <script>
     	alert("为保证浏览效果，请勿使用360，Safari等浏览器，建议使用谷歌火狐");
     </script>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PWA技术使用规律学习笔记]]></title>
-        <id>https://mathgod.github.io/CZYN-poCW</id>
-        <link href="https://mathgod.github.io/CZYN-poCW">
-        </link>
-        <updated>2020-02-21T09:26:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>PWA全称Progressive Web App，即渐进式WEB应用。<br>
- <br>
-近年来逐渐流行，它主要功能是再移动端自动弹出添加网站到桌面图标的提示。可避免开发原生APP昂贵成本且用户免安装更新，对APP开发者和用户都有好处。<br>
- <br>
-安卓阵营浏览器几乎都支持，只差苹果了。经过测试，常用网站中支持PWA的有百度，哔哩哔哩，微博，推特。个人博客中使用的还是较少数，可能是大家还没发现。<br>
- <br>
-看了上十篇PWA相关文章再反复测试，发现了一些使用规律。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>PWA全称Progressive Web App，即渐进式WEB应用。<br>
- <br>
-近年来逐渐流行，它主要功能是再移动端自动弹出添加网站到桌面图标的提示。可避免开发原生APP昂贵成本且用户免安装更新，对APP开发者和用户都有好处。<br>
- <br>
-安卓阵营浏览器几乎都支持，只差苹果了。经过测试，常用网站中支持PWA的有百度，哔哩哔哩，微博，推特。个人博客中使用的还是较少数，可能是大家还没发现。<br>
- <br>
-看了上十篇PWA相关文章再反复测试，发现了一些使用规律。</p>
-<!-- more -->
-<p>先看效果<br>
- <br>
-移动端<br>
-<img src="https://mathgod.github.io//post-images/1582279031262.jpg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1582279055237.jpg" alt="" loading="lazy"><br>
-谷歌浏览器<br>
-<img src="https://mathgod.github.io//post-images/1582279080801.PNG" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1582279099136.PNG" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1582279108196.PNG" alt="" loading="lazy"></p>
-<p>PWA并不是单指某一项技术，你更可以把它理解成是一种思想和概念，目的就是对标原生app，将Web网站通过一系列的Web技术去优化它，提升其安全性，性能，流畅性，用户体验等各方面指标，最后达到用户就像在用app一样的感觉。</p>
-<p>PWA中包含的核心功能及特性如下：<br>
-1.可以添加至主屏幕，点击主屏幕图标可以实现启动动画以及隐藏地址栏<br>
-2.实现离线缓存功能，即使用户手机没有网络，依然可以使用一些离线功能<br>
-3.实现了消息推送</p>
-<h3 id="使用方法">使用方法</h3>
-<p>网站首页载入manifest.json文件</p>
-<pre><code>&lt;link rel=&quot;manifest&quot; href=&quot;manifest.json&quot;&gt;
-</code></pre>
-<p>manifest.json文件内容</p>
-<pre><code>{
-&quot;name&quot;: &quot;Hi,MathGod&quot;,
-&quot;short_name&quot;: &quot;MathGod&quot;,
-&quot;start_url&quot;: &quot;/&quot;,
-&quot;display&quot;: &quot;standalone&quot;,
-&quot;theme_color&quot;: &quot;#fff&quot;,
-&quot;background_color&quot;: &quot;#fff&quot;,
-&quot;icons&quot;: [
-	{
-		&quot;src&quot;: &quot;192.png&quot;,
-		&quot;sizes&quot;: &quot;192x192&quot;,
-		&quot;type&quot;: &quot;image/png&quot;
-	}	
-]   
-}
-</code></pre>
-<p>引入sw.js</p>
-<pre><code>&lt;script&gt;
-if ('serviceWorker' in navigator) {
-window.addEventListener('load', function() {
-navigator.serviceWorker.register('/sw.js');
-});
-}
-&lt;/script&gt;
-</code></pre>
-<p>sw.js文件内容</p>
-<pre><code>self.addEventListener('fetch', function (evt) {
-console.log('sw fetch() 发送的请求', evt.request.url)
-})
-</code></pre>
-<p>最后加个图标文件192.png</p>
-<h3 id="使用注意">使用注意</h3>
-<p>上述代码和文件都必须放在网站首页面，不然无法实现功能。<br>
-sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只需要有引用sw.js的代码。<br>
-甚至只需要第一次含有引用sw.js代码，网站打开过，然后把引用sw.js的程序删掉，只剩下载入manifest.json文件的代码和manifest.json文件本身，也可实现功能。</p>
-<h3 id="pwa缺点">PWA缺点</h3>
-<p>无法跳转到其他APP，如下<br>
-<a href="https://jq.qq.com/?_wv=1027&k=maGgsCgk">一键加群</a><br>
-在浏览器点击上面的一键加群可跳转到Q群页面<br>
-而使用手机桌面PWA生成图标打开时，则无法跳转。</p>
-<p>定时推送功能还在探索中...</p>
 ]]></content>
     </entry>
 </feed>
