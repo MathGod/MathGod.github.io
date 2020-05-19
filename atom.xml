@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-19T00:34:35.958Z</updated>
+    <updated>2020-05-19T04:11:31.028Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,38 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[http强制跳转https]]></title>
+        <id>https://mathgod.github.io/fFjHupJ_2</id>
+        <link href="https://mathgod.github.io/fFjHupJ_2">
+        </link>
+        <updated>2020-05-19T04:07:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处</p>
+<p>方法：<br>
+1.域名已经申请好https证书</p>
+<p>2.以Linux系统的apache环境为例子</p>
+<p>根目录建立.htaccess文件。内容如下</p>
+<pre><code>RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处</p>
+<p>方法：<br>
+1.域名已经申请好https证书</p>
+<p>2.以Linux系统的apache环境为例子</p>
+<p>根目录建立.htaccess文件。内容如下</p>
+<pre><code>RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
+</code></pre>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网站ICP备案须知]]></title>
         <id>https://mathgod.github.io/_qLNI3SVe</id>
@@ -327,19 +359,6 @@ sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只
 在浏览器点击上面的一键加群可跳转到Q群页面<br>
 而使用手机桌面PWA生成图标打开时，则无法跳转。</p>
 <p>定时推送功能还在探索中...</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今天下午，跟部门领导提了离职。]]></title>
-        <id>https://mathgod.github.io/tQztC8IEP</id>
-        <link href="https://mathgod.github.io/tQztC8IEP">
-        </link>
-        <updated>2020-02-20T10:39:18.000Z</updated>
-        <content type="html"><![CDATA[<p>很早就想提，却因种种原因拖到现在，今天终于下定决心。</p>
-<p>领导拿个笔和纸，让我一起去小会议室，谈了很多。主要是表达对我的关心，找工作的方向状态等</p>
-<p>部门领导是个善解人意，关爱员工的女性，比我大10岁左右。她很理解我的辞职的行为，因为公司的确历年来离职率非常高，留不住人，并表示早就看出我想离职。</p>
-<p>因为公司管理某些方面比较僵化，辞职要提早一个月打招呼，有固定的辞职日20号和7号。如果严格按照这种规则，我今天2月20号不提离职的话，就最早只能3月7号提，则4月7号才能走人。这正是我最担心的一点，4月再走怕是会耽误了春招。</p>
-<p><em>今天很累，有空再写...</em></p>
 ]]></content>
     </entry>
 </feed>

@@ -2,19 +2,24 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>一键为网站添加夜间模式 | 老王博客</title>
+<title>http强制跳转https | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589861483742">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="一键为网站添加夜间模式 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="http强制跳转https | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="直接在博客任意位置如footer.php文件插入js代码
+    <meta name="description" content="http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处
+方法：
+1.域名已经申请好https证书
+2.以Linux系统的apache环境为例子
+根目录建立.htaccess文件。内容如下
+RewriteEngine On
 
-&lt;script src=&quot;https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js..." />
+..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -76,63 +81,36 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              一键为网站添加夜间模式
+              http强制跳转https
             </h2>
             <div class="post-info">
               <span>
-                2020-02-24
+                2020-05-19
               </span>
               <span>
-                2 min read
+                1 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>直接在博客任意位置如footer.php文件插入js代码</p>
-<!-- more -->
-<pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-  new Darkmode({left: '32px',label: '🌓'}).showWidget();
-&lt;/script&gt;
+                <p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处</p>
+<p>方法：<br>
+1.域名已经申请好https证书</p>
+<p>2.以Linux系统的apache环境为例子</p>
+<p>根目录建立.htaccess文件。内容如下</p>
+<pre><code>RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
 </code></pre>
-<p>演示：点击左下角按键</p>
-<p>具体配置可到官网https://darkmodejs.learn.uno/</p>
-<h2 id="注意">注意</h2>
-<p>不要使用360浏览器！<br>
-不要使用360浏览器！<br>
-360浏览器兼容性不好。会出现严重闪屏、内容缺失的奇怪问题，谷歌和火狐浏览器则正常。</p>
-<p>下面是内核版本一样的两个360浏览器的效果<br>
-<img src="https://mathgod.github.io//post-images/1582800380832.jpg" alt="" loading="lazy"><br>
-无法显示内容<br>
-<img src="https://mathgod.github.io//post-images/1582800450401.jpg" alt="" loading="lazy"><br>
-左右两侧没有变黑<br>
- <br>
-<img src="https://mathgod.github.io//post-images/1582800591465.jpg" alt="" loading="lazy"><br>
-谷歌和火狐浏览器则正常</p>
-<h2 id="问题点">问题点</h2>
-<p>代码框与代码无变化<br>
-背景图片会被自动隐藏，所以该模式不适合放在有背景图片的博客首页，放在内容页比较好。</p>
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
-<script>
-  new Darkmode({left: '32px',label: '🌓'}).showWidget();
-</script>
-<script>
-    	alert("为保证浏览效果，请勿使用360，Safari等浏览器，建议使用谷歌火狐");
-    </script>
+<!-- more -->
 
               </div>
               <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E6%B3%A8%E6%84%8F">注意</a></li>
-<li><a href="#%E9%97%AE%E9%A2%98%E7%82%B9">问题点</a></li>
-</ul>
-</li>
-</ul>
-
+                
               </div>
             </div>
           </article>
@@ -140,22 +118,14 @@
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/baG79mkdg">
-              <h3 class="post-title">
-                <在公司的最后一晚
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/CZYN-poCW">
+            <a href="https://mathgod.github.io/_qLNI3SVe">
               <h3 class="post-title">
-                PWA技术使用规律学习笔记>
+                网站ICP备案须知>
               </h3>
             </a>
           </div>
