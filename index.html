@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589861483742">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589861642305">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -79,7 +79,7 @@
     <div class="main">
         <div class="site-header">
   <a href="https://mathgod.github.io/">
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1589861483742" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1589861642305" alt="">
   </a>
   <h1 class="site-title">
     老王博客
@@ -160,17 +160,15 @@
       </div>
       
       <div class="post-abstract">
-        <p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处</p>
-<p>方法：<br>
-1.域名已经申请好https证书</p>
-<p>2.以Linux系统的apache环境为例子</p>
-<p>根目录建立.htaccess文件。内容如下</p>
-<pre><code>RewriteEngine On
-
-RewriteCond %{HTTPS} !=on
-
-RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
-</code></pre>
+        <p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处<br>
+ <br>
+方法：<br>
+1.域名已经申请好https证书<br>
+ <br>
+2.根目录建立.htaccess文件(以Linux系统的apache环境为例子)。内容如下<br>
+RewriteEngine On<br>
+RewriteCond %{HTTPS} !=on<br>
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
 
       </div>
     </article>

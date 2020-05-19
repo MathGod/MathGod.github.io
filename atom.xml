@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-19T04:11:31.028Z</updated>
+    <updated>2020-05-19T04:14:10.666Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,29 +16,25 @@
         <link href="https://mathgod.github.io/fFjHupJ_2">
         </link>
         <updated>2020-05-19T04:07:28.000Z</updated>
-        <summary type="html"><![CDATA[<p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处</p>
-<p>方法：<br>
-1.域名已经申请好https证书</p>
-<p>2.以Linux系统的apache环境为例子</p>
-<p>根目录建立.htaccess文件。内容如下</p>
-<pre><code>RewriteEngine On
-
-RewriteCond %{HTTPS} !=on
-
-RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
-</code></pre>
+        <summary type="html"><![CDATA[<p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处<br>
+ <br>
+方法：<br>
+1.域名已经申请好https证书<br>
+ <br>
+2.根目录建立.htaccess文件(以Linux系统的apache环境为例子)。内容如下<br>
+RewriteEngine On<br>
+RewriteCond %{HTTPS} !=on<br>
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处</p>
-<p>方法：<br>
-1.域名已经申请好https证书</p>
-<p>2.以Linux系统的apache环境为例子</p>
-<p>根目录建立.htaccess文件。内容如下</p>
-<pre><code>RewriteEngine On
-
-RewriteCond %{HTTPS} !=on
-
-RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
-</code></pre>
+        <content type="html"><![CDATA[<p>http强制跳转https可增加搜索引擎对网站的友好度，对SEO有好处<br>
+ <br>
+方法：<br>
+1.域名已经申请好https证书<br>
+ <br>
+2.根目录建立.htaccess文件(以Linux系统的apache环境为例子)。内容如下<br>
+RewriteEngine On<br>
+RewriteCond %{HTTPS} !=on<br>
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
 <!-- more -->
 ]]></content>
     </entry>
