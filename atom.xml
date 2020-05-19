@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-19T05:24:10.080Z</updated>
+    <updated>2020-05-19T05:34:30.915Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -16,19 +16,18 @@
         <link href="https://mathgod.github.io/UidQrGFQO">
         </link>
         <updated>2020-05-19T05:08:02.000Z</updated>
-        <content type="html"><![CDATA[<p>'''</p>
-<script>
+        <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;script&gt;
         if (is_weixn()) {
-            alert("请点击右上角按钮, 点击使用浏览器打开");
+            alert(&quot;请点击右上角按钮, 点击使用浏览器打开&quot;);
         }
 
         if(is_qq()){
-          alert("请点击右上角按钮, 点击使用浏览器打开");
+          alert(&quot;请点击右上角按钮, 点击使用浏览器打开&quot;);
         }
         // 是微信浏览器
         function is_weixn() {
             var ua = navigator.userAgent.toLowerCase();
-            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            if (ua.match(/MicroMessenger/i) == &quot;micromessenger&quot;) {
                 return true;
             } else {
                 return false;
@@ -42,8 +41,8 @@
             return false
           }
         }
-</script>
-<p>'''</p>
+&lt;/script&gt;
+</code></pre>
 ]]></content>
     </entry>
     <entry>
