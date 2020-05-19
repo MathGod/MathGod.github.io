@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-14T09:01:46.747Z</updated>
+    <updated>2020-05-19T00:34:35.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -321,6 +321,11 @@ console.log('sw fetch() 发送的请求', evt.request.url)
 <p>上述代码和文件都必须放在网站首页面，不然无法实现功能。<br>
 sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只需要有引用sw.js的代码。<br>
 甚至只需要第一次含有引用sw.js代码，网站打开过，然后把引用sw.js的程序删掉，只剩下载入manifest.json文件的代码和manifest.json文件本身，也可实现功能。</p>
+<h3 id="pwa缺点">PWA缺点</h3>
+<p>无法跳转到其他APP，如下<br>
+<a href="https://jq.qq.com/?_wv=1027&k=maGgsCgk">一键加群</a><br>
+在浏览器点击上面的一键加群可跳转到Q群页面<br>
+而使用手机桌面PWA生成图标打开时，则无法跳转。</p>
 <p>定时推送功能还在探索中...</p>
 ]]></content>
     </entry>
