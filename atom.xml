@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-19T23:44:20.217Z</updated>
+    <updated>2020-05-20T12:22:56.708Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[垃圾又拍云]]></title>
+        <id>https://mathgod.github.io/HhtxsIBV6</id>
+        <link href="https://mathgod.github.io/HhtxsIBV6">
+        </link>
+        <updated>2020-05-20T12:21:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>说好的免费ssl证书，却要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>说好的免费ssl证书，却要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[js判断网站在微信,QQ内置浏览器打开]]></title>
         <id>https://mathgod.github.io/UidQrGFQO</id>
@@ -267,47 +279,6 @@ https://zhuanlan.zhihu.com/p/137766539<br>
 <p>我对这公司的定义是非走不可的，没进公司前我就估计到，当初也是经历<strong>无数</strong>意外才不得已进了这公司，隐忍了8个多月也是不容易。</p>
 <p>既然有广东择业期政策，作为19届往届生我还是想拼搏一次，以应届生待遇进个安稳点的国企。<br>
 <img src="https://mathgod.github.io//post-images/1584629457857.jpg" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一键为网站添加夜间模式]]></title>
-        <id>https://mathgod.github.io/yejianmoshi</id>
-        <link href="https://mathgod.github.io/yejianmoshi">
-        </link>
-        <updated>2020-02-24T12:41:13.000Z</updated>
-        <summary type="html"><![CDATA[<p>直接在博客任意位置如footer.php文件插入js代码</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>直接在博客任意位置如footer.php文件插入js代码</p>
-<!-- more -->
-<pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-  new Darkmode({left: '32px',label: '🌓'}).showWidget();
-&lt;/script&gt;
-</code></pre>
-<p>演示：点击左下角按键</p>
-<p>具体配置可到官网https://darkmodejs.learn.uno/</p>
-<h2 id="注意">注意</h2>
-<p>不要使用360浏览器！<br>
-不要使用360浏览器！<br>
-360浏览器兼容性不好。会出现严重闪屏、内容缺失的奇怪问题，谷歌和火狐浏览器则正常。</p>
-<p>下面是内核版本一样的两个360浏览器的效果<br>
-<img src="https://mathgod.github.io//post-images/1582800380832.jpg" alt="" loading="lazy"><br>
-无法显示内容<br>
-<img src="https://mathgod.github.io//post-images/1582800450401.jpg" alt="" loading="lazy"><br>
-左右两侧没有变黑<br>
- <br>
-<img src="https://mathgod.github.io//post-images/1582800591465.jpg" alt="" loading="lazy"><br>
-谷歌和火狐浏览器则正常</p>
-<h2 id="问题点">问题点</h2>
-<p>代码框与代码无变化<br>
-背景图片会被自动隐藏，所以该模式不适合放在有背景图片的博客首页，放在内容页比较好。</p>
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
-<script>
-  new Darkmode({left: '32px',label: '🌓'}).showWidget();
-</script>
-<script>
-    	alert("为保证浏览效果，请勿使用360，Safari等浏览器，建议使用谷歌火狐");
-    </script>
 ]]></content>
     </entry>
 </feed>
