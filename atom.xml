@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-20T12:22:56.708Z</updated>
+    <updated>2020-05-20T12:29:00.075Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,14 +11,20 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
-        <title type="html"><![CDATA[垃圾又拍云]]></title>
+        <title type="html"><![CDATA[坑爹的又拍云]]></title>
         <id>https://mathgod.github.io/HhtxsIBV6</id>
         <link href="https://mathgod.github.io/HhtxsIBV6">
         </link>
         <updated>2020-05-20T12:21:29.000Z</updated>
-        <summary type="html"><![CDATA[<p>说好的免费ssl证书，却要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
+        <summary type="html"><![CDATA[<p>行测侠网站的ssl证书在freessl.org申请的，浏览器一直提示证书有问题。</p>
+<p>所以想换个ssl证书，然后看到又拍云的免费ssl证书广告。</p>
+<p>注册，实名一顿操作，却说要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
+<p>坑爹</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>说好的免费ssl证书，却要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
+        <content type="html"><![CDATA[<p>行测侠网站的ssl证书在freessl.org申请的，浏览器一直提示证书有问题。</p>
+<p>所以想换个ssl证书，然后看到又拍云的免费ssl证书广告。</p>
+<p>注册，实名一顿操作，却说要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
+<p>坑爹</p>
 <!-- more -->
 ]]></content>
     </entry>
