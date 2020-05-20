@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-20T12:29:00.075Z</updated>
+    <updated>2020-05-20T13:51:55.211Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[行测侠网站之按键位置解决方案]]></title>
+        <id>https://mathgod.github.io/yB5nwOghG</id>
+        <link href="https://mathgod.github.io/yB5nwOghG">
+        </link>
+        <updated>2020-05-20T13:45:03.000Z</updated>
+        <content type="html"><![CDATA[<p>其中一个按键(显示答案)的高度已浏览器高度取一定的比例，如50%。</p>
+<p>另一个按键（下一题）则以显示答案按键的高度为基准再下降一定的位置</p>
+<p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
+<p>js实现浏览器窗口大小被改变时触发事件</p>
+<pre><code class="language-javascript">&lt;script&gt;
+window.onresize = function(){
+var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
+high=high+80;
+document.getElementById(&quot;next&quot;).style.top=high+'px';
+}
+&lt;/script&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[坑爹的又拍云]]></title>
         <id>https://mathgod.github.io/HhtxsIBV6</id>
@@ -266,25 +286,6 @@ https://zhuanlan.zhihu.com/p/137766539<br>
 <p>听说是给某初学者的中间人攻击搞挂了</p>
 <p>全国都有影响</p>
 <p>博客只能fq才能打开了</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在公司的最后一晚]]></title>
-        <id>https://mathgod.github.io/baG79mkdg</id>
-        <link href="https://mathgod.github.io/baG79mkdg">
-        </link>
-        <updated>2020-03-19T14:07:40.000Z</updated>
-        <summary type="html"><![CDATA[<p>一个月前的2月20号跟部门领导提出辞职，(领导很理解也表示很早就知道我迟早会辞职的）明天3月20号正式辞工离开公司。算起来一共呆了8个月零20天。<br>
- <br>
-本想找到下家再走，父母也说这样保险点。但住在工厂的多人间连最基本的正常休息都无法保证，实在是对找工作有严重影响，所以还是回家休息好，以最好的精神状态寻找下一份工作。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>一个月前的2月20号跟部门领导提出辞职，(领导很理解也表示很早就知道我迟早会辞职的）明天3月20号正式辞工离开公司。算起来一共呆了8个月零20天。<br>
- <br>
-本想找到下家再走，父母也说这样保险点。但住在工厂的多人间连最基本的正常休息都无法保证，实在是对找工作有严重影响，所以还是回家休息好，以最好的精神状态寻找下一份工作。</p>
-<!-- more -->
-<p>我对这公司的定义是非走不可的，没进公司前我就估计到，当初也是经历<strong>无数</strong>意外才不得已进了这公司，隐忍了8个多月也是不容易。</p>
-<p>既然有广东择业期政策，作为19届往届生我还是想拼搏一次，以应届生待遇进个安稳点的国企。<br>
-<img src="https://mathgod.github.io//post-images/1584629457857.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>

@@ -2,19 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>发现北方的孩子比广东读书早了一年左右 | 老王博客</title>
+<title>行测侠网站之按键位置解决方案 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589982708844">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="发现北方的孩子比广东读书早了一年左右 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="行测侠网站之按键位置解决方案 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="我看到的大多数北方孩子是21,22岁大学毕业，而广东地区则是22,23岁大学毕业。否意味着早读书的孩子的人生轨迹也早了一年，早这一年会有什么不同吗？
-
-" />
+    <meta name="description" content="其中一个按键(显示答案)的高度已浏览器高度取一定的比例，如50%。
+另一个按键（下一题）则以显示答案按键的高度为基准再下降一定的位置
+注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。
+js实现浏览器窗口大..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -76,11 +77,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              发现北方的孩子比广东读书早了一年左右
+              行测侠网站之按键位置解决方案
             </h2>
             <div class="post-info">
               <span>
-                2020-01-15
+                2020-05-20
               </span>
               <span>
                 1 min read
@@ -90,8 +91,18 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>我看到的大多数北方孩子是21,22岁大学毕业，而广东地区则是22,23岁大学毕业。否意味着早读书的孩子的人生轨迹也早了一年，早这一年会有什么不同吗？</p>
-<!-- more -->
+                <p>其中一个按键(显示答案)的高度已浏览器高度取一定的比例，如50%。</p>
+<p>另一个按键（下一题）则以显示答案按键的高度为基准再下降一定的位置</p>
+<p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
+<p>js实现浏览器窗口大小被改变时触发事件</p>
+<pre><code class="language-javascript">&lt;script&gt;
+window.onresize = function(){
+var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
+high=high+80;
+document.getElementById(&quot;next&quot;).style.top=high+'px';
+}
+&lt;/script&gt;
+</code></pre>
 
               </div>
               <div class="toc-container">
@@ -103,22 +114,14 @@
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/Pyt6U26KQ">
-              <h3 class="post-title">
-                <随想
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/rdOl-t8bT">
+            <a href="https://mathgod.github.io/HhtxsIBV6">
               <h3 class="post-title">
-                程序员的发展历程>
+                坑爹的又拍云>
               </h3>
             </a>
           </div>
