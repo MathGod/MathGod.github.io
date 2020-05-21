@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T04:29:55.420Z</updated>
+    <updated>2020-05-21T07:49:35.052Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[行测侠网站兼容性问题]]></title>
+        <id>https://mathgod.github.io/y4JEztQ6L</id>
+        <link href="https://mathgod.github.io/y4JEztQ6L">
+        </link>
+        <updated>2020-05-21T07:47:44.000Z</updated>
+        <content type="html"><![CDATA[<p>在电脑端执行<code>onload=&quot;fullscreen();&quot;</code>时可以一进入网站/刷新自动全屏</p>
+<p>而手机端则不可以，为什么呢？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[行测侠网站之题目搜索功能]]></title>
         <id>https://mathgod.github.io/EEsz01es2</id>
@@ -302,30 +312,6 @@ function exitfullscreen() {
 <p>有做网站的时间和精力，应该好好思考下互联网如何更好的服务于人类</p>
 <p>如何摆脱限制个体自由交流的系统</p>
 <p>如何创造个体能够自由交流的系统</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[冰雹猜想]被证明了？？]]></title>
-        <id>https://mathgod.github.io/fmyYtoKOO</id>
-        <link href="https://mathgod.github.io/fmyYtoKOO">
-        </link>
-        <updated>2020-05-03T13:19:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>前两天，诗人白言在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
-https://zhuanlan.zhihu.com/p/137766539<br>
- <br>
-<strong>什么是冰雹猜想？</strong><br>
-30多年前，日本数学家角谷静发现了一个奇怪的现象：一个自然数，如果它是偶数，那么用2除它；如果商是奇数，将它乘以3之后再加上1，这样反复运算，最终必然得1。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>前两天，诗人白言在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
-https://zhuanlan.zhihu.com/p/137766539<br>
- <br>
-<strong>什么是冰雹猜想？</strong><br>
-30多年前，日本数学家角谷静发现了一个奇怪的现象：一个自然数，如果它是偶数，那么用2除它；如果商是奇数，将它乘以3之后再加上1，这样反复运算，最终必然得1。</p>
-<!-- more -->
-<p>比如，取自然数n＝6，按角谷静的作法有：6÷2＝3，3×3＋1＝10，10÷2＝5，5×3＋1＝16，16÷2＝8，8÷2＝4，4÷2＝2，2÷2＝1，从6开始经历了3→10→5→16→8→4→2→1，最后得1。<br>
-找个大数试试，取n＝16384。</p>
-<p>16384÷2＝8192，8192÷2＝4096，4096÷2＝2048，2048÷2＝1024，1024÷2＝512，512÷2＝256，256÷2＝128，128÷2＝64，64÷2＝32，32÷2＝16，16÷2＝8，8÷2＝4，4÷2＝2，2÷2＝1，这个数连续用2除了14次，最后还是得1。</p>
-<p>这个有趣的现象引起了许多数学爱好者的兴趣，一位美国数学家说：“有一个时期，在美国的大学里，它几乎成了最热门的话题，数学系和计算机系的大学生，差不多人人都在研究它。”人们在大量演算中发现，算出来的数字忽大忽小，有的过程很长，比如27算到1要经过112步，有人把演算过程形容为云中的小水滴，在高空气流的作用下，忽高忽低，遇冷成冰，体积越来越大，最后变成冰雹落了下来，而演算的数字最后也像冰雹一样掉下来，变成了1！选数学家把角谷静这一发现，称为“角谷猜想”或“冰雹猜想”。</p>
 ]]></content>
     </entry>
 </feed>
