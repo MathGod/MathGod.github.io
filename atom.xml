@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T07:49:35.052Z</updated>
+    <updated>2020-05-21T07:54:47.022Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,13 +11,23 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
-        <title type="html"><![CDATA[行测侠网站兼容性问题]]></title>
+        <title type="html"><![CDATA[行测侠网站自动全屏的兼容性问题]]></title>
         <id>https://mathgod.github.io/y4JEztQ6L</id>
         <link href="https://mathgod.github.io/y4JEztQ6L">
         </link>
         <updated>2020-05-21T07:47:44.000Z</updated>
-        <content type="html"><![CDATA[<p>在电脑端执行<code>onload=&quot;fullscreen();&quot;</code>时可以一进入网站/刷新自动全屏</p>
-<p>而手机端则不可以，为什么呢？</p>
+        <summary type="html"><![CDATA[<p>网站全屏即是F11的结果，把它转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入body标签。<br>
+ <br>
+在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
+ <br>
+而手机端则不可以，为什么呢？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>网站全屏即是F11的结果，把它转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入body标签。<br>
+ <br>
+在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
+ <br>
+而手机端则不可以，为什么呢？</p>
+<!-- more -->
 ]]></content>
     </entry>
     <entry>
