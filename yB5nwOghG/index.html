@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>行测侠网站之按键位置解决方案 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1589982708844">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590021796420">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="行测侠网站之按键位置解决方案 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -95,10 +95,15 @@ js实现浏览器窗口大..." />
 <p>另一个按键（下一题）则以显示答案按键的高度为基准再下降一定的位置</p>
 <p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
 <p>js实现浏览器窗口大小被改变时触发事件</p>
+<p>为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新后<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 <pre><code class="language-javascript">&lt;script&gt;
-window.onresize = function(){
 var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
 high=high+80;
+document.getElementById(&quot;next&quot;).style.top=high+'px';
+window.onresize = function(){
+var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
+high=high+70;
 document.getElementById(&quot;next&quot;).style.top=high+'px';
 }
 &lt;/script&gt;

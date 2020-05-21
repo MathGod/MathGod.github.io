@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-20T13:51:55.211Z</updated>
+    <updated>2020-05-21T00:43:24.156Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -20,10 +20,15 @@
 <p>另一个按键（下一题）则以显示答案按键的高度为基准再下降一定的位置</p>
 <p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
 <p>js实现浏览器窗口大小被改变时触发事件</p>
+<p>为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新后<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 <pre><code class="language-javascript">&lt;script&gt;
-window.onresize = function(){
 var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
 high=high+80;
+document.getElementById(&quot;next&quot;).style.top=high+'px';
+window.onresize = function(){
+var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
+high=high+70;
 document.getElementById(&quot;next&quot;).style.top=high+'px';
 }
 &lt;/script&gt;
