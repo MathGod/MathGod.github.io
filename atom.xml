@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T00:43:24.156Z</updated>
+    <updated>2020-05-21T00:59:22.341Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,20 +11,68 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
+        <title type="html"><![CDATA[行测侠网站之题目搜索功能]]></title>
+        <id>https://mathgod.github.io/EEsz01es2</id>
+        <link href="https://mathgod.github.io/EEsz01es2">
+        </link>
+        <updated>2020-05-21T00:45:04.000Z</updated>
+        <content type="html"><![CDATA[<p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
+<pre><code class="language-html">&lt;button style=&quot;float:right;margin-left:3px;margin-right:8px;margin-top: 1px;&quot; onclick=&quot;soti();&quot;&gt;搜索&lt;/button&gt;
+&lt;input style=&quot;width:170px;float:right;margin-right:8px;&quot;  type=&quot;text&quot; id=&quot;soti&quot; placeholder=&quot; 搜索题目&quot; onkeydown=&quot;keyup_submit(event);&quot;&gt;
+</code></pre>
+<pre><code class="language-javascript"> &lt;script&gt;
+function keyup_submit(e){ 
+    //回车键触发搜题
+var evt = window.event || e; 
+  if (evt.keyCode == 13){
+document.getElementById(&quot;next&quot;).style.display=&quot;none&quot;;
+var str=document.getElementById(&quot;soti&quot;).value;
+souti(str);
+ }
+ }
+
+function souti(str)
+{
+    if (str==&quot;&quot;)
+    {
+        document.getElementById(&quot;soti&quot;).innerHTML=&quot;&quot;;
+        return;
+    } 
+    if (window.XMLHttpRequest)
+    {xmlhttp=new XMLHttpRequest();}
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 &amp;&amp; xmlhttp.status==200)
+        {document.getElementById(&quot;timu&quot;).innerHTML=xmlhttp.responseText; }
+    }
+    xmlhttp.open(&quot;POST&quot;,&quot;so.php&quot;,true);
+   xmlhttp.setRequestHeader(&quot;Content-type&quot;,&quot;application/x-www-form-urlencoded&quot;);
+  xmlhttp.send(&quot;soti=&quot;+str);
+}
+&lt;/script&gt;
+</code></pre>
+<p>php核心代码</p>
+<pre><code class="language-php">if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
+   $soti = test_input($_POST[&quot;soti&quot;]);}
+$result = mysql_query(&quot;SELECT * FROM xingce_yanyu where timu like '%$soti%'&quot;);
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[行测侠网站之按键位置解决方案]]></title>
         <id>https://mathgod.github.io/yB5nwOghG</id>
         <link href="https://mathgod.github.io/yB5nwOghG">
         </link>
         <updated>2020-05-20T13:45:03.000Z</updated>
-        <content type="html"><![CDATA[<p>其中一个按键(显示答案)的高度已浏览器高度取一定的比例，如50%。</p>
-<p>另一个按键（下一题）则以显示答案按键的高度为基准再下降一定的位置</p>
+        <content type="html"><![CDATA[<p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。</p>
+<p>另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。</p>
 <p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
-<p>js实现浏览器窗口大小被改变时触发事件</p>
+<p>js实现浏览器窗口大小被改变时触发事件。</p>
 <p>为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新后<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
 <p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 <pre><code class="language-javascript">&lt;script&gt;
 var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
-high=high+80;
+high=high+70;
 document.getElementById(&quot;next&quot;).style.top=high+'px';
 window.onresize = function(){
 var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
@@ -279,18 +327,6 @@ https://zhuanlan.zhihu.com/p/137766539<br>
 找个大数试试，取n＝16384。</p>
 <p>16384÷2＝8192，8192÷2＝4096，4096÷2＝2048，2048÷2＝1024，1024÷2＝512，512÷2＝256，256÷2＝128，128÷2＝64，64÷2＝32，32÷2＝16，16÷2＝8，8÷2＝4，4÷2＝2，2÷2＝1，这个数连续用2除了14次，最后还是得1。</p>
 <p>这个有趣的现象引起了许多数学爱好者的兴趣，一位美国数学家说：“有一个时期，在美国的大学里，它几乎成了最热门的话题，数学系和计算机系的大学生，差不多人人都在研究它。”人们在大量演算中发现，算出来的数字忽大忽小，有的过程很长，比如27算到1要经过112步，有人把演算过程形容为云中的小水滴，在高空气流的作用下，忽高忽低，遇冷成冰，体积越来越大，最后变成冰雹落了下来，而演算的数字最后也像冰雹一样掉下来，变成了1！选数学家把角谷静这一发现，称为“角谷猜想”或“冰雹猜想”。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[github pages挂了]]></title>
-        <id>https://mathgod.github.io/2T4yDLUvz</id>
-        <link href="https://mathgod.github.io/2T4yDLUvz">
-        </link>
-        <updated>2020-03-26T13:02:34.000Z</updated>
-        <content type="html"><![CDATA[<p>证书出问题了</p>
-<p>听说是给某初学者的中间人攻击搞挂了</p>
-<p>全国都有影响</p>
-<p>博客只能fq才能打开了</p>
 ]]></content>
     </entry>
 </feed>
