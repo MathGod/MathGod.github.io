@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T08:36:06.491Z</updated>
+    <updated>2020-05-21T14:40:10.427Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[web开发常用js]]></title>
+        <id>https://mathgod.github.io/ESkAJjGhm</id>
+        <link href="https://mathgod.github.io/ESkAJjGhm">
+        </link>
+        <updated>2020-05-21T14:38:51.000Z</updated>
+        <content type="html"><![CDATA[<p>js获取某类的数量<br>
+<code>var aa=document.getElementsByClassName(&quot;tag&quot;).length;</code></p>
+<p>js获取某id下面某标签的数量<br>
+<code>document.getElementById(&quot;aa&quot;).getElementsByTagName(&quot;a&quot;);</code></p>
+<p>js中给元素添加类的方法</p>
+<pre><code class="language-javascript">document.getElementById(&quot;aa&quot;).className=&quot;tag_curr&quot;;
+document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
+</code></pre>
+<p>区别：第一种方法覆盖原类，第二种叠加。</p>
+<p>获取id名<br>
+<code>this.getAttribute(&quot;id&quot;);</code></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[行测侠网站自动全屏(F11)的兼容性问题]]></title>
         <id>https://mathgod.github.io/y4JEztQ6L</id>
@@ -332,31 +351,6 @@ function exitfullscreen() {
 <p>技校里被安排去工厂流水线实习的学生</p>
 <p>办理信用卡</p>
 <p><strong>除了楼市接盘是迫不得已，其他还是能依靠清醒的头脑避免的</strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[做网站是没有前途的]]></title>
-        <id>https://mathgod.github.io/DuZOrHmTA</id>
-        <link href="https://mathgod.github.io/DuZOrHmTA">
-        </link>
-        <updated>2020-05-06T11:36:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>做网站是没有前途的</p>
-<p>现在还在做网站是不是疯了</p>
-<p>没有前途的</p>
-<p>我也是闲的</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>做网站是没有前途的</p>
-<p>现在还在做网站是不是疯了</p>
-<p>没有前途的</p>
-<p>我也是闲的</p>
-<!-- more -->
-<p>人家为什么要来你的网站发帖、看帖子？</p>
-<p>这个问题就是一个死结</p>
-<p>没人发帖，就没人来看</p>
-<p>没人看帖，就没人来发</p>
-<p>有做网站的时间和精力，应该好好思考下互联网如何更好的服务于人类</p>
-<p>如何摆脱限制个体自由交流的系统</p>
-<p>如何创造个体能够自由交流的系统</p>
 ]]></content>
     </entry>
 </feed>
