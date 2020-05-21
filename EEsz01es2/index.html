@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>行测侠网站之题目搜索功能 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590022756805">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590023064651">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="行测侠网站之题目搜索功能 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -107,10 +107,9 @@ souti(str);
 function souti(str)
 {
     if (str==&quot;&quot;)
-    {
-        document.getElementById(&quot;soti&quot;).innerHTML=&quot;&quot;;
+    { document.getElementById(&quot;soti&quot;).innerHTML=&quot;&quot;;
         return;
-    } 
+     } 
     if (window.XMLHttpRequest)
     {xmlhttp=new XMLHttpRequest();}
     xmlhttp.onreadystatechange=function()
@@ -119,7 +118,7 @@ function souti(str)
         {document.getElementById(&quot;timu&quot;).innerHTML=xmlhttp.responseText; }
     }
     xmlhttp.open(&quot;POST&quot;,&quot;so.php&quot;,true);
-   xmlhttp.setRequestHeader(&quot;Content-type&quot;,&quot;application/x-www-form-urlencoded&quot;);
+   xmlhttp.setRequestHeader(&quot;Content-type&quot;,&quot;application/     x-www-form-urlencoded&quot;);
   xmlhttp.send(&quot;soti=&quot;+str);
 }
 &lt;/script&gt;
@@ -127,7 +126,7 @@ function souti(str)
 <p>php核心代码</p>
 <pre><code class="language-php">if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
    $soti = test_input($_POST[&quot;soti&quot;]);}
-$result = mysql_query(&quot;SELECT * FROM xingce_yanyu where timu like '%$soti%'&quot;);
+$result = mysql_query(&quot;SELECT * FROM xingce_panduan where timu like '%$soti%'&quot;);
 </code></pre>
 
               </div>
