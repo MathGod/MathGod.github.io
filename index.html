@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590048848518">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590050164201">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -79,7 +79,7 @@
     <div class="main">
         <div class="site-header">
   <a href="https://mathgod.github.io/">
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590048848518" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590050164201" alt="">
   </a>
   <h1 class="site-title">
     老王博客
@@ -162,15 +162,17 @@
       <div class="post-abstract">
         <p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
  <br>
-把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签。<br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签和<code>window.onload = function() {fullscreen()};</code>插入<code>&lt;script&gt;&lt;/script&gt;</code><br>
  <br>
-在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
+网站经过3个电脑端浏览器和9个手机端浏览器反复测试<br>
  <br>
-而手机端则不可以，为什么呢？<br>
+在电脑端，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏，火狐不可以<br>
+ <br>
+在手机端只有X浏览器可以，并且谷歌浏览器在重复快速刷新时偶尔可以全屏。<br>
  <br>
 然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏<br>
  <br>
-初步怀疑是网页加载没完成的问题<br>
+初步怀疑是网页加载方面的问题<br>
  <br>
 不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
 

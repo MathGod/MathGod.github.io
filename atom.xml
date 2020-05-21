@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T08:14:13.055Z</updated>
+    <updated>2020-05-21T08:36:06.491Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -18,29 +18,33 @@
         <updated>2020-05-21T07:47:44.000Z</updated>
         <summary type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
  <br>
-把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签。<br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签和<code>window.onload = function() {fullscreen()};</code>插入<code>&lt;script&gt;&lt;/script&gt;</code><br>
  <br>
-在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
+网站经过3个电脑端浏览器和9个手机端浏览器反复测试<br>
  <br>
-而手机端则不可以，为什么呢？<br>
+在电脑端，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏，火狐不可以<br>
+ <br>
+在手机端只有X浏览器可以，并且谷歌浏览器在重复快速刷新时偶尔可以全屏。<br>
  <br>
 然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏<br>
  <br>
-初步怀疑是网页加载没完成的问题<br>
+初步怀疑是网页加载方面的问题<br>
  <br>
 不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
  <br>
-把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签。<br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签和<code>window.onload = function() {fullscreen()};</code>插入<code>&lt;script&gt;&lt;/script&gt;</code><br>
  <br>
-在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
+网站经过3个电脑端浏览器和9个手机端浏览器反复测试<br>
  <br>
-而手机端则不可以，为什么呢？<br>
+在电脑端，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏，火狐不可以<br>
+ <br>
+在手机端只有X浏览器可以，并且谷歌浏览器在重复快速刷新时偶尔可以全屏。<br>
  <br>
 然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏<br>
  <br>
-初步怀疑是网页加载没完成的问题<br>
+初步怀疑是网页加载方面的问题<br>
  <br>
 不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
 <!-- more -->
