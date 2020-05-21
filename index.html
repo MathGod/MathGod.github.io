@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590047684890">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590048592334">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -79,7 +79,7 @@
     <div class="main">
         <div class="site-header">
   <a href="https://mathgod.github.io/">
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590047684890" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590048592334" alt="">
   </a>
   <h1 class="site-title">
     老王博客
@@ -147,7 +147,7 @@
   
     <article class="post">
       <a href="https://mathgod.github.io/y4JEztQ6L">
-        <h2 class="post-title">行测侠网站自动全屏的兼容性问题</h2>
+        <h2 class="post-title">行测侠网站自动全屏(F11)的兼容性问题</h2>
       </a>
       <div class="post-info">
         <span>
@@ -160,11 +160,15 @@
       </div>
       
       <div class="post-abstract">
-        <p>网站全屏即是F11的结果，把它转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入body标签。<br>
+        <p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
+ <br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签。<br>
  <br>
 在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
  <br>
-而手机端则不可以，为什么呢？</p>
+而手机端则不可以，为什么呢？<br>
+ <br>
+然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏</p>
 
       </div>
     </article>
@@ -184,7 +188,8 @@
       </div>
       
       <div class="post-abstract">
-        
+        <p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
+
       </div>
     </article>
   
@@ -203,7 +208,14 @@
       </div>
       
       <div class="post-abstract">
-        
+        <p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。<br>
+ <br>
+另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。<br>
+ <br>
+若两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。<br>
+ <br>
+为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+
       </div>
     </article>
   

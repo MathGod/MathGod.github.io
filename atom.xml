@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T07:54:47.022Z</updated>
+    <updated>2020-05-21T08:09:54.761Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,23 +11,32 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
-        <title type="html"><![CDATA[行测侠网站自动全屏的兼容性问题]]></title>
+        <title type="html"><![CDATA[行测侠网站自动全屏(F11)的兼容性问题]]></title>
         <id>https://mathgod.github.io/y4JEztQ6L</id>
         <link href="https://mathgod.github.io/y4JEztQ6L">
         </link>
         <updated>2020-05-21T07:47:44.000Z</updated>
-        <summary type="html"><![CDATA[<p>网站全屏即是F11的结果，把它转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入body标签。<br>
+        <summary type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
+ <br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签。<br>
  <br>
 在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
  <br>
-而手机端则不可以，为什么呢？</p>
+而手机端则不可以，为什么呢？<br>
+ <br>
+然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>网站全屏即是F11的结果，把它转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入body标签。<br>
+        <content type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
+ <br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签。<br>
  <br>
 在电脑端执行时，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏<br>
  <br>
-而手机端则不可以，为什么呢？</p>
+而手机端则不可以，为什么呢？<br>
+ <br>
+然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏</p>
 <!-- more -->
+<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 ]]></content>
     </entry>
     <entry>
@@ -36,7 +45,10 @@
         <link href="https://mathgod.github.io/EEsz01es2">
         </link>
         <updated>2020-05-21T00:45:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
+<!-- more -->
 <pre><code class="language-html">&lt;button style=&quot;float:right;margin-left:3px;margin-right:8px;margin-top: 1px;&quot; onclick=&quot;soti();&quot;&gt;搜索&lt;/button&gt;
 &lt;input style=&quot;width:170px;float:right;margin-right:8px;&quot;  type=&quot;text&quot; id=&quot;soti&quot; placeholder=&quot; 搜索题目&quot; onkeydown=&quot;keyup_submit(event);&quot;&gt;
 </code></pre>
@@ -83,11 +95,22 @@ $result = mysql_query(&quot;SELECT * FROM xingce_panduan where timu like '%$soti
         <link href="https://mathgod.github.io/yB5nwOghG">
         </link>
         <updated>2020-05-20T13:45:03.000Z</updated>
-        <content type="html"><![CDATA[<p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。</p>
-<p>另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。</p>
-<p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
-<p>js实现浏览器窗口大小被改变时触发事件。</p>
-<p>为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新后<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+        <summary type="html"><![CDATA[<p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。<br>
+ <br>
+另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。<br>
+ <br>
+若两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。<br>
+ <br>
+为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。<br>
+ <br>
+另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。<br>
+ <br>
+若两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。<br>
+ <br>
+为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+<!-- more -->
 <p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 <pre><code class="language-javascript">&lt;script&gt;
 var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);

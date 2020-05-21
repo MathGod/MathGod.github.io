@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>行测侠网站之按键位置解决方案 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590047684890">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590048592334">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="行测侠网站之按键位置解决方案 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -13,9 +13,12 @@
 
 
     <meta name="description" content="其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。
+ 
 另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。
-注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。
-js实现浏览器窗口..." />
+ 
+若两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。
+ 
+为什么要判断窗..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -91,11 +94,14 @@ js实现浏览器窗口..." />
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。</p>
-<p>另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。</p>
-<p>注意：如果两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。</p>
-<p>js实现浏览器窗口大小被改变时触发事件。</p>
-<p>为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新后<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+                <p>其中一个按键(key)的高度已浏览器高度取一定的比例，如50%。<br>
+ <br>
+另一个按键(next)则以显示答案按键的高度为基准再下降一定的位置。<br>
+ <br>
+若两个按键都按浏览器高度固定比例，则随着浏览器屏幕高度缩小，两个按钮会重叠。<br>
+ <br>
+为什么要判断窗口大小前再重复一遍，是为了对应网页刷新，网页刷新<code>window.onresize = function()</code>不会触发，下一题按键不能放置在目标位置。</p>
+<!-- more -->
 <p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 <pre><code class="language-javascript">&lt;script&gt;
 var high=parseInt(document.getElementById(&quot;daan&quot;).offsetTop);
