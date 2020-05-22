@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-21T14:46:17.707Z</updated>
+    <updated>2020-05-22T01:44:05.189Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[json文件编码问题导致网站PWA模式无法开启]]></title>
+        <id>https://mathgod.github.io/kykK-DNoU</id>
+        <link href="https://mathgod.github.io/kykK-DNoU">
+        </link>
+        <updated>2020-05-22T01:35:10.000Z</updated>
+        <content type="html"><![CDATA[<p>PWA主要功能就是自动提示是否把网站添加到移动端APP</p>
+<p>缺点是无法在PWA应用内跳转打开其他APP</p>
+<p>好处是方便用户打开网站，像打开APP一样就能打开。</p>
+<p><strong>行测侠</strong>网站很早就添加了PWA功能，但是一直没有效果。分析很久都没找到原因，昨晚用谷歌浏览器调试网站时发现是json文件编码出了问题，中文出现乱码了，提示我改成UTF-8编码，为保险起见，我把json文件的APP中文名都改成了英文。</p>
+<p>今早发现，PWA终于成功开启了</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[web开发常用js]]></title>
         <id>https://mathgod.github.io/ESkAJjGhm</id>
@@ -332,25 +345,6 @@ function exitfullscreen() {
 }
  &lt;/script&gt;
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我眼中的韭菜]]></title>
-        <id>https://mathgod.github.io/jiucai</id>
-        <link href="https://mathgod.github.io/jiucai">
-        </link>
-        <updated>2020-05-07T03:36:10.000Z</updated>
-        <content type="html"><![CDATA[<p>赌徒</p>
-<p>烟鬼酒鬼</p>
-<p>炒股散户</p>
-<p>楼市接盘者</p>
-<p>培训报班的</p>
-<p>买名牌化妆品，鞋子，包包，首饰之类的</p>
-<p>阿里云9.9注册公司的(没实力就去创业的)</p>
-<p>医美整形</p>
-<p>技校里被安排去工厂流水线实习的学生</p>
-<p>办理信用卡</p>
-<p><strong>除了楼市接盘是迫不得已，其他还是能依靠清醒的头脑避免的</strong></p>
 ]]></content>
     </entry>
 </feed>

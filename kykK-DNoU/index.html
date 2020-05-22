@@ -2,20 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>web开发常用js | 老王博客</title>
+<title>json文件编码问题导致网站PWA模式无法开启 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590111835779">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="web开发常用js | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="json文件编码问题导致网站PWA模式无法开启 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="js获取某类的数量
-var aa=document.getElementsByClassName(&quot;tag&quot;).length;
-js获取某id下面某标签的数量
-document.getElementById(&quot;..." />
+    <meta name="description" content="PWA主要功能就是自动提示是否把网站添加到移动端APP
+缺点是无法在PWA应用内跳转打开其他APP
+好处是方便用户打开网站，像打开APP一样就能打开。
+行测侠网站很早就添加了PWA功能，但是一直没有效果。分析很久都没找到原因，昨晚用谷歌浏览..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -77,11 +77,11 @@ document.getElementById(&quot;..." />
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              web开发常用js
+              json文件编码问题导致网站PWA模式无法开启
             </h2>
             <div class="post-info">
               <span>
-                2020-05-21
+                2020-05-22
               </span>
               <span>
                 1 min read
@@ -91,17 +91,11 @@ document.getElementById(&quot;..." />
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>js获取某类的数量<br>
-<code>var aa=document.getElementsByClassName(&quot;tag&quot;).length;</code></p>
-<p>js获取某id下面某标签的数量<br>
-<code>document.getElementById(&quot;aa&quot;).getElementsByTagName(&quot;a&quot;);</code></p>
-<p>js中给元素添加类的方法</p>
-<pre><code class="language-javascript">document.getElementById(&quot;aa&quot;).className=&quot;tag_curr&quot;;
-document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
-</code></pre>
-<p>区别：第一种方法覆盖原类，第二种叠加。</p>
-<p>获取id名<br>
-<code>this.getAttribute(&quot;id&quot;);</code></p>
+                <p>PWA主要功能就是自动提示是否把网站添加到移动端APP</p>
+<p>缺点是无法在PWA应用内跳转打开其他APP</p>
+<p>好处是方便用户打开网站，像打开APP一样就能打开。</p>
+<p><strong>行测侠</strong>网站很早就添加了PWA功能，但是一直没有效果。分析很久都没找到原因，昨晚用谷歌浏览器调试网站时发现是json文件编码出了问题，中文出现乱码了，提示我改成UTF-8编码，为保险起见，我把json文件的APP中文名都改成了英文。</p>
+<p>今早发现，PWA终于成功开启了</p>
 
               </div>
               <div class="toc-container">
@@ -113,22 +107,14 @@ document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/kykK-DNoU">
-              <h3 class="post-title">
-                <json文件编码问题导致网站PWA模式无法开启
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/y4JEztQ6L">
+            <a href="https://mathgod.github.io/ESkAJjGhm">
               <h3 class="post-title">
-                行测侠网站自动全屏(F11)的兼容性问题>
+                web开发常用js>
               </h3>
             </a>
           </div>
