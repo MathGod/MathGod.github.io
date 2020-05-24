@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-24T05:18:21.569Z</updated>
+    <updated>2020-05-24T14:25:26.358Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[js摧毁网页]]></title>
+        <id>https://mathgod.github.io/SEQumgs1h</id>
+        <link href="https://mathgod.github.io/SEQumgs1h">
+        </link>
+        <updated>2020-05-24T14:24:53.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="javascript:var%20KICKASSVERSION='2.0';
+   var%20s%20=%20document.createElement('script');
+   s.type='text/javascript';
+   document.body.appendChild(s);
+   s.src='//hi.kickassapp.com/kickass.js';
+   void(0);"><br>
+点击开始摧毁<br>
+</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[json文件编码问题导致网站PWA模式无法开启]]></title>
         <id>https://mathgod.github.io/kykK-DNoU</id>
@@ -266,81 +282,6 @@ RewriteCond %{HTTPS} !=on
  <br>
 如果是空壳主体！只能联系工信部！或者等他主动给你注销。时间太长了。</p>
 <!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示]]></title>
-        <id>https://mathgod.github.io/ALofmFlZu</id>
-        <link href="https://mathgod.github.io/ALofmFlZu">
-        </link>
-        <updated>2020-05-14T01:57:59.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="1行测侠-一个快捷高效的在线行测刷题网站">1.行测侠-一个快捷高效的在线行测刷题网站</h3>
-<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a><br>
- </p>
-<h4 id="样式保存">样式保存</h4>
-<p>html5 localStorage<br>
- </p>
-<h4 id="隐藏滚动条并可滚动">隐藏滚动条并可滚动</h4>
-<pre><code>&lt;style&gt;
-::-webkit-scrollbar{display: none;}
-&lt;/style&gt;
-</code></pre>
-]]></summary>
-        <content type="html"><![CDATA[<h3 id="1行测侠-一个快捷高效的在线行测刷题网站">1.行测侠-一个快捷高效的在线行测刷题网站</h3>
-<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a><br>
- </p>
-<h4 id="样式保存">样式保存</h4>
-<p>html5 localStorage<br>
- </p>
-<h4 id="隐藏滚动条并可滚动">隐藏滚动条并可滚动</h4>
-<pre><code>&lt;style&gt;
-::-webkit-scrollbar{display: none;}
-&lt;/style&gt;
-</code></pre>
-<!-- more -->
-<h4 id="全屏显示">全屏显示</h4>
-<pre><code>&lt;button onclick=&quot;return ExecuteFun(this)&quot; &gt;全屏&lt;/button&gt; 
- &lt;script type=&quot;text/javascript&quot;&gt;
-     function ExecuteFun(a) {
-        var full = a.innerHTML == '全屏';
-        full ? fullscreen() : exitfullscreen();
-        a.innerHTML = full ? '返回' : '全屏';
-        return false;
-    }
-
-function fullscreen() {
-  var el = document.documentElement,
-    rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,
-    wscript;
-  if(typeof rfs != &quot;undefined&quot; &amp;&amp; rfs) {
-    rfs.call(el);
-    return;
-  }
-  if(typeof window.ActiveXObject != &quot;undefined&quot;) {
-    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
-    if(wscript) {
-      wscript.SendKeys(&quot;{F11}&quot;);
-    }
-  }
-}
-
-function exitfullscreen() {
-  var el = document,
-    cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen,
-    wscript;
-  if (typeof cfs != &quot;undefined&quot; &amp;&amp; cfs) {
-   cfs.call(el);
-   return;
-  }
-  if (typeof window.ActiveXObject != &quot;undefined&quot;) {
-    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
-    if (wscript != null) {
-      wscript.SendKeys(&quot;{F11}&quot;);
-    }
- }
-}
- &lt;/script&gt;
-</code></pre>
 ]]></content>
     </entry>
 </feed>
