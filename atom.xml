@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-22T01:44:05.189Z</updated>
+    <updated>2020-05-24T04:54:09.825Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -194,12 +194,8 @@ document.getElementById(&quot;next&quot;).style.top=high+'px';
         </link>
         <updated>2020-05-19T05:08:02.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;script&gt;
-        if (is_weixn()) {
-            alert(&quot;请点击右上角按钮, 点击使用浏览器打开&quot;);
-        }
-
-        if(is_qq()){
-          alert(&quot;请点击右上角按钮, 点击使用浏览器打开&quot;);
+   if (is_weixn()||is_qq()) {
+            alert(&quot;\n点击右上角，选择&quot;在浏览器中打开&quot;，获得更好体验&quot;);
         }
         // 是微信浏览器
         function is_weixn() {
