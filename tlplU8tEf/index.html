@@ -2,21 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>js摧毁网页游戏 | 老王博客</title>
+<title>js网页标题切换 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590369188784">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="js摧毁网页游戏 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="js网页标题切换 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="
-点击开始摧毁
-
-转自：http://xiaowiba.com/archives/820/
-..." />
+    <meta name="description" content="var OriginTitile = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function() {
+if (documen..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -78,29 +77,63 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              js摧毁网页游戏
+              js网页标题切换
             </h2>
             <div class="post-info">
               <span>
-                2020-05-24
+                2020-05-25
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p><a href="javascript:var%20KICKASSVERSION='2.0';
-   var%20s%20=%20document.createElement('script');
-   s.type='text/javascript';
-   document.body.appendChild(s);
-   s.src='//hi.kickassapp.com/kickass.js';
-   void(0);"><br>
-点击开始摧毁<br>
-</a></p>
-<p>转自：http://xiaowiba.com/archives/820/</p>
+                <pre><code class="language-javascript">var OriginTitile = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function() {
+if (document.hidden) {
+$('[rel=&quot;shortcut icon&quot;]').attr('href', &quot;http://omuy6viz3.bkt.clouddn.com/2017/03/2350176515.ico&quot;);
+document.title = '(⊙_⊙)已隐藏•' + OriginTitile;
+clearTimeout(titleTime);
+}
+else {
+$('[rel=&quot;shortcut icon&quot;]').attr('href', &quot;http://omuy6viz3.bkt.clouddn.com/2017/03/2350176515.ico&quot;);
+document.title = '๑乛◡乛๑回来喽•' + OriginTitile;
+titleTime = setTimeout(function() {
+document.title = OriginTitile;
+}, 1500);
+}
+});
+</code></pre>
+<p>浏览器标签页面切换停止播放音乐</p>
+<pre><code class="language-html">&lt;html&gt;
+&lt;body onload=&quot;load()&quot;&gt;
+&lt;audio id=&quot;audio_id&quot;&gt;
+&lt;source src=&quot;http://omuy6viz3.bkt.clouddn.com/2017/03/1357898667.mp3&quot;/&gt;
+&lt;/audio&gt;
+&lt;script&gt;
+var audioElement = document.getElementById(&quot;audio_id&quot;);
+function onVisibilityChanged(event) {
+  var hidden = event.target.webkitHidden;
+  if (hidden) {
+    audioElement.pause();
+  } else {
+    audioElement.play();
+  }
+}
+function load() {
+  audioElement.play();
+  audioElement.loop = true;
+  document.addEventListener(&quot;webkitvisibilitychange&quot;, onVisibilityChanged, false);
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>转自http://xiaowiba.com/archives/661/</p>
 
               </div>
               <div class="toc-container">
@@ -113,9 +146,9 @@
       <div class="post-nav">
         
           <div class="prev-post">
-            <a href="https://mathgod.github.io/8z7lZs-VF">
+            <a href="https://mathgod.github.io/T1L46nTGa">
               <h3 class="post-title">
-                <js打字特效
+                <CSS不停抖动样式
               </h3>
             </a>
           </div>
@@ -125,9 +158,9 @@
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/kykK-DNoU">
+            <a href="https://mathgod.github.io/8z7lZs-VF">
               <h3 class="post-title">
-                json文件编码问题导致网站PWA模式无法开启>
+                js打字特效>
               </h3>
             </a>
           </div>
