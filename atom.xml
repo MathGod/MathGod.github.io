@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-24T15:29:36.465Z</updated>
+    <updated>2020-05-25T00:31:40.967Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[js打字特效]]></title>
+        <id>https://mathgod.github.io/8z7lZs-VF</id>
+        <link href="https://mathgod.github.io/8z7lZs-VF">
+        </link>
+        <updated>2020-05-25T00:31:02.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-javascript">var typingbefore = document.getElementById(&quot;typetitle&quot;).innerText;//获取标题内容
+document.getElementById('typetitle').innerText = &quot;&quot;;//将标题内容赋值为空
+var i = 0;
+function typetitle(){
+    var typingafter = document.getElementById('typetitle');//获取标题元素
+    if(i &lt;= typingbefore.length){
+        typingafter.innerHTML = typingbefore.slice(0,i++)+'|';//将标题内容通过slice()方法返回
+        setTimeout('typetitle()',100);//每100毫秒执行一次
+    }else{
+        typingafter.innerHTML = typingbefore;//当标题内容全部返回后，去掉最后的‘|’
+    }
+}
+typetitle();
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[js摧毁网页游戏]]></title>
         <id>https://mathgod.github.io/SEQumgs1h</id>
@@ -263,26 +285,6 @@ RewriteCond %{HTTPS} !=on
 <!-- more -->
 <pre><code>RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网站ICP备案须知]]></title>
-        <id>https://mathgod.github.io/_qLNI3SVe</id>
-        <link href="https://mathgod.github.io/_qLNI3SVe">
-        </link>
-        <updated>2020-05-14T08:37:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>如果只有一个备案网站千万不要只注销网站！直接注销主体<br>
- <br>
-如果一个主体下有好几个网站可单个注销网站<br>
- <br>
-如果是空壳主体！只能联系工信部！或者等他主动给你注销。时间太长了。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>如果只有一个备案网站千万不要只注销网站！直接注销主体<br>
- <br>
-如果一个主体下有好几个网站可单个注销网站<br>
- <br>
-如果是空壳主体！只能联系工信部！或者等他主动给你注销。时间太长了。</p>
-<!-- more -->
 ]]></content>
     </entry>
 </feed>
