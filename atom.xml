@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-25T01:25:01.963Z</updated>
+    <updated>2020-05-25T01:59:29.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[燕子幼崽全死了]]></title>
+        <id>https://mathgod.github.io/0h79Wqq_P</id>
+        <link href="https://mathgod.github.io/0h79Wqq_P">
+        </link>
+        <updated>2020-05-25T01:30:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>家里屋檐下有个鸟巢，鸟巢下面有两只燕子幼崽。</p>
+<p>今早被爸妈发现，第二只也死在门前了。第一只也是在前几天刮大风下大雨时候死的，死在门前的地上，具体原因也不知道，可能是被风刮下来的。</p>
+<p>昨晚11点20分左右，大燕子在家门前一直盘旋一直叫，非常奇怪，像是在呼唤人。我一打开门出去，大燕子就立刻在屋檐下，我头顶旁盘旋大叫，然后过了两秒钟就飞到旁边的电线杆上，停止了叫声。应该是终于把人呼唤出来就停止了。</p>
+<p>我以为又是燕子幼崽掉下来了，不停在地上找燕子，然而没找到。然后我拿了个梯子爬山鸟巢旁，鸟巢很臭，发现第二只燕子幼崽还在，但是应该是躺着的（没看到头只看到身体），我用手轻轻戳了戳它身体，但是燕子幼崽反应不大，只是动了动。我以为他在睡觉（现在想想可能是快死了）</p>
+<p>现在很后悔，当时应该找个手套把它拿下来看看的，爸妈又一直催我快去睡觉。</p>
+<p>昨天下午骑自行车的时候刚好看到石联有一条路路上都是些红色小虫子，还想着今天下午再去那个地方带着工具去抓一些回来给小燕子吃。</p>
+<p>现在最疑惑的是小燕子为什么会死掉，而且是死在门前，是燕子妈妈发现小燕子死了所以把它拎到门前的吗？</p>
+<p>原因猜测：1.吃了有毒的东西 2被老鼠攻击了 3饿死了</p>
+<p>以后要是再有燕子在屋檐下养育幼崽，我该怎么做？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>家里屋檐下有个鸟巢，鸟巢下面有两只燕子幼崽。</p>
+<p>今早被爸妈发现，第二只也死在门前了。第一只也是在前几天刮大风下大雨时候死的，死在门前的地上，具体原因也不知道，可能是被风刮下来的。</p>
+<p>昨晚11点20分左右，大燕子在家门前一直盘旋一直叫，非常奇怪，像是在呼唤人。我一打开门出去，大燕子就立刻在屋檐下，我头顶旁盘旋大叫，然后过了两秒钟就飞到旁边的电线杆上，停止了叫声。应该是终于把人呼唤出来就停止了。</p>
+<p>我以为又是燕子幼崽掉下来了，不停在地上找燕子，然而没找到。然后我拿了个梯子爬山鸟巢旁，鸟巢很臭，发现第二只燕子幼崽还在，但是应该是躺着的（没看到头只看到身体），我用手轻轻戳了戳它身体，但是燕子幼崽反应不大，只是动了动。我以为他在睡觉（现在想想可能是快死了）</p>
+<p>现在很后悔，当时应该找个手套把它拿下来看看的，爸妈又一直催我快去睡觉。</p>
+<p>昨天下午骑自行车的时候刚好看到石联有一条路路上都是些红色小虫子，还想着今天下午再去那个地方带着工具去抓一些回来给小燕子吃。</p>
+<p>现在最疑惑的是小燕子为什么会死掉，而且是死在门前，是燕子妈妈发现小燕子死了所以把它拎到门前的吗？</p>
+<p>原因猜测：1.吃了有毒的东西 2被老鼠攻击了 3饿死了</p>
+<p>以后要是再有燕子在屋檐下养育幼崽，我该怎么做？</p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSS不停抖动样式]]></title>
         <id>https://mathgod.github.io/T1L46nTGa</id>
@@ -895,24 +923,6 @@ document.getElementById(&quot;next&quot;).style.top=high+'px';
 }
 &lt;/script&gt;
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[坑爹的又拍云]]></title>
-        <id>https://mathgod.github.io/HhtxsIBV6</id>
-        <link href="https://mathgod.github.io/HhtxsIBV6">
-        </link>
-        <updated>2020-05-20T12:21:29.000Z</updated>
-        <summary type="html"><![CDATA[<p>行测侠网站的ssl证书在freessl.org申请的，浏览器一直提示证书有问题。</p>
-<p>所以想换个ssl证书，然后看到又拍云的免费ssl证书广告。</p>
-<p>注册，实名一顿操作，却说要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
-<p>坑爹</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>行测侠网站的ssl证书在freessl.org申请的，浏览器一直提示证书有问题。</p>
-<p>所以想换个ssl证书，然后看到又拍云的免费ssl证书广告。</p>
-<p>注册，实名一顿操作，却说要域名备案，且已绑定在它的 CDN 或云存储服务。</p>
-<p>坑爹</p>
-<!-- more -->
 ]]></content>
     </entry>
 </feed>
