@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-26T02:32:21.803Z</updated>
+    <updated>2020-05-26T02:34:43.136Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -12,30 +12,19 @@
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
         <title type="html"><![CDATA[js dom对ID操作与对类操作区别]]></title>
-        <id>https://mathgod.github.io/TvIChe00H</id>
-        <link href="https://mathgod.github.io/TvIChe00H">
+        <id>https://mathgod.github.io/jsclass</id>
+        <link href="https://mathgod.github.io/jsclass">
         </link>
         <updated>2020-05-26T02:14:31.000Z</updated>
-        <summary type="html"><![CDATA[<p>对类的话可同时操作多个多个标签，id标签只有一个</p>
-<pre><code class="language-javascript">//对类
-document.getElementById(&quot;answer&quot;).style.display='inline';
-
-//对标签
-var x= document.getElementsByName(&quot;answer&quot;);//注意是getElements后面多了个s
-for(i=0;i&lt;x.length;i++){
-x[i].style.display='inline';}
-</code></pre>
-]]></summary>
         <content type="html"><![CDATA[<p>对类的话可同时操作多个多个标签，id标签只有一个</p>
 <pre><code class="language-javascript">//对类
 document.getElementById(&quot;answer&quot;).style.display='inline';
 
-//对标签
+//对id
 var x= document.getElementsByName(&quot;answer&quot;);//注意是getElements后面多了个s
 for(i=0;i&lt;x.length;i++){
 x[i].style.display='inline';}
 </code></pre>
-<!-- more -->
 ]]></content>
     </entry>
     <entry>
