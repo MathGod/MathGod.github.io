@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590459597117">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590459940482">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -79,7 +79,7 @@
     <div class="main">
         <div class="site-header">
   <a href="https://mathgod.github.io/">
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590459597117" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590459940482" alt="">
   </a>
   <h1 class="site-title">
     老王博客
@@ -147,7 +147,7 @@
   
     <article class="post">
       <a href="https://mathgod.github.io/TvIChe00H">
-        <h2 class="post-title">js dom对类操作与对ID操作区别</h2>
+        <h2 class="post-title">js dom对ID操作与对类操作区别</h2>
       </a>
       <div class="post-info">
         <span>
@@ -160,7 +160,16 @@
       </div>
       
       <div class="post-abstract">
-        
+        <p>对类的话可同时操作多个多个标签，id标签只有一个</p>
+<pre><code class="language-javascript">//对类
+document.getElementById(&quot;answer&quot;).style.display='inline';
+
+//对标签
+var x= document.getElementsByName(&quot;answer&quot;);//注意是getElements后面多了个s
+for(i=0;i&lt;x.length;i++){
+x[i].style.display='inline';}
+</code></pre>
+
       </div>
     </article>
   

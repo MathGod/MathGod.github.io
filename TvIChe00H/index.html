@@ -2,20 +2,22 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>js dom对类操作与对ID操作区别 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590459597117">
+<title>js dom对ID操作与对类操作区别 | 老王博客</title>
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590459940482">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="js dom对类操作与对ID操作区别 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="js dom对ID操作与对类操作区别 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="function answer(){
-var x= document.getElementsByName(&quot;answer&quot;);
-//注意那个s！getElements！
-for(i=0;i&lt;x.length;i++..." />
+    <meta name="description" content="对类的话可同时操作多个多个标签，id标签只有一个
+//对类
+document.getElementById(&quot;answer&quot;).style.display='inline';
+
+//对标签
+var x= document..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -77,7 +79,7 @@ for(i=0;i&lt;x.length;i++..." />
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              js dom对类操作与对ID操作区别
+              js dom对ID操作与对类操作区别
             </h2>
             <div class="post-info">
               <span>
@@ -91,14 +93,16 @@ for(i=0;i&lt;x.length;i++..." />
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <pre><code class="language-javascript">function answer(){
-var x= document.getElementsByName(&quot;answer&quot;);
-//注意那个s！getElements！
-for(i=0;i&lt;x.length;i++){
-x[i].style.display='inline';}}
-
+                <p>对类的话可同时操作多个多个标签，id标签只有一个</p>
+<pre><code class="language-javascript">//对类
 document.getElementById(&quot;answer&quot;).style.display='inline';
+
+//对标签
+var x= document.getElementsByName(&quot;answer&quot;);//注意是getElements后面多了个s
+for(i=0;i&lt;x.length;i++){
+x[i].style.display='inline';}
 </code></pre>
+<!-- more -->
 
               </div>
               <div class="toc-container">
