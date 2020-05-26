@@ -2,25 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示 | 老王博客</title>
+<title>js dom对类操作与对ID操作区别 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590459597117">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="js dom对类操作与对ID操作区别 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="1.行测侠-一个快捷高效的在线行测刷题网站
-https://www.xingcexia.top/ 
- 
-样式保存
-html5 localStorage
- 
-隐藏滚动条并可滚动
-&lt;style&gt;
-::-webkit-scrollba..." />
+    <meta name="description" content="function answer(){
+var x= document.getElementsByName(&quot;answer&quot;);
+//注意那个s！getElements！
+for(i=0;i&lt;x.length;i++..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -82,96 +77,32 @@ html5 localStorage
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              行测侠网站之样式保存，隐藏滚动条并可滚动，全屏显示
+              js dom对类操作与对ID操作区别
             </h2>
             <div class="post-info">
               <span>
-                2020-05-14
+                2020-05-26
               </span>
               <span>
-                2 min read
+                1 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h3 id="1行测侠-一个快捷高效的在线行测刷题网站">1.行测侠-一个快捷高效的在线行测刷题网站</h3>
-<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a><br>
- </p>
-<h4 id="样式保存">样式保存</h4>
-<p>html5 localStorage<br>
- </p>
-<h4 id="隐藏滚动条并可滚动">隐藏滚动条并可滚动</h4>
-<pre><code>&lt;style&gt;
-::-webkit-scrollbar{display: none;}
-&lt;/style&gt;
-</code></pre>
-<!-- more -->
-<h4 id="全屏显示">全屏显示</h4>
-<pre><code>&lt;button onclick=&quot;return ExecuteFun(this)&quot; &gt;全屏&lt;/button&gt; 
- &lt;script type=&quot;text/javascript&quot;&gt;
-     function ExecuteFun(a) {
-        var full = a.innerHTML == '全屏';
-        full ? fullscreen() : exitfullscreen();
-        a.innerHTML = full ? '返回' : '全屏';
-        return false;
-    }
+                <pre><code class="language-javascript">function answer(){
+var x= document.getElementsByName(&quot;answer&quot;);
+//注意那个s！getElements！
+for(i=0;i&lt;x.length;i++){
+x[i].style.display='inline';}}
 
-function fullscreen() {
-  var el = document.documentElement,
-    rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,
-    wscript;
-  if(typeof rfs != &quot;undefined&quot; &amp;&amp; rfs) {
-    rfs.call(el);
-    return;
-  }
-  if(typeof window.ActiveXObject != &quot;undefined&quot;) {
-    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
-    if(wscript) {
-      wscript.SendKeys(&quot;{F11}&quot;);
-    }
-  }
-}
-
-function exitfullscreen() {
-  var el = document,
-    cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen,
-    wscript;
-  if (typeof cfs != &quot;undefined&quot; &amp;&amp; cfs) {
-   cfs.call(el);
-   return;
-  }
-  if (typeof window.ActiveXObject != &quot;undefined&quot;) {
-    wscript = new ActiveXObject(&quot;WScript.Shell&quot;);
-    if (wscript != null) {
-      wscript.SendKeys(&quot;{F11}&quot;);
-    }
- }
-}
- &lt;/script&gt;
+document.getElementById(&quot;answer&quot;).style.display='inline';
 </code></pre>
 
               </div>
               <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#1%E8%A1%8C%E6%B5%8B%E4%BE%A0-%E4%B8%80%E4%B8%AA%E5%BF%AB%E6%8D%B7%E9%AB%98%E6%95%88%E7%9A%84%E5%9C%A8%E7%BA%BF%E8%A1%8C%E6%B5%8B%E5%88%B7%E9%A2%98%E7%BD%91%E7%AB%99">1.行测侠-一个快捷高效的在线行测刷题网站</a>
-<ul>
-<li><a href="#%E6%A0%B7%E5%BC%8F%E4%BF%9D%E5%AD%98">样式保存</a></li>
-<li><a href="#%E9%9A%90%E8%97%8F%E6%BB%9A%E5%8A%A8%E6%9D%A1%E5%B9%B6%E5%8F%AF%E6%BB%9A%E5%8A%A8">隐藏滚动条并可滚动</a></li>
-<li><a href="#%E5%85%A8%E5%B1%8F%E6%98%BE%E7%A4%BA">全屏显示</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
+                
               </div>
             </div>
           </article>
@@ -179,22 +110,14 @@ function exitfullscreen() {
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/_qLNI3SVe">
-              <h3 class="post-title">
-                <网站ICP备案须知
-              </h3>
-            </a>
-          </div>
-        
 
 
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/jiucai">
+            <a href="https://mathgod.github.io/yanzi">
               <h3 class="post-title">
-                我眼中的韭菜>
+                燕子幼崽全死了>
               </h3>
             </a>
           </div>
