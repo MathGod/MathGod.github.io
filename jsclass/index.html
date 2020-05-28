@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>js dom对ID操作与对类操作区别 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590460471534">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590629368995">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="js dom对ID操作与对类操作区别 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -74,7 +74,7 @@ var x= document..." />
 
 
               <canvas id="evanyou" style="width:100%;background:#e8fff8;"></canvas>
-    <div class="main">
+    <div class="main" id="#pjax-container">
       <div class="main-content">
         <div class="post-detail">
           <article class="post">
@@ -181,6 +181,10 @@ document.write(+dni)
 <script type="text/javascript">
     loadlive2d("live2d", "https://mathgod.github.io/live2d/model/tia/model.json");
 </script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+<script>
+  new Darkmode({left: '32px',label: '🌓'}).showWidget();
+</script>
 
 
 
@@ -228,6 +232,11 @@ document.write(+dni)
       });
 
     </script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
+</script>
 
   </body>
 </html>
