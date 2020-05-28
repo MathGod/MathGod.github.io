@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-28T12:42:52.877Z</updated>
+    <updated>2020-05-28T14:36:30.016Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[小说网站阅读设置控件]]></title>
+        <id>https://mathgod.github.io/WQzvrMfj1</id>
+        <link href="https://mathgod.github.io/WQzvrMfj1">
+        </link>
+        <updated>2020-05-28T14:30:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>小说网站阅读设置插件件。按键调节字体大小，粗细，宋楷黑体，背景颜色，屏幕宽度，全屏缩屏。电脑端移动端自适应，刷新保存设置。Q群7954 76500欢迎加入交流，作者QQ374162745。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>小说网站阅读设置插件件。按键调节字体大小，粗细，宋楷黑体，背景颜色，屏幕宽度，全屏缩屏。电脑端移动端自适应，刷新保存设置。Q群7954 76500欢迎加入交流，作者QQ374162745。</p>
+<!-- more -->
+<p><img src="https://mathgod.github.io//post-images/1590676422143.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1590676429637.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网站改版，不整那些花里胡哨没用的了]]></title>
         <id>https://mathgod.github.io/ufyoZUis6</id>
@@ -851,25 +865,6 @@ typetitle();
 <p>好处是方便用户打开网站，像打开APP一样就能打开。</p>
 <p><strong>行测侠</strong>网站很早就添加了PWA功能，但是一直没有效果。分析很久都没找到原因，昨晚用谷歌浏览器调试网站时发现是json文件编码出了问题，中文出现乱码了，提示我改成UTF-8编码，为保险起见，我把json文件的APP中文名都改成了英文。</p>
 <p>今早发现，PWA终于成功开启了</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[web开发常用js]]></title>
-        <id>https://mathgod.github.io/ESkAJjGhm</id>
-        <link href="https://mathgod.github.io/ESkAJjGhm">
-        </link>
-        <updated>2020-05-21T14:38:51.000Z</updated>
-        <content type="html"><![CDATA[<p>js获取某类的数量<br>
-<code>var aa=document.getElementsByClassName(&quot;tag&quot;).length;</code></p>
-<p>js获取某id下面某标签的数量<br>
-<code>document.getElementById(&quot;aa&quot;).getElementsByTagName(&quot;a&quot;);</code></p>
-<p>js中给元素添加类的方法</p>
-<pre><code class="language-javascript">document.getElementById(&quot;aa&quot;).className=&quot;tag_curr&quot;;
-document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
-</code></pre>
-<p>区别：第一种方法覆盖原类，第二种叠加。</p>
-<p>获取id名<br>
-<code>this.getAttribute(&quot;id&quot;);</code></p>
 ]]></content>
     </entry>
 </feed>
