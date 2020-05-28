@@ -143,7 +143,7 @@
 
 
     
-        
+              <div id="pjax-container">
 <div class="post-container">
   
     <article class="post">
@@ -339,7 +339,12 @@
     </article>
   
 </div>
-
+</div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
+</script>
     
         <div class="pagination-container">
   
