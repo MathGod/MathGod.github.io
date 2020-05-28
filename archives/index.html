@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590636732050">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590640294384">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -73,6 +73,8 @@
       <div class="main-content">
     
         
+ <div id="pjax-container">
+
 
 <div class="archives-container">
   
@@ -485,6 +487,11 @@
     
   
 </div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
+</script>
 
     
         <div class="pagination-container">
