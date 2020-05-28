@@ -196,8 +196,6 @@ sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只
           </div>
         
 
-
-
         
           <div class="next-post">
             <a href="https://mathgod.github.io/tQztC8IEP">
@@ -208,10 +206,10 @@ sw.js文件内容可以为空，甚至不存在此文件都能实现功能。只
           </div>
         
       </div>
-
+</div>
         
 
-</div>
+
         
 
 <div class="site-footer">
@@ -246,6 +244,13 @@ document.write(+dni)
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/anime.min.js"></script>
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/fireworks.js"></script>
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/aixin.js"></script>
+
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
+</script>
 
 
 <!--
@@ -315,11 +320,6 @@ document.write(+dni)
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
 <script>
   new Darkmode({left: '32px',label: '🌓'}).showWidget();
-</script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
-<script>
-$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
 </script>
   </body>
 </html>
