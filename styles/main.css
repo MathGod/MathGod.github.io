@@ -4514,7 +4514,6 @@ border-radius: 5px;
   flex: 1;
 background: #fff;
 border-radius: 5px;
-margin-top: 41px;
 }
 .post-detail .post {
   padding: 4px 10px;
@@ -4528,7 +4527,7 @@ margin-top: 41px;
 .post-detail .post .post-title {
   font-size: 26px;
   text-align: center;
-  padding: 20px 0;
+  padding: 61px 0 20px 0;
   font-weight: 900;
   letter-spacing: 0.02em;
 }
