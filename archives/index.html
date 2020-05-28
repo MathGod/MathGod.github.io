@@ -68,12 +68,11 @@
           <script>
       //alert("为保证浏览效果，请勿使用360，Safari等浏览器，建议使用谷歌火狐");
 </script>
- <canvas id="evanyou" style="width:100%;background:#e8fff8;"></canvas>
+
     <div class="main">
       <div class="main-content">
-    
+     <div id="pjax-container">
         
- <div id="pjax-container">
 
 
 <div class="archives-container">
@@ -486,14 +485,10 @@
       
     
   
-</div>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
-<script>
-$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
-</script>
 
-    
+
+
+    </div>
         <div class="pagination-container">
   
   
@@ -557,9 +552,15 @@ document.write(+dni)
 
       </div>
     </div>
+     <canvas id="evanyou" style="width:100%;background:#e8fff8;"></canvas>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
 <script>
   new Darkmode({left: '32px',label: '🌓'}).showWidget();
+</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
 </script>
   </body>
 </html>
