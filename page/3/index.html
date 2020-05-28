@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-<link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
+<!--<link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">-->
 
 
 
@@ -16,7 +16,7 @@
     <link rel="manifest" href="manifest.json">
   </head>
   <!--<body class="bg" style="background-image:url(https://i.loli.net/2020/01/25/sO8VpFH6GwUmi4l.jpg)">-->
-  <body class="bg" style="background-image:url(https://i.loli.net/2020/01/25/sO8VpFH6GwUmi4l.jpg)">
+  <body class="bg">
   
 <script>
   if ('serviceWorker' in navigator) {
@@ -406,7 +406,12 @@ fun();
 </div>
 
       </div>  
-        
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
+</script>
+<audio src="https://www.xingcexia.top/pjax/url.mp3" autoplay></audio>
 
 <div class="site-footer">
  <div class="footer-inner">
@@ -429,27 +434,16 @@ document.write(+dni)
 </div>
 </div>
 
-
+<!--
+<canvas id="evanyou" style="width:100%;background:#e8fff8;"></canvas>
 <script type="text/javascript" src="https://mathgod.github.io/caitiao.js"></script>
-
-
 <script type="text/javascript" color="255,0,255" pointColor="255,0,255" opacity='1' zIndex="-1" count="150" src="https://mathgod.github.io/lizi.js"></script>
-
-<audio src="https://www.xingcexia.top/pjax/url.mp3" autoplay></audio>
 <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 999999; pointer-events: none;"></canvas>
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/anime.min.js"></script>
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/fireworks.js"></script>
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/aixin.js"></script>
 
 
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
-<script>
-$(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-container'})
-</script>
-
-
-<!--
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <div id="landlord">
     <div class="message" style="opacity:0"></div>
@@ -473,7 +467,9 @@ $(document).pjax('article,a,h2,h3', '#pjax-container',{fragment: '#pjax-containe
 
  
     </div>
+    <!--
         <canvas id="evanyou" style="width:100%"></canvas>
         <script type="text/javascript" src="https://mathgod.github.io/caitiao.js"></script>
+    -->
   </body>
 </html>
