@@ -78,8 +78,6 @@
 
     <div class="main">
 
-      <div id="pjax-container">
-
         <div class="site-header">
   <a href="https://mathgod.github.io/">
   <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590651542678" alt="">
@@ -145,7 +143,8 @@
 
 
 
-        <div class="post-container">
+              <div id="pjax-container">
+<div class="post-container">
   
     <article class="post">
       <a href="https://mathgod.github.io/bQ0Q2_4_0">
@@ -345,8 +344,13 @@
     </article>
   
 </div>
-
-
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
+</script>
+<audio src="https://www.xingcexia.top/pjax/url.mp3" autoplay></audio>
     
         <div class="pagination-container">
   
@@ -357,13 +361,8 @@
   
 </div>
 
-      </div>  
-        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
-<script>
-$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
-</script>
-<audio src="https://www.xingcexia.top/pjax/url.mp3" autoplay></audio>
+
+        
 
 
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
@@ -422,7 +421,6 @@ document.write(+dni)
     loadlive2d("live2d", "https://mathgod.github.io/live2d/model/tia/model.json");
 </script>
 -->
-
 
 
 
