@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590642857209">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590651542678">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -82,7 +82,7 @@
 
         <div class="site-header">
   <a href="https://mathgod.github.io/">
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590642857209" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590651542678" alt="">
   </a>
   <h1 class="site-title">
     老王博客
@@ -146,6 +146,40 @@
 
 
         <div class="post-container">
+  
+    <article class="post">
+      <a href="https://mathgod.github.io/y4JEztQ6L">
+        <h2 class="post-title">行测侠网站自动全屏(F11)的兼容性问题</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2020-05-21
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+      </div>
+      
+      <div class="post-abstract">
+        <p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
+ <br>
+把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签和<code>window.onload = function() {fullscreen()};</code>插入<code>&lt;script&gt;&lt;/script&gt;</code><br>
+ <br>
+网站经过3个电脑端浏览器和9个手机端浏览器反复测试<br>
+ <br>
+在电脑端，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏，火狐不可以<br>
+ <br>
+在手机端只有X浏览器可以，并且谷歌浏览器在重复快速刷新时偶尔可以全屏。<br>
+ <br>
+然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏<br>
+ <br>
+初步怀疑是网页加载方面的问题<br>
+ <br>
+不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
+
+      </div>
+    </article>
   
     <article class="post">
       <a href="https://mathgod.github.io/EEsz01es2">
@@ -355,30 +389,6 @@ RewriteCond %{HTTPS} !=on
 <p>现在还在做网站是不是疯了</p>
 <p>没有前途的</p>
 <p>我也是闲的</p>
-
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://mathgod.github.io/fmyYtoKOO">
-        <h2 class="post-title">[冰雹猜想]被证明了？？</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-03
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <p>前两天，诗人白言在知乎发文章称已证明冰雹猜想并发表到arXiv。<br>
-https://zhuanlan.zhihu.com/p/137766539<br>
- <br>
-<strong>什么是冰雹猜想？</strong><br>
-30多年前，日本数学家角谷静发现了一个奇怪的现象：一个自然数，如果它是偶数，那么用2除它；如果商是奇数，将它乘以3之后再加上1，这样反复运算，最终必然得1。</p>
 
       </div>
     </article>

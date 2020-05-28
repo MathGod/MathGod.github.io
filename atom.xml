@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-28T06:02:26.363Z</updated>
+    <updated>2020-05-28T07:39:06.869Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[网站改版，不整那些花里胡哨没用的了]]></title>
+        <id>https://mathgod.github.io/ufyoZUis6</id>
+        <link href="https://mathgod.github.io/ufyoZUis6">
+        </link>
+        <updated>2020-05-28T07:10:44.000Z</updated>
+        <content type="html"><![CDATA[<p>今天准备把昨天新学的pjax技术弄进这个博客里，减少博客卡顿。</p>
+<p>因为博客之前给我加了很多花里胡哨的CSS,JS特效，很卡。</p>
+<p>然而折腾了一个早上，依旧没完全实现。</p>
+<p>博客原本的卡是pjax难以完全实现的原因之一</p>
+<p>我也不太会整那些CDN的加速，想了很久，还是决定把特效都关了。</p>
+<p>关掉特效坏处是：不方便装逼，让人觉得博主没有个性(技术也不强)，博客死气沉沉~</p>
+<p>好处是：节省博主的时间精力。网站加载速度变快，节约读者时间。读者的注意力更集中在文章内容。网站加载速度快对搜索引擎友好，网站文章排名更高，有利于文章传播。</p>
+<p>而且，特效不一定要全部整合在此博客同时展示，分开展示，更方便读者学习。<br>
+所以还是觉得博客的重点在内容而不是特效和个性。以最快速度，最合人性化的阅读设置，把有用的文章展示给读者，才是最关键的。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网站运行天数js]]></title>
         <id>https://mathgod.github.io/SBnbEfSlx</id>
@@ -853,47 +870,6 @@ document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
 <p>区别：第一种方法覆盖原类，第二种叠加。</p>
 <p>获取id名<br>
 <code>this.getAttribute(&quot;id&quot;);</code></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行测侠网站自动全屏(F11)的兼容性问题]]></title>
-        <id>https://mathgod.github.io/y4JEztQ6L</id>
-        <link href="https://mathgod.github.io/y4JEztQ6L">
-        </link>
-        <updated>2020-05-21T07:47:44.000Z</updated>
-        <summary type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
- <br>
-把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签和<code>window.onload = function() {fullscreen()};</code>插入<code>&lt;script&gt;&lt;/script&gt;</code><br>
- <br>
-网站经过3个电脑端浏览器和9个手机端浏览器反复测试<br>
- <br>
-在电脑端，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏，火狐不可以<br>
- <br>
-在手机端只有X浏览器可以，并且谷歌浏览器在重复快速刷新时偶尔可以全屏。<br>
- <br>
-然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏<br>
- <br>
-初步怀疑是网页加载方面的问题<br>
- <br>
-不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
- <br>
-把按下F11转化为js函数<code>fullscreen();</code>并以<code>onload=&quot;fullscreen();&quot;</code>插入网站body标签和<code>window.onload = function() {fullscreen()};</code>插入<code>&lt;script&gt;&lt;/script&gt;</code><br>
- <br>
-网站经过3个电脑端浏览器和9个手机端浏览器反复测试<br>
- <br>
-在电脑端，360浏览器和谷歌浏览器可以一进入网站或网页刷新自动全屏，火狐不可以<br>
- <br>
-在手机端只有X浏览器可以，并且谷歌浏览器在重复快速刷新时偶尔可以全屏。<br>
- <br>
-然而用按键button执行<code>fullscreen();</code>函数则在任何端的任何浏览器都可实现全屏<br>
- <br>
-初步怀疑是网页加载方面的问题<br>
- <br>
-不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
-<!-- more -->
-<p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
 ]]></content>
     </entry>
 </feed>

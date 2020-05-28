@@ -2,19 +2,21 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>行测侠网站之题目搜索功能 | 老王博客</title>
+<title>网站改版，不整那些花里胡哨没用的了 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590651542678">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="行测侠网站之题目搜索功能 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="网站改版，不整那些花里胡哨没用的了 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://mathgod.github.io/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。
-
-&lt;button style=&quot;float:right;margin-left:3px;margin-right:8px;margin-top: 1px;&..." />
+    <meta name="description" content="今天准备把昨天新学的pjax技术弄进这个博客里，减少博客卡顿。
+因为博客之前给我加了很多花里胡哨的CSS,JS特效，很卡。
+然而折腾了一个早上，依旧没完全实现。
+博客原本的卡是pjax难以完全实现的原因之一
+我也不太会整那些CDN的加速，想..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -79,11 +81,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              行测侠网站之题目搜索功能
+              网站改版，不整那些花里胡哨没用的了
             </h2>
             <div class="post-info">
               <span>
-                2020-05-21
+                2020-05-28
               </span>
               <span>
                 2 min read
@@ -93,46 +95,15 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
-<!-- more -->
-<pre><code class="language-html">&lt;button style=&quot;float:right;margin-left:3px;margin-right:8px;margin-top: 1px;&quot; onclick=&quot;soti();&quot;&gt;搜索&lt;/button&gt;
-&lt;input style=&quot;width:170px;float:right;margin-right:8px;&quot;  type=&quot;text&quot; id=&quot;soti&quot; placeholder=&quot; 搜索题目&quot; onkeydown=&quot;keyup_submit(event);&quot;&gt;
-</code></pre>
-<pre><code class="language-javascript"> &lt;script&gt;
-function keyup_submit(e){ 
-    //回车键触发搜题
-var evt = window.event || e; 
-  if (evt.keyCode == 13){
-document.getElementById(&quot;next&quot;).style.display=&quot;none&quot;;
-var str=document.getElementById(&quot;soti&quot;).value;
-souti(str);
- }
- }
-
-function souti(str)
-{
-    if (str==&quot;&quot;)
-    { document.getElementById(&quot;soti&quot;).innerHTML=&quot;&quot;;
-        return;
-     } 
-    if (window.XMLHttpRequest)
-    {xmlhttp=new XMLHttpRequest();}
-    xmlhttp.onreadystatechange=function()
-    {
-        if (xmlhttp.readyState==4 &amp;&amp; xmlhttp.status==200)
-        {document.getElementById(&quot;timu&quot;).innerHTML=xmlhttp.responseText; }
-    }
-    xmlhttp.open(&quot;POST&quot;,&quot;so.php&quot;,true);
-   xmlhttp.setRequestHeader(&quot;Content-type&quot;,&quot;application/     x-www-form-urlencoded&quot;);
-  xmlhttp.send(&quot;soti=&quot;+str);
-}
-&lt;/script&gt;
-</code></pre>
-<p>php核心代码</p>
-<pre><code class="language-php">if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
-   $soti = test_input($_POST[&quot;soti&quot;]);}
-$result = mysql_query(&quot;SELECT * FROM xingce_panduan where timu like '%$soti%'&quot;);
-</code></pre>
+                <p>今天准备把昨天新学的pjax技术弄进这个博客里，减少博客卡顿。</p>
+<p>因为博客之前给我加了很多花里胡哨的CSS,JS特效，很卡。</p>
+<p>然而折腾了一个早上，依旧没完全实现。</p>
+<p>博客原本的卡是pjax难以完全实现的原因之一</p>
+<p>我也不太会整那些CDN的加速，想了很久，还是决定把特效都关了。</p>
+<p>关掉特效坏处是：不方便装逼，让人觉得博主没有个性(技术也不强)，博客死气沉沉~</p>
+<p>好处是：节省博主的时间精力。网站加载速度变快，节约读者时间。读者的注意力更集中在文章内容。网站加载速度快对搜索引擎友好，网站文章排名更高，有利于文章传播。</p>
+<p>而且，特效不一定要全部整合在此博客同时展示，分开展示，更方便读者学习。<br>
+所以还是觉得博客的重点在内容而不是特效和个性。以最快速度，最合人性化的阅读设置，把有用的文章展示给读者，才是最关键的。</p>
 
               </div>
               <div class="toc-container">
@@ -144,20 +115,12 @@ $result = mysql_query(&quot;SELECT * FROM xingce_panduan where timu like '%$soti
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/y4JEztQ6L">
-              <h3 class="post-title">
-                <行测侠网站自动全屏(F11)的兼容性问题
-              </h3>
-            </a>
-          </div>
-        
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/yB5nwOghG">
+            <a href="https://mathgod.github.io/SBnbEfSlx">
               <h3 class="post-title">
-                行测侠网站之按键位置解决方案>
+                网站运行天数js>
               </h3>
             </a>
           </div>
