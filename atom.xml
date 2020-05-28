@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-28T05:10:46.517Z</updated>
+    <updated>2020-05-28T05:14:28.610Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[网站运行天数js]]></title>
+        <id>https://mathgod.github.io/SBnbEfSlx</id>
+        <link href="https://mathgod.github.io/SBnbEfSlx">
+        </link>
+        <updated>2020-05-28T05:13:43.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;p style=&quot;font-size:13px;color:#000;&quot;&gt; 本站已稳定运行了
+&lt;strong style=&quot;font-size:14px;color:#f00;&quot;&gt;&lt;script language=&quot;JavaScript&quot; type=&quot;text/javascript&quot;&gt;
+var urodz= new Date(&quot;1/10/2020&quot;);
+var now = new Date();
+var ile = now.getTime() - urodz.getTime();
+var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
+document.write(+dni)
+&lt;/script&gt;
+&lt;/strong&gt;天
+&lt;/p&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[js dom对ID操作与对类操作区别]]></title>
         <id>https://mathgod.github.io/jsclass</id>
@@ -875,56 +894,6 @@ document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
 不过就算此功能正常，还是不太敢用到网站上。有强迫用户的嫌疑，就像一些网页一点进去直接跳到QQ加群界面了</p>
 <!-- more -->
 <p><a href="https://www.xingcexia.top/">https://www.xingcexia.top/ </a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行测侠网站之题目搜索功能]]></title>
-        <id>https://mathgod.github.io/EEsz01es2</id>
-        <link href="https://mathgod.github.io/EEsz01es2">
-        </link>
-        <updated>2020-05-21T00:45:04.000Z</updated>
-        <summary type="html"><![CDATA[<p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
-<!-- more -->
-<pre><code class="language-html">&lt;button style=&quot;float:right;margin-left:3px;margin-right:8px;margin-top: 1px;&quot; onclick=&quot;soti();&quot;&gt;搜索&lt;/button&gt;
-&lt;input style=&quot;width:170px;float:right;margin-right:8px;&quot;  type=&quot;text&quot; id=&quot;soti&quot; placeholder=&quot; 搜索题目&quot; onkeydown=&quot;keyup_submit(event);&quot;&gt;
-</code></pre>
-<pre><code class="language-javascript"> &lt;script&gt;
-function keyup_submit(e){ 
-    //回车键触发搜题
-var evt = window.event || e; 
-  if (evt.keyCode == 13){
-document.getElementById(&quot;next&quot;).style.display=&quot;none&quot;;
-var str=document.getElementById(&quot;soti&quot;).value;
-souti(str);
- }
- }
-
-function souti(str)
-{
-    if (str==&quot;&quot;)
-    { document.getElementById(&quot;soti&quot;).innerHTML=&quot;&quot;;
-        return;
-     } 
-    if (window.XMLHttpRequest)
-    {xmlhttp=new XMLHttpRequest();}
-    xmlhttp.onreadystatechange=function()
-    {
-        if (xmlhttp.readyState==4 &amp;&amp; xmlhttp.status==200)
-        {document.getElementById(&quot;timu&quot;).innerHTML=xmlhttp.responseText; }
-    }
-    xmlhttp.open(&quot;POST&quot;,&quot;so.php&quot;,true);
-   xmlhttp.setRequestHeader(&quot;Content-type&quot;,&quot;application/     x-www-form-urlencoded&quot;);
-  xmlhttp.send(&quot;soti=&quot;+str);
-}
-&lt;/script&gt;
-</code></pre>
-<p>php核心代码</p>
-<pre><code class="language-php">if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
-   $soti = test_input($_POST[&quot;soti&quot;]);}
-$result = mysql_query(&quot;SELECT * FROM xingce_panduan where timu like '%$soti%'&quot;);
-</code></pre>
 ]]></content>
     </entry>
 </feed>
