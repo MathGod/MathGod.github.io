@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mathgod.github.io/</id>
+    <id>http://localhost:4000</id>
     <title>老王博客</title>
-    <updated>2020-05-28T01:44:13.022Z</updated>
+    <updated>2020-05-28T01:46:21.540Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mathgod.github.io/"/>
-    <link rel="self" href="https://mathgod.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>专注php、js编程；博客、论坛开发。</subtitle>
-    <logo>https://mathgod.github.io/images/avatar.png</logo>
-    <icon>https://mathgod.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
         <title type="html"><![CDATA[js dom对ID操作与对类操作区别]]></title>
-        <id>https://mathgod.github.io/jsclass</id>
-        <link href="https://mathgod.github.io/jsclass">
+        <id>http://localhost:4000/jsclass</id>
+        <link href="http://localhost:4000/jsclass">
         </link>
         <updated>2020-05-26T02:14:31.000Z</updated>
         <content type="html"><![CDATA[<p>对类的话可同时操作多个多个标签，id标签只有一个</p>
@@ -29,8 +29,8 @@ x[i].style.display='inline';}
     </entry>
     <entry>
         <title type="html"><![CDATA[燕子幼崽全死了]]></title>
-        <id>https://mathgod.github.io/yanzi</id>
-        <link href="https://mathgod.github.io/yanzi">
+        <id>http://localhost:4000/yanzi</id>
+        <link href="http://localhost:4000/yanzi">
         </link>
         <updated>2020-05-25T01:30:52.000Z</updated>
         <summary type="html"><![CDATA[<p>家里屋檐下有个鸟巢，鸟巢下面有两只燕子幼崽。<br>
@@ -73,13 +73,13 @@ x[i].style.display='inline';}
  <br>
 今早看到大燕子站在鸟巢旁边，对着鸟巢发呆。唉，大燕子肯定非常伤心。</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://mathgod.github.io//post-images/1590460336767.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1590460336767.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[CSS不停抖动样式]]></title>
-        <id>https://mathgod.github.io/T1L46nTGa</id>
-        <link href="https://mathgod.github.io/T1L46nTGa">
+        <id>http://localhost:4000/T1L46nTGa</id>
+        <link href="http://localhost:4000/T1L46nTGa">
         </link>
         <updated>2020-05-25T01:08:02.000Z</updated>
         <content type="html"><![CDATA[<center><div class="shaky">(｡･∀･)ﾉﾞ♥</div></center>
@@ -716,8 +716,8 @@ animation-iteration-count: infinite;}
     </entry>
     <entry>
         <title type="html"><![CDATA[js网页标题切换]]></title>
-        <id>https://mathgod.github.io/tlplU8tEf</id>
-        <link href="https://mathgod.github.io/tlplU8tEf">
+        <id>http://localhost:4000/tlplU8tEf</id>
+        <link href="http://localhost:4000/tlplU8tEf">
         </link>
         <updated>2020-05-25T00:55:40.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-javascript">var OriginTitile = document.title;
@@ -767,8 +767,8 @@ function load() {
     </entry>
     <entry>
         <title type="html"><![CDATA[js打字特效]]></title>
-        <id>https://mathgod.github.io/8z7lZs-VF</id>
-        <link href="https://mathgod.github.io/8z7lZs-VF">
+        <id>http://localhost:4000/8z7lZs-VF</id>
+        <link href="http://localhost:4000/8z7lZs-VF">
         </link>
         <updated>2020-05-25T00:31:02.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-javascript">var typingbefore = document.getElementById(&quot;typetitle&quot;).innerText;//获取标题内容
@@ -789,8 +789,8 @@ typetitle();
     </entry>
     <entry>
         <title type="html"><![CDATA[js摧毁网页游戏]]></title>
-        <id>https://mathgod.github.io/SEQumgs1h</id>
-        <link href="https://mathgod.github.io/SEQumgs1h">
+        <id>http://localhost:4000/SEQumgs1h</id>
+        <link href="http://localhost:4000/SEQumgs1h">
         </link>
         <updated>2020-05-24T14:24:53.000Z</updated>
         <content type="html"><![CDATA[<p><a href="javascript:var%20KICKASSVERSION='2.0';
@@ -806,8 +806,8 @@ typetitle();
     </entry>
     <entry>
         <title type="html"><![CDATA[json文件编码问题导致网站PWA模式无法开启]]></title>
-        <id>https://mathgod.github.io/kykK-DNoU</id>
-        <link href="https://mathgod.github.io/kykK-DNoU">
+        <id>http://localhost:4000/kykK-DNoU</id>
+        <link href="http://localhost:4000/kykK-DNoU">
         </link>
         <updated>2020-05-22T01:35:10.000Z</updated>
         <content type="html"><![CDATA[<p>PWA主要功能就是自动提示是否把网站添加到移动端APP</p>
@@ -819,8 +819,8 @@ typetitle();
     </entry>
     <entry>
         <title type="html"><![CDATA[web开发常用js]]></title>
-        <id>https://mathgod.github.io/ESkAJjGhm</id>
-        <link href="https://mathgod.github.io/ESkAJjGhm">
+        <id>http://localhost:4000/ESkAJjGhm</id>
+        <link href="http://localhost:4000/ESkAJjGhm">
         </link>
         <updated>2020-05-21T14:38:51.000Z</updated>
         <content type="html"><![CDATA[<p>js获取某类的数量<br>
@@ -838,8 +838,8 @@ document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
     </entry>
     <entry>
         <title type="html"><![CDATA[行测侠网站自动全屏(F11)的兼容性问题]]></title>
-        <id>https://mathgod.github.io/y4JEztQ6L</id>
-        <link href="https://mathgod.github.io/y4JEztQ6L">
+        <id>http://localhost:4000/y4JEztQ6L</id>
+        <link href="http://localhost:4000/y4JEztQ6L">
         </link>
         <updated>2020-05-21T07:47:44.000Z</updated>
         <summary type="html"><![CDATA[<p>网站全屏即是按下F11键的结果，给网站使用者带来沉浸式体验，能提高读者阅读质量。一些小说，博客网站都有添加此功能。<br>
@@ -879,8 +879,8 @@ document.getElementById(&quot;aa&quot;).classList.add(&quot;tag_curr&quot;);
     </entry>
     <entry>
         <title type="html"><![CDATA[行测侠网站之题目搜索功能]]></title>
-        <id>https://mathgod.github.io/EEsz01es2</id>
-        <link href="https://mathgod.github.io/EEsz01es2">
+        <id>http://localhost:4000/EEsz01es2</id>
+        <link href="http://localhost:4000/EEsz01es2">
         </link>
         <updated>2020-05-21T00:45:04.000Z</updated>
         <summary type="html"><![CDATA[<p>搜题功能在此网站没有存在的必要，但是搜索功能还是很有必要记录学习。</p>
