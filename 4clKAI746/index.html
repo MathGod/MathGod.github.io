@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>pjax简单设置 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590722802368">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590723152208">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="pjax简单设置 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -100,9 +100,10 @@
 <pre><code class="language-javascript">&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
-$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
+$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:&quot;10000&quot;})
 &lt;/script&gt;
 </code></pre>
+<p>timeout是如果到这个时间还没加载完成，则全局刷新，要设置大一点。</p>
 
               </div>
               <div class="toc-container">
