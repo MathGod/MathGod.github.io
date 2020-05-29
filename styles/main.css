@@ -4844,7 +4844,7 @@ text-align: right;
 @media (max-width: 600px) {
   .post-detail .post {
     padding: 10px 8px 10px 8px;
-background: #fff;
+background: #ebfff9;
   }
   .post-detail .post .post-title {
     font-size: 24px;
