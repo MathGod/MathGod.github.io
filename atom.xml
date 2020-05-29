@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-29T02:14:18.718Z</updated>
+    <updated>2020-05-29T02:16:19.983Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://mathgod.github.io/"/>
+    <link rel="self" href="https://mathgod.github.io/atom.xml"/>
     <subtitle>专注php、js编程；博客、论坛开发。</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://mathgod.github.io/images/avatar.png</logo>
+    <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
         <title type="html"><![CDATA[不同浏览器生成的PWA应用有区别]]></title>
-        <id>http://localhost:4000/sfamRn8p4</id>
-        <link href="http://localhost:4000/sfamRn8p4">
+        <id>https://mathgod.github.io/sfamRn8p4</id>
+        <link href="https://mathgod.github.io/sfamRn8p4">
         </link>
         <updated>2020-05-29T00:29:16.000Z</updated>
         <summary type="html"><![CDATA[<p>用小米浏览器和谷歌浏览器在手机上打开同一个网站<br>
@@ -48,8 +48,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[pjax简单设置]]></title>
-        <id>http://localhost:4000/4clKAI746</id>
-        <link href="http://localhost:4000/4clKAI746">
+        <id>https://mathgod.github.io/4clKAI746</id>
+        <link href="https://mathgod.github.io/4clKAI746">
         </link>
         <updated>2020-05-28T15:26:33.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-html">      &lt;div id=&quot;pjax-container&quot;&gt;
@@ -65,8 +65,8 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
     </entry>
     <entry>
         <title type="html"><![CDATA[小说网站阅读设置控件]]></title>
-        <id>http://localhost:4000/WQzvrMfj1</id>
-        <link href="http://localhost:4000/WQzvrMfj1">
+        <id>https://mathgod.github.io/WQzvrMfj1</id>
+        <link href="https://mathgod.github.io/WQzvrMfj1">
         </link>
         <updated>2020-05-28T14:30:59.000Z</updated>
         <summary type="html"><![CDATA[<p>小说网站阅读设置插件件。按键调节字体大小，粗细，宋楷黑体，背景颜色，屏幕宽度，全屏缩屏。电脑端移动端自适应，刷新保存设置。Q群7954 76500欢迎加入交流，作者QQ374162745。<br>
@@ -83,14 +83,14 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
 手机端没有设置font-family、屏宽按钮。</p>
 <p>后续：<br>
 把所有按钮集合在一个按键，减少占用空间，点开再具体设置。</p>
-<p><img src="http://localhost:4000/post-images/1590676422143.jpg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1590676429637.jpg" alt="" loading="lazy"></p>
+<p><img src="https://mathgod.github.io//post-images/1590676422143.jpg" alt="" loading="lazy"><br>
+<img src="https://mathgod.github.io//post-images/1590676429637.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[网站改版，不整那些花里胡哨没用的了]]></title>
-        <id>http://localhost:4000/ufyoZUis6</id>
-        <link href="http://localhost:4000/ufyoZUis6">
+        <id>https://mathgod.github.io/ufyoZUis6</id>
+        <link href="https://mathgod.github.io/ufyoZUis6">
         </link>
         <updated>2020-05-28T07:10:44.000Z</updated>
         <summary type="html"><![CDATA[<p>今天准备把昨天新学的pjax技术弄进这个博客里，减少博客卡顿。<br>
@@ -131,8 +131,8 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
     </entry>
     <entry>
         <title type="html"><![CDATA[网站运行天数js]]></title>
-        <id>http://localhost:4000/SBnbEfSlx</id>
-        <link href="http://localhost:4000/SBnbEfSlx">
+        <id>https://mathgod.github.io/SBnbEfSlx</id>
+        <link href="https://mathgod.github.io/SBnbEfSlx">
         </link>
         <updated>2020-05-28T05:13:43.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;p style=&quot;font-size:13px;color:#000;&quot;&gt; 本站已稳定运行了
@@ -150,8 +150,8 @@ document.write(+dni)
     </entry>
     <entry>
         <title type="html"><![CDATA[js dom对ID操作与对类操作区别]]></title>
-        <id>http://localhost:4000/jsclass</id>
-        <link href="http://localhost:4000/jsclass">
+        <id>https://mathgod.github.io/jsclass</id>
+        <link href="https://mathgod.github.io/jsclass">
         </link>
         <updated>2020-05-26T02:14:31.000Z</updated>
         <content type="html"><![CDATA[<p>对类的话可同时操作多个多个标签，id标签只有一个</p>
@@ -167,8 +167,8 @@ x[i].style.display='inline';}
     </entry>
     <entry>
         <title type="html"><![CDATA[燕子幼崽全死了]]></title>
-        <id>http://localhost:4000/yanzi</id>
-        <link href="http://localhost:4000/yanzi">
+        <id>https://mathgod.github.io/yanzi</id>
+        <link href="https://mathgod.github.io/yanzi">
         </link>
         <updated>2020-05-25T01:30:52.000Z</updated>
         <summary type="html"><![CDATA[<p>家里屋檐下有个鸟巢，鸟巢下面有两只燕子幼崽。<br>
@@ -211,13 +211,13 @@ x[i].style.display='inline';}
  <br>
 今早看到大燕子站在鸟巢旁边，对着鸟巢发呆。唉，大燕子肯定非常伤心。</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1590460336767.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://mathgod.github.io//post-images/1590460336767.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[CSS不停抖动样式]]></title>
-        <id>http://localhost:4000/T1L46nTGa</id>
-        <link href="http://localhost:4000/T1L46nTGa">
+        <id>https://mathgod.github.io/T1L46nTGa</id>
+        <link href="https://mathgod.github.io/T1L46nTGa">
         </link>
         <updated>2020-05-25T01:08:02.000Z</updated>
         <content type="html"><![CDATA[<center><div class="shaky">(｡･∀･)ﾉﾞ♥</div></center>
@@ -854,8 +854,8 @@ animation-iteration-count: infinite;}
     </entry>
     <entry>
         <title type="html"><![CDATA[js网页标题切换]]></title>
-        <id>http://localhost:4000/tlplU8tEf</id>
-        <link href="http://localhost:4000/tlplU8tEf">
+        <id>https://mathgod.github.io/tlplU8tEf</id>
+        <link href="https://mathgod.github.io/tlplU8tEf">
         </link>
         <updated>2020-05-25T00:55:40.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-javascript">var OriginTitile = document.title;
@@ -905,8 +905,8 @@ function load() {
     </entry>
     <entry>
         <title type="html"><![CDATA[js打字特效]]></title>
-        <id>http://localhost:4000/8z7lZs-VF</id>
-        <link href="http://localhost:4000/8z7lZs-VF">
+        <id>https://mathgod.github.io/8z7lZs-VF</id>
+        <link href="https://mathgod.github.io/8z7lZs-VF">
         </link>
         <updated>2020-05-25T00:31:02.000Z</updated>
         <content type="html"><![CDATA[<pre><code class="language-javascript">var typingbefore = document.getElementById(&quot;typetitle&quot;).innerText;//获取标题内容
