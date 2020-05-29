@@ -4885,7 +4885,7 @@ font-size: 1.5rem;
 }
 @media (max-width: 600px) {
   .archives-container {
-    padding: 16px;
+  padding: 41px 10px 10px 10px;
   }
 }
 .tags-container {
