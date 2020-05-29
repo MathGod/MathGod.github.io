@@ -204,6 +204,22 @@ document.write(+dni)
     loadlive2d("live2d", "https://mathgod.github.io/live2d/model/tia/model.json");
 </script>
 
+<link rel="stylesheet" href="https://mathgod.github.io/aplayer/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="https://mathgod.github.io/aplayer/APlayer.min.js"></script>
+<script>
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,
+    audio: [{
+        name: '零的执行人bg',
+        artist: '大野克夫',
+        url: 'https://www.xingcexia.top/pjax/url.mp3',
+        cover: 'https://mathgod.github.io/aplayer/cover.jpg'
+    }]
+});
+</script>
+
 
 
       </div>
