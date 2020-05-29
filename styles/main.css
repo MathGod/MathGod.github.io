@@ -4857,8 +4857,7 @@ background: #fff;
   }
 }
 .archives-container {
-  padding: 32px;
-margin-top: 41px;
+  padding-top: 41px;
   flex: 1;
   background: #fff;
   border-radius: 5px;
