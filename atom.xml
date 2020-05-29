@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-29T02:16:19.983Z</updated>
+    <updated>2020-05-29T02:30:07.330Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -85,48 +85,6 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container'})
 把所有按钮集合在一个按键，减少占用空间，点开再具体设置。</p>
 <p><img src="https://mathgod.github.io//post-images/1590676422143.jpg" alt="" loading="lazy"><br>
 <img src="https://mathgod.github.io//post-images/1590676429637.jpg" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网站改版，不整那些花里胡哨没用的了]]></title>
-        <id>https://mathgod.github.io/ufyoZUis6</id>
-        <link href="https://mathgod.github.io/ufyoZUis6">
-        </link>
-        <updated>2020-05-28T07:10:44.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天准备把昨天新学的pjax技术弄进这个博客里，减少博客卡顿。<br>
- <br>
-因为博客之前给我加了很多花里胡哨的CSS,JS特效，很卡。<br>
- <br>
-然而折腾了一个早上，依旧没完全实现。<br>
- <br>
-博客原本的卡是pjax难以完全实现的原因之一<br>
- <br>
-我也不太会整那些CDN的加速，想了很久，还是决定把特效都关了。<br>
- <br>
-关掉特效坏处是：不方便装逼，让人觉得博主没有个性(技术也不强)，博客死气沉沉~<br>
- <br>
-好处是：节省博主的时间精力。网站加载速度变快，节约读者时间。读者的注意力更集中在文章内容。网站加载速度快对搜索引擎友好，网站文章排名更高，有利于文章传播。<br>
- <br>
-而且，特效不一定要全部整合在此博客同时展示，分开展示，更方便读者学习。<br>
-所以还是觉得博客的重点在内容而不是特效和个性。以最快速度，最合人性化的阅读设置，把有用的文章展示给读者，才是最关键的。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>今天准备把昨天新学的pjax技术弄进这个博客里，减少博客卡顿。<br>
- <br>
-因为博客之前给我加了很多花里胡哨的CSS,JS特效，很卡。<br>
- <br>
-然而折腾了一个早上，依旧没完全实现。<br>
- <br>
-博客原本的卡是pjax难以完全实现的原因之一<br>
- <br>
-我也不太会整那些CDN的加速，想了很久，还是决定把特效都关了。<br>
- <br>
-关掉特效坏处是：不方便装逼，让人觉得博主没有个性(技术也不强)，博客死气沉沉~<br>
- <br>
-好处是：节省博主的时间精力。网站加载速度变快，节约读者时间。读者的注意力更集中在文章内容。网站加载速度快对搜索引擎友好，网站文章排名更高，有利于文章传播。<br>
- <br>
-而且，特效不一定要全部整合在此博客同时展示，分开展示，更方便读者学习。<br>
-所以还是觉得博客的重点在内容而不是特效和个性。以最快速度，最合人性化的阅读设置，把有用的文章展示给读者，才是最关键的。</p>
-<!-- more -->
 ]]></content>
     </entry>
     <entry>
@@ -923,6 +881,23 @@ function typetitle(){
 }
 typetitle();
 </code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[js摧毁网页游戏]]></title>
+        <id>https://mathgod.github.io/SEQumgs1h</id>
+        <link href="https://mathgod.github.io/SEQumgs1h">
+        </link>
+        <updated>2020-05-24T14:24:53.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="javascript:var%20KICKASSVERSION='2.0';
+   var%20s%20=%20document.createElement('script');
+   s.type='text/javascript';
+   document.body.appendChild(s);
+   s.src='//hi.kickassapp.com/kickass.js';
+   void(0);"><br>
+点击开始摧毁<br>
+</a></p>
+<p>转自：http://xiaowiba.com/archives/820/</p>
 ]]></content>
     </entry>
 </feed>
