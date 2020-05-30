@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590757076341">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1590832166371">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -81,7 +81,7 @@
       <div id="pjax-container">
         <div class="site-header">
   <a href="https://mathgod.github.io/"> 
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590757076341" alt="">
+  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1590832166371" alt="">
   </a>
   <h1 class="site-title">   
    <!--  <h1 class="site-title">  -->
@@ -389,7 +389,13 @@ https://zhuanlan.zhihu.com/p/137766539<br>
 </div>
 
       </div>
-        <!--
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:'10000'})
+</script>
+
+<!--
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
 <script>
   new Darkmode({left: '32px',label: '🌓'}).showWidget();
@@ -425,7 +431,6 @@ document.write(+dni)
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/fireworks.js"></script>
 <script type="text/javascript" src="https://mathgod.github.io/fireworks/aixin.js"></script>
 
-<script type="text/javascript" src="https://www.xingcexia.top/live2d/jquery.js"></script>
 <div id="landlord">
     <div class="message" style="opacity:0"></div>
     <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
@@ -466,10 +471,6 @@ const ap = new APlayer({
         <canvas id="evanyou" style="width:100%"></canvas>
         <script type="text/javascript" src="https://mathgod.github.io/caitiao.js"></script>
     -->
-<script src="https://mathgod.github.io/jquery.js"></script>
-<script src="https://mathgod.github.io/pjax.js"></script>
-<script>
-$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:'10000'})
-</script>
+
   </body>
 </html>
