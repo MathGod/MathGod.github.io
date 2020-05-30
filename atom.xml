@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-30T10:10:44.760Z</updated>
+    <updated>2020-05-30T11:15:29.730Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[人类迷惑行为]]></title>
+        <id>https://mathgod.github.io/4FO8YO00H</id>
+        <link href="https://mathgod.github.io/4FO8YO00H">
+        </link>
+        <updated>2020-05-30T11:12:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>平时连水果，鸡猪肉都不舍得吃。</p>
+<p>却要拿出全身家十几万在乡下建个没鸟用的房子。</p>
+<p>然后让下一代做更久的房奴</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>平时连水果，鸡猪肉都不舍得吃。</p>
+<p>却要拿出全身家十几万在乡下建个没鸟用的房子。</p>
+<p>然后让下一代做更久的房奴</p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[挖坑]看板娘json跨域问题]]></title>
         <id>https://mathgod.github.io/YDGe2BVBm</id>
@@ -878,28 +894,6 @@ function load() {
 &lt;/html&gt;
 </code></pre>
 <p>转自http://xiaowiba.com/archives/661/</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[js打字特效]]></title>
-        <id>https://mathgod.github.io/8z7lZs-VF</id>
-        <link href="https://mathgod.github.io/8z7lZs-VF">
-        </link>
-        <updated>2020-05-25T00:31:02.000Z</updated>
-        <content type="html"><![CDATA[<pre><code class="language-javascript">var typingbefore = document.getElementById(&quot;typetitle&quot;).innerText;//获取标题内容
-document.getElementById('typetitle').innerText = &quot;&quot;;//将标题内容赋值为空
-var i = 0;
-function typetitle(){
-    var typingafter = document.getElementById('typetitle');//获取标题元素
-    if(i &lt;= typingbefore.length){
-        typingafter.innerHTML = typingbefore.slice(0,i++)+'|';//将标题内容通过slice()方法返回
-        setTimeout('typetitle()',100);//每100毫秒执行一次
-    }else{
-        typingafter.innerHTML = typingbefore;//当标题内容全部返回后，去掉最后的‘|’
-    }
-}
-typetitle();
-</code></pre>
 ]]></content>
     </entry>
 </feed>
