@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-30T09:59:23.959Z</updated>
+    <updated>2020-05-30T10:10:02.162Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -59,12 +59,16 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[pjax简单设置]]></title>
+        <title type="html"><![CDATA[把pjax应用到此博客]]></title>
         <id>https://mathgod.github.io/4clKAI746</id>
         <link href="https://mathgod.github.io/4clKAI746">
         </link>
         <updated>2020-05-28T15:26:33.000Z</updated>
-        <content type="html"><![CDATA[<pre><code class="language-html">      &lt;div id=&quot;pjax-container&quot;&gt;
+        <summary type="html"><![CDATA[<p>pjax可以使网站局部加载，避免重复内容重新加载，减少网站加载量，也提高重复内容的连贯性。例如听歌不会切断，看板娘不会重载。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>pjax可以使网站局部加载，避免重复内容重新加载，减少网站加载量，也提高重复内容的连贯性。例如听歌不会切断，看板娘不会重载。</p>
+<!-- more -->
+<pre><code class="language-html">      &lt;div id=&quot;pjax-container&quot;&gt;
       &lt;/div&gt;
 </code></pre>
 <pre><code class="language-javascript">&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
@@ -73,7 +77,9 @@
 $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:&quot;10000&quot;})
 &lt;/script&gt;
 </code></pre>
-<p>timeout是如果到这个时间还没加载完成，则全局刷新，要设置大一点。</p>
+<p><code>'a'</code>意思是作用在全站的a标签跳转链接</p>
+<p>第一个<code>'#pjax-container'</code>是原网页要替换内容的标签的id，第二个fragment的属性<code>'#pjax-container'</code>是目标网页的目标内容所在标签的id。一般应用时这两个id都写成一样，因为这样才能从目标网页跳转到原网页</p>
+<p>timeout是如果到这个时间还没加载完成，则全局刷新，要设置大一点，避免全局刷新。</p>
 ]]></content>
     </entry>
     <entry>
