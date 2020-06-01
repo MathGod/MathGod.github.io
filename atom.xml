@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-05-31T06:18:58.939Z</updated>
+    <updated>2020-06-01T04:16:48.492Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,37 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[js全站变灰]]></title>
+        <id>https://mathgod.github.io/yQackO7vM</id>
+        <link href="https://mathgod.github.io/yQackO7vM">
+        </link>
+        <updated>2020-05-31T10:28:46.000Z</updated>
+        <content type="html"><![CDATA[<p><code>&lt;html style=&quot;filter: grayscale(100%);&quot;&gt;</code></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[js清除左右空格]]></title>
+        <id>https://mathgod.github.io/-t9UI8or0</id>
+        <link href="https://mathgod.github.io/-t9UI8or0">
+        </link>
+        <updated>2020-05-31T09:45:32.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-html">&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+var aa='   sdfsdf   ';
+function trim(str){
+return str.replace(/(^\s*)|(\s*$)/g,''); 
+}
+alert(trim(aa).length);
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[回调函数]]></title>
         <id>https://mathgod.github.io/CDUpXPxjV</id>
@@ -181,72 +212,6 @@ document.write(+dni)
 &lt;/strong&gt;天
 &lt;/p&gt;
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[js dom对ID操作与对类操作区别]]></title>
-        <id>https://mathgod.github.io/jsclass</id>
-        <link href="https://mathgod.github.io/jsclass">
-        </link>
-        <updated>2020-05-26T02:14:31.000Z</updated>
-        <content type="html"><![CDATA[<p>对类的话可同时操作多个多个标签，id标签只有一个</p>
-<pre><code class="language-javascript">//对类
-document.getElementById(&quot;answer&quot;).style.display='inline';
-
-//对id
-var x= document.getElementsByName(&quot;answer&quot;);//注意是getElements后面多了个s
-for(i=0;i&lt;x.length;i++){
-x[i].style.display='inline';}
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[燕子幼崽全死了]]></title>
-        <id>https://mathgod.github.io/yanzi</id>
-        <link href="https://mathgod.github.io/yanzi">
-        </link>
-        <updated>2020-05-25T01:30:52.000Z</updated>
-        <summary type="html"><![CDATA[<p>家里屋檐下有个鸟巢，鸟巢下面有两只燕子幼崽。<br>
- <br>
-今早被爸妈发现，第二只也死在门前了。第一只也是在前几天刮大风下大雨时候死的，死在门前的地上，具体原因也不知道，可能是被风刮下来的。<br>
- <br>
-昨晚11点20分左右，大燕子在家门前一直盘旋一直叫，非常奇怪，像是在呼唤人。我一打开门出去，大燕子就立刻在屋檐下，我头顶旁盘旋大叫，然后过了两秒钟就飞到旁边的电线杆上，停止了叫声。应该是终于把人呼唤出来就停止了。<br>
- <br>
-我以为又是燕子幼崽掉下来了，不停在地上找燕子，然而没找到。然后我拿了个梯子爬山鸟巢旁，鸟巢很臭，发现第二只燕子幼崽还在，但是应该是躺着的（没看到头只看到身体），我用手轻轻戳了戳它身体，但是燕子幼崽反应不大，只是动了动。我以为他在睡觉（现在想想可能是快死了）<br>
- <br>
-现在很后悔，当时应该找个手套把它拿下来看看的，爸妈又一直催我快去睡觉。<br>
- <br>
-昨天下午骑自行车的时候刚好看到石联有一条路路上都是些红色小虫子，还想着今天下午再去那个地方带着工具去抓一些回来给小燕子吃。<br>
- <br>
-现在最疑惑的是小燕子为什么会死掉，而且是死在门前，是燕子妈妈发现小燕子死了所以把它拎到门前的吗？<br>
- <br>
-原因猜测：1.吃了有毒的东西 2被老鼠攻击了 3饿死了<br>
- <br>
-以后要是再有燕子在屋檐下养育幼崽，我该怎么做？<br>
- <br>
-今早看到大燕子站在鸟巢旁边，对着鸟巢发呆。唉，大燕子肯定非常伤心。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>家里屋檐下有个鸟巢，鸟巢下面有两只燕子幼崽。<br>
- <br>
-今早被爸妈发现，第二只也死在门前了。第一只也是在前几天刮大风下大雨时候死的，死在门前的地上，具体原因也不知道，可能是被风刮下来的。<br>
- <br>
-昨晚11点20分左右，大燕子在家门前一直盘旋一直叫，非常奇怪，像是在呼唤人。我一打开门出去，大燕子就立刻在屋檐下，我头顶旁盘旋大叫，然后过了两秒钟就飞到旁边的电线杆上，停止了叫声。应该是终于把人呼唤出来就停止了。<br>
- <br>
-我以为又是燕子幼崽掉下来了，不停在地上找燕子，然而没找到。然后我拿了个梯子爬山鸟巢旁，鸟巢很臭，发现第二只燕子幼崽还在，但是应该是躺着的（没看到头只看到身体），我用手轻轻戳了戳它身体，但是燕子幼崽反应不大，只是动了动。我以为他在睡觉（现在想想可能是快死了）<br>
- <br>
-现在很后悔，当时应该找个手套把它拿下来看看的，爸妈又一直催我快去睡觉。<br>
- <br>
-昨天下午骑自行车的时候刚好看到石联有一条路路上都是些红色小虫子，还想着今天下午再去那个地方带着工具去抓一些回来给小燕子吃。<br>
- <br>
-现在最疑惑的是小燕子为什么会死掉，而且是死在门前，是燕子妈妈发现小燕子死了所以把它拎到门前的吗？<br>
- <br>
-原因猜测：1.吃了有毒的东西 2被老鼠攻击了 3饿死了<br>
- <br>
-以后要是再有燕子在屋檐下养育幼崽，我该怎么做？<br>
- <br>
-今早看到大燕子站在鸟巢旁边，对着鸟巢发呆。唉，大燕子肯定非常伤心。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://mathgod.github.io//post-images/1590460336767.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
