@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-02T04:20:57.287Z</updated>
+    <updated>2020-06-02T05:29:22.072Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,14 +11,17 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
-        <title type="html"><![CDATA[支付宝当面付接口竟然可以个人申请]]></title>
+        <title type="html"><![CDATA[支付宝[当面付]接口竟然可以个人申请]]></title>
         <id>https://mathgod.github.io/ia-k55xPx</id>
         <link href="https://mathgod.github.io/ia-k55xPx">
         </link>
         <updated>2020-06-02T04:12:55.000Z</updated>
         <content type="html"><![CDATA[<p>前两天在V2EX看到有人用自己申请的支付宝接口做了个发卡网站</p>
+<p>该服务叫支付宝当面付基础版</p>
 <p>营业执照可不填，只要上传一张门店照片(网上找)，申请秒通过。实名认证过的个人用户（非个体工商户）都可申请</p>
 <p>费率只要千分之六，比第三方第四方平台都低得多。</p>
+<p>提交营业执照的话费率可以更低，好像还有其他优惠。</p>
+<p>话说，个人用户没有营业执照也可申请这个接口用于营业，难道不是涉嫌违法？希望大家把该接口用于学习，经营的话还是要有营业执照的。</p>
 <p>不说了，我要继续去折腾了。</p>
 ]]></content>
     </entry>
