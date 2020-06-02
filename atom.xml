@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-01T04:16:48.492Z</updated>
+    <updated>2020-06-02T00:48:08.941Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[js鼠标移入移出]]></title>
+        <id>https://mathgod.github.io/P4iacpRgB</id>
+        <link href="https://mathgod.github.io/P4iacpRgB">
+        </link>
+        <updated>2020-06-02T00:33:37.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;script&gt;
+bb=document.getById('aa');
+
+bb.onmouseenter=function(){
+this.style.background='#ccc';
+}
+bb.onmouseleave=function(){
+    //
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[js全站变灰]]></title>
         <id>https://mathgod.github.io/yQackO7vM</id>
@@ -193,25 +211,6 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:&qu
 把所有按钮集合在一个按键，减少占用空间，点开再具体设置。</p>
 <p><img src="https://mathgod.github.io//post-images/1590676422143.jpg" alt="" loading="lazy"><br>
 <img src="https://mathgod.github.io//post-images/1590676429637.jpg" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网站运行天数js]]></title>
-        <id>https://mathgod.github.io/SBnbEfSlx</id>
-        <link href="https://mathgod.github.io/SBnbEfSlx">
-        </link>
-        <updated>2020-05-28T05:13:43.000Z</updated>
-        <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;p style=&quot;font-size:13px;color:#000;&quot;&gt; 本站已稳定运行了
-&lt;strong style=&quot;font-size:14px;color:#f00;&quot;&gt;&lt;script language=&quot;JavaScript&quot; type=&quot;text/javascript&quot;&gt;
-var urodz= new Date(&quot;1/10/2020&quot;);
-var now = new Date();
-var ile = now.getTime() - urodz.getTime();
-var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
-document.write(+dni)
-&lt;/script&gt;
-&lt;/strong&gt;天
-&lt;/p&gt;
-</code></pre>
 ]]></content>
     </entry>
 </feed>
