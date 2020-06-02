@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-02T00:48:08.941Z</updated>
+    <updated>2020-06-02T04:20:57.287Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[支付宝当面付接口竟然可以个人申请]]></title>
+        <id>https://mathgod.github.io/ia-k55xPx</id>
+        <link href="https://mathgod.github.io/ia-k55xPx">
+        </link>
+        <updated>2020-06-02T04:12:55.000Z</updated>
+        <content type="html"><![CDATA[<p>前两天在V2EX看到有人用自己申请的支付宝接口做了个发卡网站</p>
+<p>营业执照可不填，只要上传一张门店照片(网上找)，申请秒通过。实名认证过的个人用户（非个体工商户）都可申请</p>
+<p>费率只要千分之六，比第三方第四方平台都低得多。</p>
+<p>不说了，我要继续去折腾了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[js鼠标移入移出]]></title>
         <id>https://mathgod.github.io/P4iacpRgB</id>
@@ -187,30 +199,6 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:&qu
 <p><code>'a'</code>意思是作用在全站的a标签跳转链接</p>
 <p>第一个<code>'#pjax-container'</code>是原网页要替换内容的标签的id，第二个fragment的属性<code>'#pjax-container'</code>是目标网页的目标内容所在标签的id。一般应用时这两个id都写成一样，因为这样才能从目标网页跳转到原网页</p>
 <p>timeout是如果到这个时间还没加载完成，则全局刷新，要设置大一点，避免全局刷新。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小说网站阅读设置控件]]></title>
-        <id>https://mathgod.github.io/WQzvrMfj1</id>
-        <link href="https://mathgod.github.io/WQzvrMfj1">
-        </link>
-        <updated>2020-05-28T14:30:59.000Z</updated>
-        <summary type="html"><![CDATA[<p>小说网站阅读设置插件件。按键调节字体大小，粗细，宋楷黑体，背景颜色，屏幕宽度，全屏缩屏。电脑端移动端自适应，刷新保存设置。Q群7954 76500欢迎加入交流，作者QQ374162745。<br>
- <br>
-预览地址：<br>
-<a href="https://mathgod.github.io/web-reading-settings-plugin/">https://mathgod.github.io/web-reading-settings-plugin/ </a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>小说网站阅读设置插件件。按键调节字体大小，粗细，宋楷黑体，背景颜色，屏幕宽度，全屏缩屏。电脑端移动端自适应，刷新保存设置。Q群7954 76500欢迎加入交流，作者QQ374162745。<br>
- <br>
-预览地址：<br>
-<a href="https://mathgod.github.io/web-reading-settings-plugin/">https://mathgod.github.io/web-reading-settings-plugin/ </a></p>
-<!-- more -->
-<p>注意：<br>
-手机端没有设置font-family、屏宽按钮。</p>
-<p>后续：<br>
-把所有按钮集合在一个按键，减少占用空间，点开再具体设置。</p>
-<p><img src="https://mathgod.github.io//post-images/1590676422143.jpg" alt="" loading="lazy"><br>
-<img src="https://mathgod.github.io//post-images/1590676429637.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
