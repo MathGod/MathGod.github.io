@@ -2,18 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>js打字特效 | 老王博客</title>
+<title>大后天移动面试，被分到网络组，临时去百度补下网络知识。 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591412498363">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="js打字特效 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="大后天移动面试，被分到网络组，临时去百度补下网络知识。 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://www.xingcexia.top/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="var typingbefore = document.getElementById(&quot;typetitle&quot;).innerText;//获取标题内容
-document.getElementById('typetitle'..." />
+    <meta name="description" content="也不知道面试会问啥，网上随便搜搜，能增加点信心也好。
+不同网络层的作用
+1、物理层：比特
+主要定义物理设备标准，如网线的接口类型、光纤的接口类型、各种传输介质的传输速率等。它的主要作用是传输比特流（就是由1、0转化为电流强弱来进行传输,到达..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -78,38 +80,54 @@ document.getElementById('typetitle'..." />
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              js打字特效
+              大后天移动面试，被分到网络组，临时去百度补下网络知识。
             </h2>
             <div class="post-info">
               <span>
-                2020-05-25
+                2020-06-05
               </span>
               <span>
-                1 min read
+                3 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <pre><code class="language-javascript">var typingbefore = document.getElementById(&quot;typetitle&quot;).innerText;//获取标题内容
-document.getElementById('typetitle').innerText = &quot;&quot;;//将标题内容赋值为空
-var i = 0;
-function typetitle(){
-    var typingafter = document.getElementById('typetitle');//获取标题元素
-    if(i &lt;= typingbefore.length){
-        typingafter.innerHTML = typingbefore.slice(0,i++)+'|';//将标题内容通过slice()方法返回
-        setTimeout('typetitle()',100);//每100毫秒执行一次
-    }else{
-        typingafter.innerHTML = typingbefore;//当标题内容全部返回后，去掉最后的‘|’
-    }
-}
-typetitle();
-</code></pre>
+                <p>也不知道面试会问啥，网上随便搜搜，能增加点信心也好。</p>
+<h1 id="不同网络层的作用">不同网络层的作用</h1>
+<p>1、物理层：比特<br>
+主要定义物理设备标准，如网线的接口类型、光纤的接口类型、各种传输介质的传输速率等。它的主要作用是传输比特流（就是由1、0转化为电流强弱来进行传输,到达目的地后在转化为1、0，也就是我们常说的数模转换与模数转换）。这一层的数据叫做比特。</p>
+<p>2、数据链路层：帧<br>
+定义了如何让格式化数据以进行传输，以及如何让控制对物理介质的访问。这一层通常还提供错误检测和纠正，以确保数据的可靠传输。</p>
+<p>3、网络层：数据报<br>
+在位于不同地理位置的网络中的两个主机系统之间提供连接和路径选择。Internet的发展使得从世界各站点访问信息的用户数大大增加，而网络层正是管理这种连接的层。</p>
+<p>4、运输层：报文段/用户数据报<br>
+定义了一些传输数据的协议和端口号（WWW端口80等），如：<br>
+TCP（transmission control protocol –传输控制协议，传输效率低，可靠性强，用于传输可靠性要求高，数据量大的数据）<br>
+UDP（user datagram protocol–用户数据报协议，与TCP特性恰恰相反，用于传输可靠性要求不高，数据量小的数据，如QQ聊天数据就是通过这种方式传输的）。 主要是将从下层接收的数据进行分段和传输，到达目的地址后再进行重组。常常把这一层数据叫做段。</p>
+<p>5、会话层：<br>
+通过运输层（端口号：传输端口与接收端口）建立数据传输的通路。主要在你的系统之间发起会话或者接受会话请求（设备之间需要互相认识可以是IP也可以是MAC或者是主机名）</p>
+<p>6、表示层：<br>
+可确保一个系统的应用层所发送的信息可以被另一个系统的应用层读取。例如，PC程序与另一台计算机进行通信，其中一台计算机使用扩展二一十进制交换码（EBCDIC），而另一台则使用美国信息交换标准码（ASCII）来表示相同的字符。如有必要，表示层会通过使用一种通格式来实现多种数据格式之间的转换。</p>
+<p>7.应用层：报文</p>
+<h1 id="端口号">端口号：</h1>
+<p>POP3 110 ,SMTP 25, FTP 21/20,dns u53,https 443,oracle 1521,ssh 22</p>
+<p>HTTP与HTTPS的区别<br>
+HTTPS是加密传输协议，HTTP是名文传输协议;<br>
+HTTPS需要用到SSL证书，而HTTP不用;<br>
+HTTPS比HTTP更加安全，对搜索引擎更友好，利于SEO<br>
+HTTPS标准端口443，HTTP标准端口80;<br>
+HTTPS基于传输层，HTTP基于应用层;<br>
+HTTPS在浏览器显示绿色安全锁，HTTP没有显示;</p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%8D%E5%90%8C%E7%BD%91%E7%BB%9C%E5%B1%82%E7%9A%84%E4%BD%9C%E7%94%A8">不同网络层的作用</a></li>
+<li><a href="#%E7%AB%AF%E5%8F%A3%E5%8F%B7">端口号：</a></li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -118,9 +136,9 @@ typetitle();
       <div class="post-nav">
         
           <div class="prev-post">
-            <a href="https://mathgod.github.io/tlplU8tEf">
+            <a href="https://mathgod.github.io/xQrvjziHk">
               <h3 class="post-title">
-                <js网页标题切换
+                <xx.c文件中往往会调用xx.h文件，即自己调用自己的 .h文件，为什么？
               </h3>
             </a>
           </div>
@@ -128,9 +146,9 @@ typetitle();
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/SEQumgs1h">
+            <a href="https://mathgod.github.io/ia-k55xPx">
               <h3 class="post-title">
-                js摧毁网页游戏>
+                支付宝[当面付]接口竟然可以个人用户申请>
               </h3>
             </a>
           </div>

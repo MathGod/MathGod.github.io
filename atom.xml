@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-02T09:30:28.207Z</updated>
+    <updated>2020-06-06T03:01:48.113Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[xx.c文件中往往会调用xx.h文件，即自己调用自己的 .h文件，为什么？]]></title>
+        <id>https://mathgod.github.io/xQrvjziHk</id>
+        <link href="https://mathgod.github.io/xQrvjziHk">
+        </link>
+        <updated>2020-06-05T13:32:14.000Z</updated>
+        <content type="html"><![CDATA[<p>主要是为了解决定义与调用之间的混乱（C语言要求调用之前必须要先声明，一般include 同名.h会放在.c文件的开头，这是一种代码贵伐，增加程序的可读性）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大后天移动面试，被分到网络组，临时去百度补下网络知识。]]></title>
+        <id>https://mathgod.github.io/HjaPXiO5q</id>
+        <link href="https://mathgod.github.io/HjaPXiO5q">
+        </link>
+        <updated>2020-06-05T12:20:53.000Z</updated>
+        <content type="html"><![CDATA[<p>也不知道面试会问啥，网上随便搜搜，能增加点信心也好。</p>
+<h1 id="不同网络层的作用">不同网络层的作用</h1>
+<p>1、物理层：比特<br>
+主要定义物理设备标准，如网线的接口类型、光纤的接口类型、各种传输介质的传输速率等。它的主要作用是传输比特流（就是由1、0转化为电流强弱来进行传输,到达目的地后在转化为1、0，也就是我们常说的数模转换与模数转换）。这一层的数据叫做比特。</p>
+<p>2、数据链路层：帧<br>
+定义了如何让格式化数据以进行传输，以及如何让控制对物理介质的访问。这一层通常还提供错误检测和纠正，以确保数据的可靠传输。</p>
+<p>3、网络层：数据报<br>
+在位于不同地理位置的网络中的两个主机系统之间提供连接和路径选择。Internet的发展使得从世界各站点访问信息的用户数大大增加，而网络层正是管理这种连接的层。</p>
+<p>4、运输层：报文段/用户数据报<br>
+定义了一些传输数据的协议和端口号（WWW端口80等），如：<br>
+TCP（transmission control protocol –传输控制协议，传输效率低，可靠性强，用于传输可靠性要求高，数据量大的数据）<br>
+UDP（user datagram protocol–用户数据报协议，与TCP特性恰恰相反，用于传输可靠性要求不高，数据量小的数据，如QQ聊天数据就是通过这种方式传输的）。 主要是将从下层接收的数据进行分段和传输，到达目的地址后再进行重组。常常把这一层数据叫做段。</p>
+<p>5、会话层：<br>
+通过运输层（端口号：传输端口与接收端口）建立数据传输的通路。主要在你的系统之间发起会话或者接受会话请求（设备之间需要互相认识可以是IP也可以是MAC或者是主机名）</p>
+<p>6、表示层：<br>
+可确保一个系统的应用层所发送的信息可以被另一个系统的应用层读取。例如，PC程序与另一台计算机进行通信，其中一台计算机使用扩展二一十进制交换码（EBCDIC），而另一台则使用美国信息交换标准码（ASCII）来表示相同的字符。如有必要，表示层会通过使用一种通格式来实现多种数据格式之间的转换。</p>
+<p>7.应用层：报文</p>
+<h1 id="端口号">端口号：</h1>
+<p>POP3 110 ,SMTP 25, FTP 21/20,dns u53,https 443,oracle 1521,ssh 22</p>
+<p>HTTP与HTTPS的区别<br>
+HTTPS是加密传输协议，HTTP是名文传输协议;<br>
+HTTPS需要用到SSL证书，而HTTP不用;<br>
+HTTPS比HTTP更加安全，对搜索引擎更友好，利于SEO<br>
+HTTPS标准端口443，HTTP标准端口80;<br>
+HTTPS基于传输层，HTTP基于应用层;<br>
+HTTPS在浏览器显示绿色安全锁，HTTP没有显示;</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[支付宝[当面付]接口竟然可以个人用户申请]]></title>
         <id>https://mathgod.github.io/ia-k55xPx</id>
@@ -143,66 +186,6 @@ A(B);
 <p>看板娘文件占了2M左右</p>
 <p>于是我把看板娘的所有文件都放到香港云虚拟主机，博客再引用。</p>
 <p>却出现json跨域问题</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不同浏览器生成的PWA应用有区别]]></title>
-        <id>https://mathgod.github.io/sfamRn8p4</id>
-        <link href="https://mathgod.github.io/sfamRn8p4">
-        </link>
-        <updated>2020-05-29T00:29:16.000Z</updated>
-        <summary type="html"><![CDATA[<p>用小米浏览器和谷歌浏览器在手机上打开同一个网站<br>
- <br>
-然后各自生成了PWA应用，头像和应用名都一样。<br>
- <br>
-但是性能却有些不同<br>
- <br>
-谷歌生成的PWA应用可以跳转到其他APP<br>
- <br>
-小米浏览器生成的却不能，而且一些bug页面也无法后退，刷新。<br>
- <br>
-谷歌浏览器是真的行<br>
- <br>
-更多不同还在探索中</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>用小米浏览器和谷歌浏览器在手机上打开同一个网站<br>
- <br>
-然后各自生成了PWA应用，头像和应用名都一样。<br>
- <br>
-但是性能却有些不同<br>
- <br>
-谷歌生成的PWA应用可以跳转到其他APP<br>
- <br>
-小米浏览器生成的却不能，而且一些bug页面也无法后退，刷新。<br>
- <br>
-谷歌浏览器是真的行<br>
- <br>
-更多不同还在探索中</p>
-<!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[把pjax应用到此博客]]></title>
-        <id>https://mathgod.github.io/4clKAI746</id>
-        <link href="https://mathgod.github.io/4clKAI746">
-        </link>
-        <updated>2020-05-28T15:26:33.000Z</updated>
-        <summary type="html"><![CDATA[<p>pjax可以使网站局部加载，避免重复内容重新加载，减少网站加载量，也提高重复内容的连贯性。例如听歌不会切断，看板娘不会重载。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>pjax可以使网站局部加载，避免重复内容重新加载，减少网站加载量，也提高重复内容的连贯性。例如听歌不会切断，看板娘不会重载。</p>
-<!-- more -->
-<pre><code class="language-html">      &lt;div id=&quot;pjax-container&quot;&gt;
-      &lt;/div&gt;
-</code></pre>
-<pre><code class="language-javascript">&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-$(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:&quot;10000&quot;})
-&lt;/script&gt;
-</code></pre>
-<p><code>'a'</code>意思是作用在全站的a标签跳转链接</p>
-<p>第一个<code>'#pjax-container'</code>是原网页要替换内容的标签的id，第二个fragment的属性<code>'#pjax-container'</code>是目标网页的目标内容所在标签的id。一般应用时这两个id都写成一样，因为这样才能从目标网页跳转到原网页</p>
-<p>timeout是如果到这个时间还没加载完成，则全局刷新，要设置大一点，避免全局刷新。</p>
 ]]></content>
     </entry>
 </feed>
