@@ -2,20 +2,21 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>程序员的发展历程 | 老王博客</title>
+<title>PHP随机输出一句话 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591452379246">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="程序员的发展历程 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="PHP随机输出一句话 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://www.xingcexia.top/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜
-
-颠倒 -&gt; 因长期面对屏幕而被降维打击成为二次元 -&gt; 宅 -&gt; 顿悟了编程之道 -&gt; 女装大佬
-..." />
+    <meta name="description" content="function random_str () { 
+$poems=&quot;从善如登，从恶如崩。 
+已知花意，未见其花，已见其花，未闻花名 
+如果能不长大就好了啊 可是时光在身后挡住退路。 
+或许前路永夜，即便如此我也要前进，因为星光即使..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -80,23 +81,44 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              程序员的发展历程
+              PHP随机输出一句话
             </h2>
             <div class="post-info">
               <span>
-                2020-01-12
+                2020-06-06
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>经过我近几年的观察，发现 IT 行业的职业生涯是这样发展的，萌新 -&gt; 努力写代码 -&gt; 日夜</p>
-<!-- more -->
-<p>颠倒 -&gt; 因长期面对屏幕而被降维打击成为二次元 -&gt; 宅 -&gt; 顿悟了编程之道 -&gt; 女装大佬</p>
+                <pre><code class="language-javascript">function random_str () { 
+$poems=&quot;从善如登，从恶如崩。 
+已知花意，未见其花，已见其花，未闻花名 
+如果能不长大就好了啊 可是时光在身后挡住退路。 
+或许前路永夜，即便如此我也要前进，因为星光即使微弱也会为我照亮前路 
+你驻足于春色中，于那独一无二的春色之中
+喜欢的人喜欢别人不是很正常吗。
+生活是不公平的；要去适应它。——比尔盖茨
+人生就是一列开往坟墓的列车，路途上会有很多站，很难有人可以自始至终陪着走完。当陪你的人要下车时，即使不舍也该心存感激，然后挥手道别。&quot;; 
+$poems=explode(&quot;\n&quot;,$poems); 
+return $poems[rand(0,count($poems)-1)]; 
+} 
+function says(){ 
+$says=random_str(); 
+echo $says; 
+} 
+</code></pre>
+<p>explode(separator,string,limit)<br>
+作用：把字符串以“separator”格式打散成数组，存储在“string”里面。limit是可选参数。</p>
+<p>rand(0,count($poems)-1)<br>
+在0，和数组的长度大小 里面随机取一个。和C语言有点类似。</p>
+<p>最后在需要的地方，写上这个代码就行：</p>
+<p><code>&lt;?php says(); ?&gt;</code></p>
+<p>转自https://www.ihewro.com/archives/350/</p>
 
               </div>
               <div class="toc-container">
@@ -109,9 +131,9 @@
       <div class="post-nav">
         
           <div class="prev-post">
-            <a href="https://mathgod.github.io/bWPHc6SA0">
+            <a href="https://mathgod.github.io/K5jVUCLcY">
               <h3 class="post-title">
-                <发现北方的孩子比广东读书早了一年左右
+                <如何为你的代码选择一个开源协议
               </h3>
             </a>
           </div>
@@ -119,9 +141,9 @@
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/tu-pian">
+            <a href="https://mathgod.github.io/xQrvjziHk">
               <h3 class="post-title">
-                一些好看的图片>
+                xx.c文件中往往会调用xx.h文件，即自己调用自己的 .h文件，为什么？>
               </h3>
             </a>
           </div>

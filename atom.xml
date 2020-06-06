@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-06T09:24:11.998Z</updated>
+    <updated>2020-06-06T14:06:27.435Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,51 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[如何为你的代码选择一个开源协议]]></title>
+        <id>https://mathgod.github.io/K5jVUCLcY</id>
+        <link href="https://mathgod.github.io/K5jVUCLcY">
+        </link>
+        <updated>2020-06-06T13:57:50.000Z</updated>
+        <content type="html"><![CDATA[<p>如何为代码选择开源许可证，这是一个问题。</p>
+<p>世界上的开源许可证，大概有上百种。很少有人搞得清楚它们的区别。即使在最流行的六种----GPL、BSD、MIT、Mozilla、Apache和LGPL----之中做选择，也很复杂。</p>
+<p>乌克兰程序员Paul Bagwell，画了一张分析图，说明应该怎么选择。这是我见过的最简单的讲解，只用两分钟，你就能搞清楚这六种许可证之间的最大区别。</p>
+<p>下面是我制作的中文版，请点击看大图。</p>
+<figure data-type="image" tabindex="1"><img src="https://mathgod.github.io//post-images/1591452377041.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP随机输出一句话]]></title>
+        <id>https://mathgod.github.io/xtN-lu6aO</id>
+        <link href="https://mathgod.github.io/xtN-lu6aO">
+        </link>
+        <updated>2020-06-06T13:31:53.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-javascript">function random_str () { 
+$poems=&quot;从善如登，从恶如崩。 
+已知花意，未见其花，已见其花，未闻花名 
+如果能不长大就好了啊 可是时光在身后挡住退路。 
+或许前路永夜，即便如此我也要前进，因为星光即使微弱也会为我照亮前路 
+你驻足于春色中，于那独一无二的春色之中
+喜欢的人喜欢别人不是很正常吗。
+生活是不公平的；要去适应它。——比尔盖茨
+人生就是一列开往坟墓的列车，路途上会有很多站，很难有人可以自始至终陪着走完。当陪你的人要下车时，即使不舍也该心存感激，然后挥手道别。&quot;; 
+$poems=explode(&quot;\n&quot;,$poems); 
+return $poems[rand(0,count($poems)-1)]; 
+} 
+function says(){ 
+$says=random_str(); 
+echo $says; 
+} 
+</code></pre>
+<p>explode(separator,string,limit)<br>
+作用：把字符串以“separator”格式打散成数组，存储在“string”里面。limit是可选参数。</p>
+<p>rand(0,count($poems)-1)<br>
+在0，和数组的长度大小 里面随机取一个。和C语言有点类似。</p>
+<p>最后在需要的地方，写上这个代码就行：</p>
+<p><code>&lt;?php says(); ?&gt;</code></p>
+<p>转自https://www.ihewro.com/archives/350/</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[xx.c文件中往往会调用xx.h文件，即自己调用自己的 .h文件，为什么？]]></title>
         <id>https://mathgod.github.io/xQrvjziHk</id>
@@ -171,29 +216,6 @@ A(B);
  <br>
 然后让下一代做更久的房奴</p>
 <!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一周年]]></title>
-        <id>https://mathgod.github.io/yizhounian</id>
-        <link href="https://mathgod.github.io/yizhounian">
-        </link>
-        <updated>2020-05-29T12:36:37.000Z</updated>
-        <content type="html"><![CDATA[<p>一年前这天</p>
-<p>结束了近一年的感情</p>
-<p>现在，是时候开始慢慢忘记</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[挖坑]看板娘json跨域问题]]></title>
-        <id>https://mathgod.github.io/YDGe2BVBm</id>
-        <link href="https://mathgod.github.io/YDGe2BVBm">
-        </link>
-        <updated>2020-05-29T12:10:29.000Z</updated>
-        <content type="html"><![CDATA[<p>右下角的看板娘太卡了</p>
-<p>看板娘文件占了2M左右</p>
-<p>于是我把看板娘的所有文件都放到香港云虚拟主机，博客再引用。</p>
-<p>却出现json跨域问题</p>
 ]]></content>
     </entry>
 </feed>

@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>把pjax应用到此博客 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591415928011">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591452379246">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="把pjax应用到此博客 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -108,6 +108,18 @@ $(document).pjax('a', '#pjax-container',{fragment: '#pjax-container',timeout:&qu
 <p><code>'a'</code>意思是作用在全站的a标签跳转链接</p>
 <p>第一个<code>'#pjax-container'</code>是原网页要替换内容的标签的id，第二个fragment的属性<code>'#pjax-container'</code>是目标网页的目标内容所在标签的id。一般应用时这两个id都写成一样，因为这样才能从目标网页跳转到原网页</p>
 <p>timeout是如果到这个时间还没加载完成，则全局刷新，要设置大一点，避免全局刷新。</p>
+<pre><code class="language-javascript">&lt;script&gt;
+$(document).on('pjax:send',
+function() {
+    $('#loader-wrapper').addClass(&quot;in&quot;);
+})
+
+$(document).on('pjax:complete',
+function() {
+    $('#loader-wrapper').removeClass(&quot;in&quot;);
+}）
+&lt;/script&gt;
+</code></pre>
 
               </div>
               <div class="toc-container">
