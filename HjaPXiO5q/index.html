@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>大后天移动面试，被分到网络组，临时去百度补下网络知识。 | 老王博客</title>
-<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591413183888">
+<link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591415928011">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="大后天移动面试，被分到网络组，临时去百度补下网络知识。 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
@@ -116,6 +116,11 @@ UDP（user datagram protocol–用户数据报协议，与TCP特性恰恰相反�
 <p>7.应用层：报文</p>
 <h1 id="端口号">端口号：</h1>
 <p>POP3 110 ,SMTP 25, FTP 21/20,dns u53,https 443,oracle 1521,ssh 22</p>
+<h1 id="ftp-20-21端口分别是干什么的">FTP 20 21端口分别是干什么的？</h1>
+<p>上传和下载。 21端口用于连接，bai20端口用于传输数du据。</p>
+<p>进行FTP文件传输中，客户端zhi首先连接到daoFTP服务器的21端口，进行用户的认证，认证成功后，要传输文件时，服务器会开一个端口为20来进行传输数据文件。</p>
+<p>也就是说，端口20才是真正传输所用到的端口，端口21只用于FTP的登陆认证。我们平常下载文件时，会遇到下载到99%时，文件不完成，不能成功的下载。</p>
+<p>其实是因为文件下载完毕后，还要在21端口再行进行用户认证，而下载文件的时间如果过长，客户机与服务器的21端口的连接会被服务器认为是超时连接而中断掉，就是这个原因。解决方法就是设置21端口的响应时间。</p>
 <p>HTTP与HTTPS的区别<br>
 HTTPS是加密传输协议，HTTP是名文传输协议;<br>
 HTTPS需要用到SSL证书，而HTTP不用;<br>
@@ -130,6 +135,7 @@ HTTPS在浏览器显示绿色安全锁，HTTP没有显示;</p>
 <li><a href="#%E5%90%8C%E6%BA%90%E7%AD%96%E7%95%A5">同源策略</a></li>
 <li><a href="#%E4%B8%8D%E5%90%8C%E7%BD%91%E7%BB%9C%E5%B1%82%E7%9A%84%E4%BD%9C%E7%94%A8">不同网络层的作用</a></li>
 <li><a href="#%E7%AB%AF%E5%8F%A3%E5%8F%B7">端口号：</a></li>
+<li><a href="#ftp-20-21%E7%AB%AF%E5%8F%A3%E5%88%86%E5%88%AB%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84">FTP 20 21端口分别是干什么的？</a></li>
 </ul>
 
               </div>
