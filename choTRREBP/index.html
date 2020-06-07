@@ -1,37 +1,32 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>老王博客</title>
+<title>出远门必备 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1591540943222">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="出远门必备 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://www.xingcexia.top/live2d/css/live2d.css">
 
 
 
-  <meta name="description" content="MathGod的个人博客" />
+    <meta name="description" content="水瓶
+纸巾
+口罩
+钱
+充电头充电线充电宝
+耳塞
+耳机
+身份证
+" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://mathgod.github.io/"> 
-  <img class="avatar" src="https://mathgod.github.io//images/avatar.png?v=1591540943222" alt="">
-  </a>
-  <h1 class="site-title">   
-   <!--  <h1 class="site-title">  -->
-    老王博客
-  </h1>
-
-
-  <p class="site-description">
-    专注php、js编程，博客、论坛开发。
-  </p>
-
-<!--
+  <body class="bg" style="background-image:url(https://i.loli.net/2020/01/25/sO8VpFH6GwUmi4l.jpg)">
+              <div class="caidan">
   <div class="menu-container">
     
       
@@ -64,10 +59,7 @@
         </a>
       
     
-
   </div>
-
-  -->
   <div class="social-container">
     
       
@@ -84,10 +76,63 @@
 </div>
 
 
+              
+    <div class="main">
+      <div class="main-content">
 
-        <div class="tags-container">
-          
+<div id="pjax-container">
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              出远门必备
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-06-07
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>水瓶<br>
+纸巾<br>
+口罩<br>
+钱<br>
+充电头充电线充电宝<br>
+耳塞<br>
+耳机</p>
+<p>身份证</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
         </div>
+
+      <div class="post-nav">
+        
+
+        
+          <div class="next-post">
+            <a href="https://mathgod.github.io/mBIu0BR3-">
+              <h3 class="post-title">
+                国企校招面试非技术性问题总结>
+              </h3>
+            </a>
+          </div>
+        
+      </div>
+</div>
+
+        
+
 
         <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
@@ -164,7 +209,49 @@ const ap = new APlayer({
 </script>
 
 
+
       </div>
     </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
   </body>
 </html>

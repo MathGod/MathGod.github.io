@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-07T13:34:38.985Z</updated>
+    <updated>2020-06-07T14:42:28.206Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,21 +11,42 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
+        <title type="html"><![CDATA[出远门必备]]></title>
+        <id>https://mathgod.github.io/choTRREBP</id>
+        <link href="https://mathgod.github.io/choTRREBP">
+        </link>
+        <updated>2020-06-07T14:22:48.000Z</updated>
+        <content type="html"><![CDATA[<p>水瓶<br>
+纸巾<br>
+口罩<br>
+钱<br>
+充电头充电线充电宝<br>
+耳塞<br>
+耳机</p>
+<p>身份证</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[国企校招面试非技术性问题总结]]></title>
         <id>https://mathgod.github.io/mBIu0BR3-</id>
         <link href="https://mathgod.github.io/mBIu0BR3-">
         </link>
         <updated>2020-06-07T13:01:14.000Z</updated>
-        <content type="html"><![CDATA[<p>上一份工作收获<br>
+        <content type="html"><![CDATA[<p>上家待遇怎样<br>
+上一份工作收获影响<br>
+为什么从上一份工作辞职<br>
 谈谈对岗位/行业的理解<br>
 职业规划<br>
 为什么选择这个企业/公司<br>
 为什么选这个城市/觉得这个城市怎样<br>
 对加班的看法<br>
 对薪资要求<br>
-这岗位的优势<br>
+你对这岗位的优势<br>
 有什么缺点<br>
-家庭环境怎样</p>
+家庭环境怎样<br>
+兴趣爱好<br>
+做过最成功的事</p>
+<p>你还有什么问题想问的</p>
 <p>对5G的理解，应用<br>
 高数据速率、减少延迟、节省能源、降低成本、提高系统容量和大规模设备连接<br>
 车联网与自动驾驶   智能电网   外科手术<br>
@@ -194,33 +215,6 @@ alert(trim(aa).length);
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[回调函数]]></title>
-        <id>https://mathgod.github.io/CDUpXPxjV</id>
-        <link href="https://mathgod.github.io/CDUpXPxjV">
-        </link>
-        <updated>2020-05-31T05:03:44.000Z</updated>
-        <content type="html"><![CDATA[<pre><code class="language-javascript">//定义主函数，回调函数作为参数
-function A(callback) {
-    callback();  
-    console.log('我是主函数');      
-}
-
-//定义回调函数
-function B(){
-    setTimeout(&quot;console.log('我是回调函数')&quot;, 3000);//模仿耗时操作  
-}
-
-//调用主函数，将函数B传进去
-A(B);
-
-//输出结果
-我是主函数
-我是回调函数
-</code></pre>
-<p>定义主函数的时候，我们让代码先去执行callback()回调函数，但输出结果却是后输出回调函数的内容。这就说明了主函数不用等待回调函数执行完，可以接着执行自己的代码。所以一般回调函数都用在耗时操作上面。比如ajax请求，比如处理文件等。</p>
 ]]></content>
     </entry>
 </feed>
