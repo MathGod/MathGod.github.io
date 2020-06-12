@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-12T08:39:20.213Z</updated>
+    <updated>2020-06-12T08:47:27.490Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -11,16 +11,22 @@
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
     <entry>
-        <title type="html"><![CDATA[如何无限制复制百度文库的内容？]]></title>
+        <title type="html"><![CDATA[如何无限复制百度文库的内容？]]></title>
         <id>https://mathgod.github.io/Uripj8pfV</id>
         <link href="https://mathgod.github.io/Uripj8pfV">
         </link>
         <updated>2020-06-12T08:33:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>百度文库的文章通常排名很前，却不给读者正常复制。所以只好用技术突破限制。</p>
-<p>打开F12开发者模式选择控制台Console，在下方输入<code>$('div.ie-fix').text()</code>然后按回车键</p>
+        <summary type="html"><![CDATA[<p>很多人经常会上百度搜索资料，结果发现在百度文库那边可以找到，兴奋了半天却发现下载时要币的，或者登陆上去麻烦，又或者限制VIP才能复制下载。针对这种情况，今天我给大家带来一个破解百度文库下载的方法，其实非常简单，而且不用下载任何软件。<br>
+ <br>
+缺点是一次只能复制几页，但影响不大，多重复执行几次代码就好。<br>
+ <br>
+打开F12开发者模式，选择控制台Console，在下方输入<code>$('div.ie-fix').text()</code>然后按回车键</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>百度文库的文章通常排名很前，却不给读者正常复制。所以只好用技术突破限制。</p>
-<p>打开F12开发者模式选择控制台Console，在下方输入<code>$('div.ie-fix').text()</code>然后按回车键</p>
+        <content type="html"><![CDATA[<p>很多人经常会上百度搜索资料，结果发现在百度文库那边可以找到，兴奋了半天却发现下载时要币的，或者登陆上去麻烦，又或者限制VIP才能复制下载。针对这种情况，今天我给大家带来一个破解百度文库下载的方法，其实非常简单，而且不用下载任何软件。<br>
+ <br>
+缺点是一次只能复制几页，但影响不大，多重复执行几次代码就好。<br>
+ <br>
+打开F12开发者模式，选择控制台Console，在下方输入<code>$('div.ie-fix').text()</code>然后按回车键</p>
 <!-- more -->
 ]]></content>
     </entry>
