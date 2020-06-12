@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-12T08:47:27.490Z</updated>
+    <updated>2020-06-12T12:57:16.256Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[（神奇的pre标签）ajax保留格式读取txt文本]]></title>
+        <id>https://mathgod.github.io/QLDYqYlT5</id>
+        <link href="https://mathgod.github.io/QLDYqYlT5">
+        </link>
+        <updated>2020-06-12T12:52:51.000Z</updated>
+        <content type="html"><![CDATA[<p>今天测试ajax的读取txt功能，发现读出来的内容都是挤在一起的，没有空格没有换行。</p>
+<p>百度搜索很久都找不到办法</p>
+<p>突然想起了pre标签</p>
+<p>在ajax输出内容的标签外加入<code>&lt;pre&gt;</code>标签,txt内容都能以原格式输出。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何无限复制百度文库的内容？]]></title>
         <id>https://mathgod.github.io/Uripj8pfV</id>
@@ -209,15 +221,6 @@ bb.onmouseleave=function(){
     //
 }
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[js全站变灰]]></title>
-        <id>https://mathgod.github.io/yQackO7vM</id>
-        <link href="https://mathgod.github.io/yQackO7vM">
-        </link>
-        <updated>2020-05-31T10:28:46.000Z</updated>
-        <content type="html"><![CDATA[<p><code>&lt;html style=&quot;filter: grayscale(100%);&quot;&gt;</code></p>
 ]]></content>
     </entry>
 </feed>
