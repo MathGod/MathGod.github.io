@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-12T12:57:16.256Z</updated>
+    <updated>2020-06-12T13:12:23.770Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -20,6 +20,7 @@
 <p>百度搜索很久都找不到办法</p>
 <p>突然想起了pre标签</p>
 <p>在ajax输出内容的标签外加入<code>&lt;pre&gt;</code>标签,txt内容都能以原格式输出。</p>
+<p>对了，要在pre标签加入<code>style=&quot;white-space: pre-wrap;&quot;</code>不然它不会换行</p>
 ]]></content>
     </entry>
     <entry>
