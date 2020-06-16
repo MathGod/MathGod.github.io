@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-14T14:12:49.825Z</updated>
+    <updated>2020-06-16T12:35:59.234Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,40 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[php7.0以上版本无法ajax返回数据到前端]]></title>
+        <id>https://mathgod.github.io/G-IG9J3Eh</id>
+        <link href="https://mathgod.github.io/G-IG9J3Eh">
+        </link>
+        <updated>2020-06-16T12:28:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>单独运行时可输出数据，但是用ajax时却输出空白<br>
+ <br>
+经过多次测试，终于发现删除这个<code>mysql_close($con);</code>可解决问题<br>
+ <br>
+顺便测试了一下php7.3的运行时间，与php5.6做对比，运行时间的却是短了一丢丢。<br>
+ <br>
+php程序运行时间计算代码：</p>
+<pre><code class="language-php">$t1=microtime(true); 
+$t2=microtime(true); 
+$time1=$t2-$t1;
+echo $time1;
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<p>单独运行时可输出数据，但是用ajax时却输出空白<br>
+ <br>
+经过多次测试，终于发现删除这个<code>mysql_close($con);</code>可解决问题<br>
+ <br>
+顺便测试了一下php7.3的运行时间，与php5.6做对比，运行时间的却是短了一丢丢。<br>
+ <br>
+php程序运行时间计算代码：</p>
+<pre><code class="language-php">$t1=microtime(true); 
+$t2=microtime(true); 
+$time1=$t2-$t1;
+echo $time1;
+</code></pre>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[（神奇的pre标签）ajax保留格式读取txt文本]]></title>
         <id>https://mathgod.github.io/QLDYqYlT5</id>
@@ -206,24 +240,6 @@ HTTPS在浏览器显示绿色安全锁，HTTP没有显示;</p>
 <p>话说，个人用户没有营业执照也可申请这个接口用于营业，难道不是涉嫌违法？希望大家把该接口用于学习，经营的话还是要有营业执照的。</p>
 <p>官方demo不够完善，注意事项请看这篇文章<br>
 https://www.cnblogs.com/woniu666/p/12799641.html</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[js鼠标移入移出]]></title>
-        <id>https://mathgod.github.io/P4iacpRgB</id>
-        <link href="https://mathgod.github.io/P4iacpRgB">
-        </link>
-        <updated>2020-06-02T00:33:37.000Z</updated>
-        <content type="html"><![CDATA[<pre><code class="language-javascript">&lt;script&gt;
-bb=document.getById('aa');
-
-bb.onmouseenter=function(){
-this.style.background='#ccc';
-}
-bb.onmouseleave=function(){
-    //
-}
-</code></pre>
 ]]></content>
     </entry>
 </feed>
