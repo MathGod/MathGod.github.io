@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-06-16T12:36:50.588Z</updated>
+    <updated>2020-06-19T13:04:23.518Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -97,7 +97,9 @@ echo $time1;
 笔<br>
 雨伞<br>
 衣服<br>
-零食</p>
+零食<br>
+袋子<br>
+折叠椅子</p>
 ]]></content>
     </entry>
     <entry>
@@ -121,12 +123,6 @@ echo $time1;
 兴趣爱好<br>
 做过最成功的事</p>
 <p>你还有什么问题想问的</p>
-<p>对5G的理解，应用<br>
-高数据速率、减少延迟、节省能源、降低成本、提高系统容量和大规模设备连接<br>
-车联网与自动驾驶   智能电网   外科手术<br>
-结合简历问问题</p>
-<p>传输设备、光缆管道，网管支撑系统的日常维护、故障抢修、优化调整</p>
-<p>2、传输数据资源管理：负责移动网络电路新建开通、扩容、调整和相应应急通信电路开通，开展家集客电路新建开通、扩容、调整工作及传输资源规划、优化、整改工作。评估传输资源，分析流量趋势，进行环网流量均衡扩容，保障网络平稳运行，资源平衡有效利用。</p>
 ]]></content>
     </entry>
     <entry>
