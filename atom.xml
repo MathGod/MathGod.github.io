@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-07-05T10:16:01.002Z</updated>
+    <updated>2020-07-07T07:37:10.005Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,50 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[PHP Mysql分页实例]]></title>
+        <id>https://mathgod.github.io/ANGpoDw6B</id>
+        <link href="https://mathgod.github.io/ANGpoDw6B">
+        </link>
+        <updated>2020-07-07T07:36:15.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-php">&lt;?php 
+$num_rec_per_page=10;   // 每页显示数量
+mysql_connect('localhost','root','');  // 数据库连接
+mysql_select_db('apex1');  // 数据库名
+if (isset($_GET[&quot;page&quot;])) { $page  = $_GET[&quot;page&quot;]; } else { $page=1; }; 
+$start_from = ($page-1) * $num_rec_per_page; 
+$sql = &quot;SELECT * FROM student LIMIT $start_from, $num_rec_per_page&quot;; 
+$rs_result = mysql_query ($sql); // 查询数据
+?&gt; 
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Phone&lt;/td&gt;&lt;/tr&gt;
+&lt;?php 
+while ($row = mysql_fetch_assoc($rs_result)) { 
+?&gt; 
+            &lt;tr&gt;
+            &lt;td&gt;&lt;?php echo $row['Name']; ?&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;?php echo $row['Phone']; ?&gt;&lt;/td&gt;            
+            &lt;/tr&gt;
+&lt;?php 
+}; 
+?&gt; 
+&lt;/table&gt;
+&lt;?php 
+$sql = &quot;SELECT * FROM student&quot;; 
+$rs_result = mysql_query($sql); //查询数据
+$total_records = mysql_num_rows($rs_result);  // 统计总共的记录条数
+$total_pages = ceil($total_records / $num_rec_per_page);  // 计算总页数
+
+echo &quot;&lt;a href='pagination.php?page=1'&gt;&quot;.'|&lt;'.&quot;&lt;/a&gt; &quot;; // 第一页
+
+for ($i=1; $i&lt;=$total_pages; $i++) { 
+            echo &quot;&lt;a href='pagination.php?page=&quot;.$i.&quot;'&gt;&quot;.$i.&quot;&lt;/a&gt; &quot;; 
+}; 
+echo &quot;&lt;a href='pagination.php?page=$total_pages'&gt;&quot;.'&gt;|'.&quot;&lt;/a&gt; &quot;; // 最后一页
+?&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[php7.0以上版本无法ajax返回数据到前端]]></title>
         <id>https://mathgod.github.io/G-IG9J3Eh</id>
@@ -220,22 +264,6 @@ HTTPS比HTTP更加安全，对搜索引擎更友好，利于SEO<br>
 HTTPS标准端口443，HTTP标准端口80;<br>
 HTTPS基于传输层，HTTP基于应用层;<br>
 HTTPS在浏览器显示绿色安全锁，HTTP没有显示;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[支付宝[当面付]接口竟然可以个人用户申请]]></title>
-        <id>https://mathgod.github.io/ia-k55xPx</id>
-        <link href="https://mathgod.github.io/ia-k55xPx">
-        </link>
-        <updated>2020-06-02T04:12:55.000Z</updated>
-        <content type="html"><![CDATA[<p>前两天在V2EX看到有人用自己申请的支付宝接口做了个发卡网站</p>
-<p>该服务叫支付宝当面付基础版</p>
-<p>营业执照可不填，只要上传一张门店照片(网上找)，申请秒通过。实名认证过的个人用户（非个体工商户）都可申请</p>
-<p>费率只要千分之六，比第三方第四方平台都低得多。</p>
-<p>提交营业执照的话费率可以更低，好像还有其他优惠。</p>
-<p>话说，个人用户没有营业执照也可申请这个接口用于营业，难道不是涉嫌违法？希望大家把该接口用于学习，经营的话还是要有营业执照的。</p>
-<p>官方demo不够完善，注意事项请看这篇文章<br>
-https://www.cnblogs.com/woniu666/p/12799641.html</p>
 ]]></content>
     </entry>
 </feed>

@@ -2,21 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>PHP随机输出一句话 | 老王博客</title>
+<title>PHP Mysql分页实例 | 老王博客</title>
 <link rel="shortcut icon" href="https://mathgod.github.io//favicon.ico?v=1594107423605">
 <!--<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">-->
 <link rel="stylesheet" href="https://mathgod.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="PHP随机输出一句话 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="PHP Mysql分页实例 | 老王博客 - Atom Feed" href="https://mathgod.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 <link rel="stylesheet" href="https://www.xingcexia.top/live2d/css/live2d.css">
 
 
 
-    <meta name="description" content="function random_str () { 
-$poems=&quot;从善如登，从恶如崩。 
-已知花意，未见其花，已见其花，未闻花名 
-如果能不长大就好了啊 可是时光在身后挡住退路。 
-或许前路永夜，即便如此我也要前进，因为星光即使..." />
+    <meta name="description" content="&lt;?php 
+$num_rec_per_page=10;   // 每页显示数量
+mysql_connect('localhost','root','');  // 数据库连接
+mysql_select_db('apex1');  /..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -81,11 +80,11 @@ $poems=&quot;从善如登，从恶如崩。
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              PHP随机输出一句话
+              PHP Mysql分页实例
             </h2>
             <div class="post-info">
               <span>
-                2020-06-06
+                2020-07-07
               </span>
               <span>
                 2 min read
@@ -95,30 +94,42 @@ $poems=&quot;从善如登，从恶如崩。
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <pre><code class="language-javascript">function random_str () { 
-$poems=&quot;从善如登，从恶如崩。 
-已知花意，未见其花，已见其花，未闻花名 
-如果能不长大就好了啊 可是时光在身后挡住退路。 
-或许前路永夜，即便如此我也要前进，因为星光即使微弱也会为我照亮前路 
-你驻足于春色中，于那独一无二的春色之中
-喜欢的人喜欢别人不是很正常吗。
-生活是不公平的；要去适应它。——比尔盖茨
-人生就是一列开往坟墓的列车，路途上会有很多站，很难有人可以自始至终陪着走完。当陪你的人要下车时，即使不舍也该心存感激，然后挥手道别。&quot;; 
-$poems=explode(&quot;\n&quot;,$poems); 
-return $poems[rand(0,count($poems)-1)]; 
-} 
-function says(){ 
-$says=random_str(); 
-echo $says; 
-} 
+                <pre><code class="language-php">&lt;?php 
+$num_rec_per_page=10;   // 每页显示数量
+mysql_connect('localhost','root','');  // 数据库连接
+mysql_select_db('apex1');  // 数据库名
+if (isset($_GET[&quot;page&quot;])) { $page  = $_GET[&quot;page&quot;]; } else { $page=1; }; 
+$start_from = ($page-1) * $num_rec_per_page; 
+$sql = &quot;SELECT * FROM student LIMIT $start_from, $num_rec_per_page&quot;; 
+$rs_result = mysql_query ($sql); // 查询数据
+?&gt; 
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Phone&lt;/td&gt;&lt;/tr&gt;
+&lt;?php 
+while ($row = mysql_fetch_assoc($rs_result)) { 
+?&gt; 
+            &lt;tr&gt;
+            &lt;td&gt;&lt;?php echo $row['Name']; ?&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;?php echo $row['Phone']; ?&gt;&lt;/td&gt;            
+            &lt;/tr&gt;
+&lt;?php 
+}; 
+?&gt; 
+&lt;/table&gt;
+&lt;?php 
+$sql = &quot;SELECT * FROM student&quot;; 
+$rs_result = mysql_query($sql); //查询数据
+$total_records = mysql_num_rows($rs_result);  // 统计总共的记录条数
+$total_pages = ceil($total_records / $num_rec_per_page);  // 计算总页数
+
+echo &quot;&lt;a href='pagination.php?page=1'&gt;&quot;.'|&lt;'.&quot;&lt;/a&gt; &quot;; // 第一页
+
+for ($i=1; $i&lt;=$total_pages; $i++) { 
+            echo &quot;&lt;a href='pagination.php?page=&quot;.$i.&quot;'&gt;&quot;.$i.&quot;&lt;/a&gt; &quot;; 
+}; 
+echo &quot;&lt;a href='pagination.php?page=$total_pages'&gt;&quot;.'&gt;|'.&quot;&lt;/a&gt; &quot;; // 最后一页
+?&gt;
 </code></pre>
-<p>explode(separator,string,limit)<br>
-作用：把字符串以“separator”格式打散成数组，存储在“string”里面。limit是可选参数。</p>
-<p>rand(0,count($poems)-1)<br>
-在0，和数组的长度大小 里面随机取一个。和C语言有点类似。</p>
-<p>最后在需要的地方，写上这个代码就行：</p>
-<p><code>&lt;?php says(); ?&gt;</code></p>
-<p>转自https://www.ihewro.com/archives/350/</p>
 
               </div>
               <div class="toc-container">
@@ -130,20 +141,12 @@ echo $says;
 
       <div class="post-nav">
         
-          <div class="prev-post">
-            <a href="https://mathgod.github.io/K5jVUCLcY">
-              <h3 class="post-title">
-                <如何为你的代码选择一个开源协议
-              </h3>
-            </a>
-          </div>
-        
 
         
           <div class="next-post">
-            <a href="https://mathgod.github.io/xQrvjziHk">
+            <a href="https://mathgod.github.io/G-IG9J3Eh">
               <h3 class="post-title">
-                xx.c文件中往往会调用xx.h文件，即自己调用自己的 .h文件，为什么？>
+                php7.0以上版本无法ajax返回数据到前端>
               </h3>
             </a>
           </div>
