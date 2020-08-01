@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-07-18T10:54:47.938Z</updated>
+    <updated>2020-08-01T07:17:34.597Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[修罗论坛竟然没了]]></title>
+        <id>https://mathgod.github.io/Zz44cWA4V</id>
+        <link href="https://mathgod.github.io/Zz44cWA4V">
+        </link>
+        <updated>2020-08-01T07:16:59.000Z</updated>
+        <content type="html"><![CDATA[<p>青春结束了</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[恭喜妹妹中考前得知被五年一贯制大专录取]]></title>
+        <id>https://mathgod.github.io/PRyUgJcDW</id>
+        <link href="https://mathgod.github.io/PRyUgJcDW">
+        </link>
+        <updated>2020-07-17T15:04:20.000Z</updated>
+        <content type="html"><![CDATA[<p>5月的时候报考了两所五年一贯制大专，第一志愿是广东食品药品职业学院，第二志愿是惠州城市职业学院。在6月的时候，我跟父亲当初连续两天开车七八十公里去惠城院报名送考的艰辛还深深印在脑海中。</p>
+<p>出成绩后每隔一两天我都会去这两个学校的公众号和官网查询录取结果。</p>
+<p>功夫不负有心人，前两天（15号）得知惠州城市职业学院的录取结果出来了，但是并没有查询到我妹妹的录取结果。</p>
+<p>第二天我立马打电话到惠城院招生办询问该学校的最低录取分，得知是比我妹妹考试分低5分。</p>
+<p>这说明我妹是给第一志愿食品药品职业学院录取了，具体是哪个专业还不知道，而今天食品药品职业学院的录取结果出来了，录取的是第一专业，妹妹知道后非常开心。</p>
+<p>简单说说这个学校，这个大专在全广东大专高考录取分是排在第十。总的来说还算是个不错的大专，最大的问题是离家有点远。不过想着在广州读书的话起码见识会比在县城里好得多，而且没有高考的烦恼。</p>
+<p>高中的话，她实在是考不上的了，县里倒数的高中杨桥中学她也不够分，而且她还有一科地理没考过。唉</p>
+<p>考本地卫校的话，她也考不上，惠州卫校好似比杨桥高中还高一点分，这还是读三年的分数，读五年那种3+2的话好像要500多分，高得吓人。</p>
+<p>那为什么她能考上广东食品药品职业学院，主要是她语文数学英语三科还勉强过得去（五年一贯制只考这三科），其他历史政治物理化学一塌糊涂，连二三十分都考的出，我也是没法教。</p>
+<p>现在想想这场考试太重要了，一场顶四场，初二会考，初三体育考，中考，高考全都不用考了。</p>
+<p>要是以后她努力点弄个专插本就更完美了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[这可能是最简单趟进公务员的方式了]]></title>
         <id>https://mathgod.github.io/zra8rHaSS</id>
@@ -186,52 +214,6 @@ echo $time1;
 兴趣爱好<br>
 做过最成功的事</p>
 <p>你还有什么问题想问的</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何为你的代码选择一个开源协议]]></title>
-        <id>https://mathgod.github.io/K5jVUCLcY</id>
-        <link href="https://mathgod.github.io/K5jVUCLcY">
-        </link>
-        <updated>2020-06-06T13:57:50.000Z</updated>
-        <content type="html"><![CDATA[<p>如何为代码选择开源许可证，这是一个问题。</p>
-<p>世界上的开源许可证，大概有上百种。很少有人搞得清楚它们的区别。即使在最流行的六种----GPL、BSD、MIT、Mozilla、Apache和LGPL----之中做选择，也很复杂。</p>
-<p>乌克兰程序员Paul Bagwell，画了一张分析图，说明应该怎么选择。这是我见过的最简单的讲解，只用两分钟，你就能搞清楚这六种许可证之间的最大区别。</p>
-<p>下面是我制作的中文版，请点击看大图。</p>
-<figure data-type="image" tabindex="1"><img src="https://mathgod.github.io//post-images/1591452377041.png" alt="" loading="lazy"></figure>
-<p>转自https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PHP随机输出一句话]]></title>
-        <id>https://mathgod.github.io/xtN-lu6aO</id>
-        <link href="https://mathgod.github.io/xtN-lu6aO">
-        </link>
-        <updated>2020-06-06T13:31:53.000Z</updated>
-        <content type="html"><![CDATA[<pre><code class="language-javascript">function random_str () { 
-$poems=&quot;从善如登，从恶如崩。 
-已知花意，未见其花，已见其花，未闻花名 
-如果能不长大就好了啊 可是时光在身后挡住退路。 
-或许前路永夜，即便如此我也要前进，因为星光即使微弱也会为我照亮前路 
-你驻足于春色中，于那独一无二的春色之中
-喜欢的人喜欢别人不是很正常吗。
-生活是不公平的；要去适应它。——比尔盖茨
-人生就是一列开往坟墓的列车，路途上会有很多站，很难有人可以自始至终陪着走完。当陪你的人要下车时，即使不舍也该心存感激，然后挥手道别。&quot;; 
-$poems=explode(&quot;\n&quot;,$poems); 
-return $poems[rand(0,count($poems)-1)]; 
-} 
-function says(){ 
-$says=random_str(); 
-echo $says; 
-} 
-</code></pre>
-<p>explode(separator,string,limit)<br>
-作用：把字符串以“separator”格式打散成数组，存储在“string”里面。limit是可选参数。</p>
-<p>rand(0,count($poems)-1)<br>
-在0，和数组的长度大小 里面随机取一个。和C语言有点类似。</p>
-<p>最后在需要的地方，写上这个代码就行：</p>
-<p><code>&lt;?php says(); ?&gt;</code></p>
-<p>转自https://www.ihewro.com/archives/350/</p>
 ]]></content>
     </entry>
 </feed>
