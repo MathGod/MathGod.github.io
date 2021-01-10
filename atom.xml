@@ -2,14 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mathgod.github.io/</id>
     <title>老王博客</title>
-    <updated>2020-08-01T12:29:55.744Z</updated>
+    <updated>2021-01-10T03:45:26.399Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mathgod.github.io/"/>
     <link rel="self" href="https://mathgod.github.io/atom.xml"/>
     <subtitle>专注php、js编程，博客、论坛开发。</subtitle>
     <logo>https://mathgod.github.io/images/avatar.png</logo>
     <icon>https://mathgod.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 老王博客</rights>
+    <rights>All rights reserved 2021, 老王博客</rights>
+    <entry>
+        <title type="html"><![CDATA[印尼飞机坠毁，56名乘客...]]></title>
+        <id>https://mathgod.github.io/fz8gTYz0a</id>
+        <link href="https://mathgod.github.io/fz8gTYz0a">
+        </link>
+        <updated>2021-01-10T03:44:19.000Z</updated>
+        <content type="html"><![CDATA[<p>这辈子是不可能坐飞机的了</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[修罗论坛竟然没了]]></title>
         <id>https://mathgod.github.io/Zz44cWA4V</id>
@@ -191,29 +200,6 @@ echo $time1;
 零食<br>
 袋子<br>
 折叠椅子</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[国企校招面试非技术性问题总结]]></title>
-        <id>https://mathgod.github.io/mBIu0BR3-</id>
-        <link href="https://mathgod.github.io/mBIu0BR3-">
-        </link>
-        <updated>2020-06-07T13:01:14.000Z</updated>
-        <content type="html"><![CDATA[<p>上家待遇怎样<br>
-上一份工作收获影响<br>
-为什么从上一份工作辞职<br>
-谈谈对岗位/行业的理解<br>
-职业规划<br>
-为什么选择这个企业/公司<br>
-为什么选这个城市/觉得这个城市怎样<br>
-对加班的看法<br>
-对薪资要求<br>
-你对这岗位的优势<br>
-有什么缺点<br>
-家庭环境怎样<br>
-兴趣爱好<br>
-做过最成功的事</p>
-<p>你还有什么问题想问的</p>
 ]]></content>
     </entry>
 </feed>
